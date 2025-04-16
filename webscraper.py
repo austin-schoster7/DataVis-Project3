@@ -1,174 +1,155 @@
-import time
-import csv
-import requests
+"""
+regular_show_transcripts_scraper.py
+Scrape Regular Show transcripts from Fandom and save:
+season, episode, speaker, text, scene, url
+"""
+
+import csv, re, time, requests
 from bs4 import BeautifulSoup
 
-# -------------------------------------------------
-# 1) Identify the base URL and the list (index) of transcript pages
-# -------------------------------------------------
+# -------------------------------------------------------------- CONFIG
 BASE_URL = "https://regularshow.fandom.com"
-TRANSCRIPTS_INDEX_URL = "https://regularshow.fandom.com/wiki/Category:Transcripts"
-
-# Optional: some sites block default user-agents
+SEASON_CATEGORY_URLS = [
+    f"{BASE_URL}/wiki/Category:Season_{name}_Transcripts"
+    for name in ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"]
+]
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                  "AppleWebKit/537.36 (KHTML, like Gecko) "
-                  "Chrome/90.0.4430.72 Safari/537.36"
+    "User-Agent": ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/120.0.0.0 Safari/537.36")
+}
+DELAY = 1.2  # polite delay between requests
+
+ORDINAL_MAP = {
+    "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
+    "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10,
+    "eleventh": 11, "twelfth": 12, "thirteenth": 13, "fourteenth": 14,
+    "fifteenth": 15, "sixteenth": 16, "seventeenth": 17, "eighteenth": 18,
+    "nineteenth": 19, "twentieth": 20, "twenty‑first": 21, "twenty‑second": 22,
+    "twenty‑third": 23, "twenty‑fourth": 24, "twenty‑fifth": 25,
 }
 
-# -------------------------------------------------
-# 2) Function to get the list of all transcript links from the index page
-# -------------------------------------------------
-def get_episode_links():
-    """
-    Scrape the main transcripts category page to get links
-    to each episode's transcript.
-    """
-    episode_links = []
-    # Fetch the index page
-    response = requests.get(TRANSCRIPTS_INDEX_URL, headers=HEADERS)
-    if response.status_code != 200:
-        print(f"Failed to retrieve {TRANSCRIPTS_INDEX_URL}")
-        return episode_links
+# --------------------------------------------------------- HELPERS
+def category_links(season_num: int, url: str) -> list[str]:
+    """Return every transcript URL in the season‑category page (order preserved)."""
+    html = requests.get(url, headers=HEADERS).text
+    soup = BeautifulSoup(html, "html.parser")
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    links = []
+    for a in soup.select("a.category-page__member-link"):
+        href = a.get("href", "")
+        if href.endswith("/Transcript"):
+            links.append(BASE_URL + href)
 
-    # Example: Suppose each transcript link is in a <div class="category-page__member"> <a> structure.
-    # Adjust this CSS selector based on real HTML from the site you use.
-    link_tags = soup.select('div.category-page__member a')
+    print(f"Season {season_num}: {len(links)} transcript pages")
+    return links
 
-    # Collect all episode page URLs
-    for link_tag in link_tags:
-        href = link_tag.get("href")
-        if href and "/wiki/" in href:
-            # Build the absolute URL
-            full_url = BASE_URL + href
-            episode_links.append(full_url)
-    
-    return episode_links
 
-# -------------------------------------------------
-# 3) Function to parse a single episode page for lines of dialogue
-# -------------------------------------------------
-def parse_episode_transcript(url):
-    """
-    Given a URL of an episode's transcript page,
-    parse and return a list of dialogue entries of the form:
-    {
-      'season': int or None,
-      'episode': int or None,
-      'speaker': str,
-      'text': str,
-      'scene': str or None
-    }
-    """
-    # We'll store all lines here
-    dialogue_data = []
+def real_episode_number(transcript_url: str) -> int | None:
+    ep_page = transcript_url.rsplit("/Transcript", 1)[0]
+    try:
+        html = requests.get(ep_page, headers=HEADERS, timeout=15).text
+    except Exception:
+        return None
 
-    # Request the page
-    response = requests.get(url, headers=HEADERS)
-    if response.status_code != 200:
-        print(f"Failed to retrieve {url}")
-        return dialogue_data
-    
-    soup = BeautifulSoup(response.text, "html.parser")
+    soup = BeautifulSoup(html, "html.parser")
+    text = soup.get_text(" ", strip=True)
 
-    # Try to extract season/episode from the page title or from some known location
-    # This often requires custom logic per site.
-    # Example: <h1 class="page-header__title">S02E05: 'Really Real Wrestling'</h1>
-    season, episode = None, None
-    # Hypothetical example - adapt to match site structure:
-    title_tag = soup.select_one('h1.page-header__title')
-    if title_tag:
-        title_text = title_tag.get_text(strip=True)
-        # Example parse using simple pattern
-        # If your transcripts have a known naming pattern like "Season X Episode Y"
-        # or "S02E05," do something like:
-        # You might need a more robust approach, e.g., regular expressions:
-        import re
-        match = re.search(r'S(\d+)E(\d+)', title_text)
-        if match:
-            season = int(match.group(1))
-            episode = int(match.group(2))
+    # 1) Season X, Episode Y
+    m = re.search(r"Season\s+(\d+),\s*Episode\s+(\d+)", text, re.I)
+    if m:
+        return int(m.group(2))
 
-    # Next, locate the lines of dialogue
-    # Many wikis simply put lines in paragraphs or <li> elements, e.g.:
-    # <p><b>MORDECAI:</b> "Dude, we have to try that!"</p>
-    # Adjust the selector to match the actual structure.
-    # Let's assume the lines are in <p> tags:
-    paragraphs = soup.find_all('p')
+    # 2) Infobox label “Episode no.”
+    for label in soup.select("h3.pi-data-label"):
+        lbl = label.get_text(strip=True).lower()
+        if lbl in ("episode", "episode no.", "episode number"):
+            val = label.find_next_sibling("div.pi-data-value")
+            if val:
+                digits = re.findall(r"\d+", val.get_text())
+                if digits:
+                    return int(digits[0])
+
+    # 3) Fallback plain “Episode No. 7”
+    m = re.search(r"\bEpisode\s+No\.?\s*(\d+)\b", text, re.I)
+    if m:
+        return int(m.group(1))
+
+    # 4) Ordinal wording (“the twenty-first episode in…”)
+    m = re.search(r"\bthe\s+([a-z]+(?:-[a-z]+)*)\s+episode\b", text, re.I)
+    if m:
+        word = m.group(1).lower().replace("‐", "-")  # normalize hyphens
+        return ORDINAL_MAP.get(word)
+
+    return None
+
+
+def parse_transcript(url: str, season: int, episode: int) -> list[dict]:
+    """Return every dialogue line as a dict."""
+    html = requests.get(url, headers=HEADERS).text
+    soup = BeautifulSoup(html, "html.parser")
 
     current_scene = None
+    rows = []
 
-    for p in paragraphs:
-        # Check if this paragraph announces a new scene
-        # Often it's something like: [Scene: The Park]
-        text = p.get_text(strip=True)
-        
-        # Hypothetical detection of a scene line if it starts with '[' and ends with ']'
-        if text.startswith('[') and text.endswith(']'):
-            # Example: [Scene: The Park]
-            # Extract the scene name
-            current_scene = text[1:-1]  # Remove the square brackets
+    root = soup.select_one("div.mw-parser-output") or soup
+    for node in root.find_all(["p", "li"]):
+        text = node.get_text(" ", strip=True)
+        if not text:
             continue
 
-        # Attempt to parse lines of the form:
-        # <b>CharacterName:</b> Some text here
-        bold_tag = p.find('b')
-        if bold_tag:
-            speaker = bold_tag.get_text(strip=True).rstrip(':')
-            # The rest of the paragraph, after the bold tag, is the spoken text
-            # One naive approach: remove the bold tag from the soup, then get remaining text
-            bold_tag.decompose()  # remove bold from paragraph
-            line_text = p.get_text(strip=True)
+        # Scene header
+        if text.startswith("[") and text.endswith("]") and len(text) < 120:
+            current_scene = text[1:-1]
+            continue
 
-            if speaker and line_text:
-                dialogue_entry = {
-                    'season': season,
-                    'episode': episode,
-                    'speaker': speaker.upper(),  # standardize to uppercase
-                    'text': line_text,
-                    'scene': current_scene
-                }
-                dialogue_data.append(dialogue_entry)
+        # Dialogue line: SPEAKER: words
+        if ":" in text:
+            speaker, line = text.split(":", 1)
+            speaker = speaker.strip().upper()
+            line = line.strip()
+            if speaker and line and len(speaker) < 40:
+                rows.append(
+                    {
+                        "season": season,
+                        "episode": episode,
+                        "speaker": speaker,
+                        "text": line,
+                        "scene": current_scene,
+                        "url": url,
+                    }
+                )
+    return rows
 
-    return dialogue_data
-
-# -------------------------------------------------
-# 4) Main script: get all links, iterate, parse, and save
-# -------------------------------------------------
+# ----------------------------------------------------------- MAIN
 def main():
-    # 1) Get all episode links
-    episode_links = get_episode_links()
-
-    # For demonstration, limit scraping to 2 or 3 links during testing
-    # Remove or adjust once you trust your parser
-    # episode_links = episode_links[:3]
-
-    # 2) Open a CSV to save your results
-    # Adjust the columns to your needs
     with open("regular_show_transcripts.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        # Write header
         writer.writerow(["season", "episode", "speaker", "text", "scene", "url"])
 
-        # 3) Loop over each episode link and parse
-        for i, link in enumerate(episode_links, start=1):
-            print(f"Scraping {i}/{len(episode_links)}: {link}")
+        for season_num, cat_url in enumerate(SEASON_CATEGORY_URLS, start=1):
+            links = category_links(season_num, cat_url)
 
-            episode_dialogue = parse_episode_transcript(link)
-            for entry in episode_dialogue:
-                writer.writerow([
-                    entry['season'],
-                    entry['episode'],
-                    entry['speaker'],
-                    entry['text'],
-                    entry['scene'],
-                    link  # store the URL for reference
-                ])
+            ep_counter = 1  # sequential fallback number
+            for link in links:
+                ep_num = real_episode_number(link) or ep_counter
+                ep_counter += 1  # advance for next fallback
 
-            # Delay to avoid spamming the server
-            time.sleep(2)
+                print(f" S{season_num} E{ep_num:02}  {link}")
+                try:
+                    rows = parse_transcript(link, season_num, ep_num)
+                    print(f"      ↳ {len(rows)} lines")
+                    for r in rows:
+                        writer.writerow(
+                            [r["season"], r["episode"], r["speaker"],
+                             r["text"], r["scene"], r["url"]]
+                        )
+                except Exception as e:
+                    print(f"      ! error: {e}")
+
+                time.sleep(DELAY)
+
+    print("Done → regular_show_transcripts.csv")
 
 
 if __name__ == "__main__":

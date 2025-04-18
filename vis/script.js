@@ -267,6 +267,27 @@ Promise.all([
         .attr('y', -40)
         .attr('text-anchor','middle')
         .text('Lines');
+
+    // Legend below chart
+    const legend = dv.append('div')
+    .style('text-align','center')
+    .style('margin','10px 0');
+    seasons.forEach(s => {
+    const item = legend.append('span')
+        .style('display','inline-flex')
+        .style('align-items','center')
+        .style('margin','0 8px')
+        .style('cursor','pointer');
+    item.append('svg')
+        .attr('width', 12)
+        .attr('height', 12)
+        .append('rect')
+            .attr('width', 12)
+            .attr('height', 12)
+            .attr('fill', color(s));
+    item.append('span')
+        .text(` Season ${s}`);
+    });
   }
 
   // initial draw & bind dropdown now that functions exist

@@ -1,0 +1,1346 @@
+[
+  {
+    "character": "RIGBY",
+    "totalEpisodes": 242,
+    "totalLines": 6925,
+    "totalWords": 64768
+  },
+  {
+    "character": "MORDECAI",
+    "totalEpisodes": 241,
+    "totalLines": 7836,
+    "totalWords": 74221
+  },
+  {
+    "character": "BENSON",
+    "totalEpisodes": 183,
+    "totalLines": 3159,
+    "totalWords": 40900
+  },
+  {
+    "character": "MUSCLE MAN",
+    "totalEpisodes": 167,
+    "totalLines": 2130,
+    "totalWords": 26789
+  },
+  {
+    "character": "SKIPS",
+    "totalEpisodes": 145,
+    "totalLines": 1079,
+    "totalWords": 10070
+  },
+  {
+    "character": "POPS",
+    "totalEpisodes": 137,
+    "totalLines": 1181,
+    "totalWords": 12077
+  },
+  {
+    "character": "EILEEN",
+    "totalEpisodes": 74,
+    "totalLines": 739,
+    "totalWords": 7609
+  },
+  {
+    "character": "MORDECAI & RIGBY",
+    "totalEpisodes": 61,
+    "totalLines": 223,
+    "totalWords": 659
+  },
+  {
+    "character": "HI FIVE GHOST",
+    "totalEpisodes": 58,
+    "totalLines": 321,
+    "totalWords": 2771
+  },
+  {
+    "character": "MARGARET",
+    "totalEpisodes": 49,
+    "totalLines": 693,
+    "totalWords": 7226
+  },
+  {
+    "character": "THOMAS",
+    "totalEpisodes": 32,
+    "totalLines": 277,
+    "totalWords": 3194
+  },
+  {
+    "character": "CJ",
+    "totalEpisodes": 23,
+    "totalLines": 445,
+    "totalWords": 4495
+  },
+  {
+    "character": "ALL",
+    "totalEpisodes": 22,
+    "totalLines": 42,
+    "totalWords": 166
+  },
+  {
+    "character": "STARLA",
+    "totalEpisodes": 19,
+    "totalLines": 147,
+    "totalWords": 1378
+  },
+  {
+    "character": "HIGH FIVE GHOST",
+    "totalEpisodes": 18,
+    "totalLines": 34,
+    "totalWords": 264
+  },
+  {
+    "character": "MR. MAELLARD",
+    "totalEpisodes": 17,
+    "totalLines": 102,
+    "totalWords": 1496
+  },
+  {
+    "character": "HI-FIVE GHOST",
+    "totalEpisodes": 17,
+    "totalLines": 80,
+    "totalWords": 644
+  },
+  {
+    "character": "BOTH",
+    "totalEpisodes": 14,
+    "totalLines": 28,
+    "totalWords": 151
+  },
+  {
+    "character": "GUY",
+    "totalEpisodes": 12,
+    "totalLines": 18,
+    "totalWords": 185
+  },
+  {
+    "character": "WAITER",
+    "totalEpisodes": 12,
+    "totalLines": 40,
+    "totalWords": 343
+  },
+  {
+    "character": "GARY",
+    "totalEpisodes": 11,
+    "totalLines": 63,
+    "totalWords": 719
+  },
+  {
+    "character": "TV ANNOUNCER",
+    "totalEpisodes": 11,
+    "totalLines": 28,
+    "totalWords": 372
+  },
+  {
+    "character": "GUYS",
+    "totalEpisodes": 11,
+    "totalLines": 25,
+    "totalWords": 58
+  },
+  {
+    "character": "DEATH",
+    "totalEpisodes": 10,
+    "totalLines": 102,
+    "totalWords": 1457
+  },
+  {
+    "character": "CROWD",
+    "totalEpisodes": 10,
+    "totalLines": 16,
+    "totalWords": 91
+  },
+  {
+    "character": "VOICE",
+    "totalEpisodes": 9,
+    "totalLines": 21,
+    "totalWords": 248
+  },
+  {
+    "character": "EMPLOYEE",
+    "totalEpisodes": 9,
+    "totalLines": 35,
+    "totalWords": 418
+  },
+  {
+    "character": "REGINALD",
+    "totalEpisodes": 9,
+    "totalLines": 60,
+    "totalWords": 607
+  },
+  {
+    "character": "HFG",
+    "totalEpisodes": 9,
+    "totalLines": 31,
+    "totalWords": 290
+  },
+  {
+    "character": "AUDIENCE",
+    "totalEpisodes": 8,
+    "totalLines": 16,
+    "totalWords": 53
+  },
+  {
+    "character": "(SONG",
+    "totalEpisodes": 8,
+    "totalLines": 9,
+    "totalWords": 40
+  },
+  {
+    "character": "RECAP ROBOT",
+    "totalEpisodes": 8,
+    "totalLines": 43,
+    "totalWords": 490
+  },
+  {
+    "character": "COMPUTER",
+    "totalEpisodes": 7,
+    "totalLines": 13,
+    "totalWords": 89
+  },
+  {
+    "character": "GENE",
+    "totalEpisodes": 7,
+    "totalLines": 84,
+    "totalWords": 1020
+  },
+  {
+    "character": "SURESHOT",
+    "totalEpisodes": 7,
+    "totalLines": 44,
+    "totalWords": 521
+  },
+  {
+    "character": "TOOTHPICK SALLY",
+    "totalEpisodes": 7,
+    "totalLines": 24,
+    "totalWords": 180
+  },
+  {
+    "character": "CLERK",
+    "totalEpisodes": 6,
+    "totalLines": 30,
+    "totalWords": 377
+  },
+  {
+    "character": "NARRATOR",
+    "totalEpisodes": 6,
+    "totalLines": 21,
+    "totalWords": 478
+  },
+  {
+    "character": "PILOT",
+    "totalEpisodes": 6,
+    "totalLines": 11,
+    "totalWords": 76
+  },
+  {
+    "character": "JOHN",
+    "totalEpisodes": 6,
+    "totalLines": 16,
+    "totalWords": 158
+  },
+  {
+    "character": "???",
+    "totalEpisodes": 6,
+    "totalLines": 36,
+    "totalWords": 671
+  },
+  {
+    "character": "JIMMY",
+    "totalEpisodes": 5,
+    "totalLines": 18,
+    "totalWords": 238
+  },
+  {
+    "character": "REFEREE",
+    "totalEpisodes": 5,
+    "totalLines": 19,
+    "totalWords": 236
+  },
+  {
+    "character": "HIGH-FIVE GHOST",
+    "totalEpisodes": 5,
+    "totalLines": 9,
+    "totalWords": 67
+  },
+  {
+    "character": "TV",
+    "totalEpisodes": 5,
+    "totalLines": 11,
+    "totalWords": 174
+  },
+  {
+    "character": "GIRL",
+    "totalEpisodes": 5,
+    "totalLines": 10,
+    "totalWords": 83
+  },
+  {
+    "character": "CARTER",
+    "totalEpisodes": 5,
+    "totalLines": 18,
+    "totalWords": 139
+  },
+  {
+    "character": "FRANK",
+    "totalEpisodes": 5,
+    "totalLines": 90,
+    "totalWords": 1204
+  },
+  {
+    "character": "GUARD",
+    "totalEpisodes": 5,
+    "totalLines": 21,
+    "totalWords": 212
+  },
+  {
+    "character": "RGB2",
+    "totalEpisodes": 5,
+    "totalLines": 45,
+    "totalWords": 492
+  },
+  {
+    "character": "PAM",
+    "totalEpisodes": 5,
+    "totalLines": 54,
+    "totalWords": 538
+  },
+  {
+    "character": "PRINCIPAL DEAN",
+    "totalEpisodes": 5,
+    "totalLines": 35,
+    "totalWords": 661
+  },
+  {
+    "character": "SALLY",
+    "totalEpisodes": 5,
+    "totalLines": 15,
+    "totalWords": 240
+  },
+  {
+    "character": "COLONEL RAWLS",
+    "totalEpisodes": 5,
+    "totalLines": 17,
+    "totalWords": 387
+  },
+  {
+    "character": "MAN ON TV",
+    "totalEpisodes": 4,
+    "totalLines": 6,
+    "totalWords": 202
+  },
+  {
+    "character": "POLICE OFFICER",
+    "totalEpisodes": 4,
+    "totalLines": 6,
+    "totalWords": 72
+  },
+  {
+    "character": "DOCTOR",
+    "totalEpisodes": 4,
+    "totalLines": 5,
+    "totalWords": 93
+  },
+  {
+    "character": "MAN 1",
+    "totalEpisodes": 4,
+    "totalLines": 7,
+    "totalWords": 62
+  },
+  {
+    "character": "SECURITY GUARD",
+    "totalEpisodes": 4,
+    "totalLines": 11,
+    "totalWords": 107
+  },
+  {
+    "character": "KNIGHT",
+    "totalEpisodes": 4,
+    "totalLines": 32,
+    "totalWords": 330
+  },
+  {
+    "character": "BRIGGS",
+    "totalEpisodes": 4,
+    "totalLines": 24,
+    "totalWords": 219
+  },
+  {
+    "character": "ROGER",
+    "totalEpisodes": 4,
+    "totalLines": 28,
+    "totalWords": 511
+  },
+  {
+    "character": "LOW FIVE GHOST",
+    "totalEpisodes": 4,
+    "totalLines": 26,
+    "totalWords": 411
+  },
+  {
+    "character": "KID",
+    "totalEpisodes": 4,
+    "totalLines": 9,
+    "totalWords": 47
+  },
+  {
+    "character": "ANONYMOUS",
+    "totalEpisodes": 4,
+    "totalLines": 7,
+    "totalWords": 52
+  },
+  {
+    "character": "OSWALD",
+    "totalEpisodes": 4,
+    "totalLines": 4,
+    "totalWords": 27
+  },
+  {
+    "character": "SHERM",
+    "totalEpisodes": 4,
+    "totalLines": 47,
+    "totalWords": 616
+  },
+  {
+    "character": "AIDEN",
+    "totalEpisodes": 4,
+    "totalLines": 17,
+    "totalWords": 166
+  },
+  {
+    "character": "ANTI-POPS",
+    "totalEpisodes": 4,
+    "totalLines": 89,
+    "totalWords": 1118
+  },
+  {
+    "character": "RECAP",
+    "totalEpisodes": 4,
+    "totalLines": 5,
+    "totalWords": 70
+  },
+  {
+    "character": "EARL",
+    "totalEpisodes": 4,
+    "totalLines": 99,
+    "totalWords": 1122
+  },
+  {
+    "character": "RAWLS",
+    "totalEpisodes": 4,
+    "totalLines": 59,
+    "totalWords": 1108
+  },
+  {
+    "character": "SENSAI",
+    "totalEpisodes": 3,
+    "totalLines": 78,
+    "totalWords": 1084
+  },
+  {
+    "character": "STUDENT",
+    "totalEpisodes": 3,
+    "totalLines": 3,
+    "totalWords": 19
+  },
+  {
+    "character": "DON",
+    "totalEpisodes": 3,
+    "totalLines": 50,
+    "totalWords": 610
+  },
+  {
+    "character": "DREAM RIGBY",
+    "totalEpisodes": 3,
+    "totalLines": 4,
+    "totalWords": 21
+  },
+  {
+    "character": "OLD WOMAN",
+    "totalEpisodes": 3,
+    "totalLines": 6,
+    "totalWords": 62
+  },
+  {
+    "character": "BABY DUCKS",
+    "totalEpisodes": 3,
+    "totalLines": 8,
+    "totalWords": 143
+  },
+  {
+    "character": "BABY DUCK",
+    "totalEpisodes": 3,
+    "totalLines": 9,
+    "totalWords": 55
+  },
+  {
+    "character": "ALL 3",
+    "totalEpisodes": 3,
+    "totalLines": 3,
+    "totalWords": 24
+  },
+  {
+    "character": "LADY",
+    "totalEpisodes": 3,
+    "totalLines": 15,
+    "totalWords": 124
+  },
+  {
+    "character": "WORKER",
+    "totalEpisodes": 3,
+    "totalLines": 8,
+    "totalWords": 68
+  },
+  {
+    "character": "COMPUTER VOICE",
+    "totalEpisodes": 3,
+    "totalLines": 6,
+    "totalWords": 48
+  },
+  {
+    "character": "BOBBY",
+    "totalEpisodes": 3,
+    "totalLines": 9,
+    "totalWords": 89
+  },
+  {
+    "character": "MAN 2",
+    "totalEpisodes": 3,
+    "totalLines": 5,
+    "totalWords": 53
+  },
+  {
+    "character": "COP",
+    "totalEpisodes": 3,
+    "totalLines": 3,
+    "totalWords": 118
+  },
+  {
+    "character": "CUSTOMER",
+    "totalEpisodes": 3,
+    "totalLines": 3,
+    "totalWords": 14
+  },
+  {
+    "character": "VIDEO GAME",
+    "totalEpisodes": 3,
+    "totalLines": 4,
+    "totalWords": 7
+  },
+  {
+    "character": "PAST MORDECAI",
+    "totalEpisodes": 3,
+    "totalLines": 30,
+    "totalWords": 281
+  },
+  {
+    "character": "SINGER",
+    "totalEpisodes": 3,
+    "totalLines": 9,
+    "totalWords": 137
+  },
+  {
+    "character": "WAITRESS",
+    "totalEpisodes": 3,
+    "totalLines": 8,
+    "totalWords": 57
+  },
+  {
+    "character": "TECHMO",
+    "totalEpisodes": 3,
+    "totalLines": 47,
+    "totalWords": 454
+  },
+  {
+    "character": "SCOTTIE",
+    "totalEpisodes": 3,
+    "totalLines": 5,
+    "totalWords": 44
+  },
+  {
+    "character": "ARCHIE",
+    "totalEpisodes": 3,
+    "totalLines": 39,
+    "totalWords": 709
+  },
+  {
+    "character": "MUSCLE DAD",
+    "totalEpisodes": 3,
+    "totalLines": 26,
+    "totalWords": 428
+  },
+  {
+    "character": "AUDREY",
+    "totalEpisodes": 3,
+    "totalLines": 10,
+    "totalWords": 221
+  },
+  {
+    "character": "EGGSCELLENT KNIGHT",
+    "totalEpisodes": 3,
+    "totalLines": 13,
+    "totalWords": 143
+  },
+  {
+    "character": "CASHIER",
+    "totalEpisodes": 3,
+    "totalLines": 4,
+    "totalWords": 46
+  },
+  {
+    "character": "DR. HENRY",
+    "totalEpisodes": 3,
+    "totalLines": 26,
+    "totalWords": 436
+  },
+  {
+    "character": "PIZZA GUY",
+    "totalEpisodes": 3,
+    "totalLines": 6,
+    "totalWords": 42
+  },
+  {
+    "character": "KEITH",
+    "totalEpisodes": 3,
+    "totalLines": 20,
+    "totalWords": 211
+  },
+  {
+    "character": "MAELLARD",
+    "totalEpisodes": 3,
+    "totalLines": 14,
+    "totalWords": 298
+  },
+  {
+    "character": "REEL-TO-REEL",
+    "totalEpisodes": 3,
+    "totalLines": 19,
+    "totalWords": 164
+  },
+  {
+    "character": "DELIVERY MAN",
+    "totalEpisodes": 3,
+    "totalLines": 6,
+    "totalWords": 20
+  },
+  {
+    "character": "OLD MAN",
+    "totalEpisodes": 3,
+    "totalLines": 9,
+    "totalWords": 110
+  },
+  {
+    "character": "NEWS REPORTER",
+    "totalEpisodes": 3,
+    "totalLines": 5,
+    "totalWords": 216
+  },
+  {
+    "character": "BARBARA",
+    "totalEpisodes": 3,
+    "totalLines": 10,
+    "totalWords": 155
+  },
+  {
+    "character": "COMMERCIAL",
+    "totalEpisodes": 3,
+    "totalLines": 6,
+    "totalWords": 78
+  },
+  {
+    "character": "ANDY",
+    "totalEpisodes": 3,
+    "totalLines": 18,
+    "totalWords": 214
+  },
+  {
+    "character": "STREAMING",
+    "totalEpisodes": 3,
+    "totalLines": 8,
+    "totalWords": 64
+  },
+  {
+    "character": "(TITLE CARD",
+    "totalEpisodes": 3,
+    "totalLines": 5,
+    "totalWords": 45
+  },
+  {
+    "character": "DEL",
+    "totalEpisodes": 3,
+    "totalLines": 25,
+    "totalWords": 524
+  },
+  {
+    "character": "STEFFEN",
+    "totalEpisodes": 3,
+    "totalLines": 23,
+    "totalWords": 158
+  },
+  {
+    "character": "COWBOY",
+    "totalEpisodes": 3,
+    "totalLines": 5,
+    "totalWords": 98
+  },
+  {
+    "character": "DR. LANGER",
+    "totalEpisodes": 3,
+    "totalLines": 5,
+    "totalWords": 30
+  },
+  {
+    "character": "HD DVD",
+    "totalEpisodes": 3,
+    "totalLines": 21,
+    "totalWords": 176
+  },
+  {
+    "character": "BLU-RAY",
+    "totalEpisodes": 3,
+    "totalLines": 31,
+    "totalWords": 343
+  },
+  {
+    "character": "CHANCE SURESHOT",
+    "totalEpisodes": 3,
+    "totalLines": 8,
+    "totalWords": 58
+  },
+  {
+    "character": "TRANSLATOR",
+    "totalEpisodes": 2,
+    "totalLines": 15,
+    "totalWords": 132
+  },
+  {
+    "character": "GAME VOICE",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 6
+  },
+  {
+    "character": "MAN #1",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 32
+  },
+  {
+    "character": "MAN #2",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 12
+  },
+  {
+    "character": "EVERYONE EXCEPT RIGBY",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 9
+  },
+  {
+    "character": "GUARDIANS OF ETERNAL YOUTH",
+    "totalEpisodes": 2,
+    "totalLines": 5,
+    "totalWords": 9
+  },
+  {
+    "character": "JONES",
+    "totalEpisodes": 2,
+    "totalLines": 27,
+    "totalWords": 398
+  },
+  {
+    "character": "BARRY",
+    "totalEpisodes": 2,
+    "totalLines": 13,
+    "totalWords": 274
+  },
+  {
+    "character": "MUSCLE MAN & HI FIVE GHOST",
+    "totalEpisodes": 2,
+    "totalLines": 7,
+    "totalWords": 10
+  },
+  {
+    "character": "CLOWN",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 26
+  },
+  {
+    "character": "KIDS",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 11
+  },
+  {
+    "character": "HOT DOG",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 11
+  },
+  {
+    "character": "FUTURE RIGBY",
+    "totalEpisodes": 2,
+    "totalLines": 19,
+    "totalWords": 259
+  },
+  {
+    "character": "UNICORNS",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 28
+  },
+  {
+    "character": "MOTHER DUCK",
+    "totalEpisodes": 2,
+    "totalLines": 9,
+    "totalWords": 103
+  },
+  {
+    "character": "MOVIE SHACK HUT EMPLOYEE",
+    "totalEpisodes": 2,
+    "totalLines": 25,
+    "totalWords": 436
+  },
+  {
+    "character": "KID 1",
+    "totalEpisodes": 2,
+    "totalLines": 6,
+    "totalWords": 45
+  },
+  {
+    "character": "MANAGER",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 10
+  },
+  {
+    "character": "CARL",
+    "totalEpisodes": 2,
+    "totalLines": 29,
+    "totalWords": 329
+  },
+  {
+    "character": "TEACHER",
+    "totalEpisodes": 2,
+    "totalLines": 6,
+    "totalWords": 107
+  },
+  {
+    "character": "MUSCLE BRO",
+    "totalEpisodes": 2,
+    "totalLines": 8,
+    "totalWords": 115
+  },
+  {
+    "character": "PARTY PETE",
+    "totalEpisodes": 2,
+    "totalLines": 16,
+    "totalWords": 234
+  },
+  {
+    "character": "PHONE OPERATOR",
+    "totalEpisodes": 2,
+    "totalLines": 6,
+    "totalWords": 60
+  },
+  {
+    "character": "HUGE HEAD",
+    "totalEpisodes": 2,
+    "totalLines": 8,
+    "totalWords": 98
+  },
+  {
+    "character": "DOUG",
+    "totalEpisodes": 2,
+    "totalLines": 43,
+    "totalWords": 598
+  },
+  {
+    "character": "ANSWERING MACHINE",
+    "totalEpisodes": 2,
+    "totalLines": 26,
+    "totalWords": 377
+  },
+  {
+    "character": "PROSECUTOR",
+    "totalEpisodes": 2,
+    "totalLines": 15,
+    "totalWords": 251
+  },
+  {
+    "character": "CHAD",
+    "totalEpisodes": 2,
+    "totalLines": 13,
+    "totalWords": 113
+  },
+  {
+    "character": "PARAMEDIC #1",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 37
+  },
+  {
+    "character": "KLORGBANE",
+    "totalEpisodes": 2,
+    "totalLines": 22,
+    "totalWords": 230
+  },
+  {
+    "character": "ARCHIBALD",
+    "totalEpisodes": 2,
+    "totalLines": 6,
+    "totalWords": 72
+  },
+  {
+    "character": "GUARDIAN",
+    "totalEpisodes": 2,
+    "totalLines": 11,
+    "totalWords": 139
+  },
+  {
+    "character": "BUS DRIVER",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 85
+  },
+  {
+    "character": "BEAR ROBOT",
+    "totalEpisodes": 2,
+    "totalLines": 12,
+    "totalWords": 387
+  },
+  {
+    "character": "DUCK ROBOT",
+    "totalEpisodes": 2,
+    "totalLines": 7,
+    "totalWords": 45
+  },
+  {
+    "character": "LOUIE",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 42
+  },
+  {
+    "character": "NO RULES MAN",
+    "totalEpisodes": 2,
+    "totalLines": 26,
+    "totalWords": 387
+  },
+  {
+    "character": "PHOTOGRAPHER",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 8
+  },
+  {
+    "character": "FLASHBACK BENSON",
+    "totalEpisodes": 2,
+    "totalLines": 8,
+    "totalWords": 52
+  },
+  {
+    "character": "YOUNG BENSON",
+    "totalEpisodes": 2,
+    "totalLines": 7,
+    "totalWords": 112
+  },
+  {
+    "character": "BENSON'S FATHER",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 37
+  },
+  {
+    "character": "THE URGE",
+    "totalEpisodes": 2,
+    "totalLines": 13,
+    "totalWords": 297
+  },
+  {
+    "character": "YOUNG MUSCLE MAN",
+    "totalEpisodes": 2,
+    "totalLines": 9,
+    "totalWords": 132
+  },
+  {
+    "character": "GUARD #2",
+    "totalEpisodes": 2,
+    "totalLines": 6,
+    "totalWords": 38
+  },
+  {
+    "character": "PERSON",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 17
+  },
+  {
+    "character": "VOICEOVER",
+    "totalEpisodes": 2,
+    "totalLines": 9,
+    "totalWords": 113
+  },
+  {
+    "character": "BOY",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 11
+  },
+  {
+    "character": "MOREDCAI",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 26
+  },
+  {
+    "character": "GAME",
+    "totalEpisodes": 2,
+    "totalLines": 5,
+    "totalWords": 16
+  },
+  {
+    "character": "TONY",
+    "totalEpisodes": 2,
+    "totalLines": 7,
+    "totalWords": 60
+  },
+  {
+    "character": "DJ",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 59
+  },
+  {
+    "character": "GUY #1",
+    "totalEpisodes": 2,
+    "totalLines": 13,
+    "totalWords": 145
+  },
+  {
+    "character": "GUY #2",
+    "totalEpisodes": 2,
+    "totalLines": 6,
+    "totalWords": 43
+  },
+  {
+    "character": "JOCKEY",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 16
+  },
+  {
+    "character": "EVERYONE EXCEPT SKIPS",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 5
+  },
+  {
+    "character": "DENISE",
+    "totalEpisodes": 2,
+    "totalLines": 17,
+    "totalWords": 232
+  },
+  {
+    "character": "DARRELL",
+    "totalEpisodes": 2,
+    "totalLines": 5,
+    "totalWords": 74
+  },
+  {
+    "character": "PARAMEDIC",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 23
+  },
+  {
+    "character": "TOMMY",
+    "totalEpisodes": 2,
+    "totalLines": 10,
+    "totalWords": 125
+  },
+  {
+    "character": "QUIPS",
+    "totalEpisodes": 2,
+    "totalLines": 91,
+    "totalWords": 1479
+  },
+  {
+    "character": "RECEPTIONIST",
+    "totalEpisodes": 2,
+    "totalLines": 10,
+    "totalWords": 120
+  },
+  {
+    "character": "BEAR",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 29
+  },
+  {
+    "character": "DELIVERY GUY",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 22
+  },
+  {
+    "character": "DAD",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 19
+  },
+  {
+    "character": "EXECUTIVE #1",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 69
+  },
+  {
+    "character": "EAST PINES WORKER",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 45
+  },
+  {
+    "character": "TIMMY",
+    "totalEpisodes": 2,
+    "totalLines": 10,
+    "totalWords": 111
+  },
+  {
+    "character": "BETAMAX",
+    "totalEpisodes": 2,
+    "totalLines": 7,
+    "totalWords": 29
+  },
+  {
+    "character": "FLOPPY DISK",
+    "totalEpisodes": 2,
+    "totalLines": 9,
+    "totalWords": 54
+  },
+  {
+    "character": "EVERYBODY",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 9
+  },
+  {
+    "character": "WALKS",
+    "totalEpisodes": 2,
+    "totalLines": 109,
+    "totalWords": 1073
+  },
+  {
+    "character": "OFFICER",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 63
+  },
+  {
+    "character": "JOE",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 34
+  },
+  {
+    "character": "MINOTAUR",
+    "totalEpisodes": 2,
+    "totalLines": 5,
+    "totalWords": 83
+  },
+  {
+    "character": "DALE",
+    "totalEpisodes": 2,
+    "totalLines": 25,
+    "totalWords": 292
+  },
+  {
+    "character": "CHAZ",
+    "totalEpisodes": 2,
+    "totalLines": 17,
+    "totalWords": 317
+  },
+  {
+    "character": "JUDGE",
+    "totalEpisodes": 2,
+    "totalLines": 5,
+    "totalWords": 35
+  },
+  {
+    "character": "AUTO T.",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 13
+  },
+  {
+    "character": "SHEENA",
+    "totalEpisodes": 2,
+    "totalLines": 10,
+    "totalWords": 62
+  },
+  {
+    "character": "BOSWALD",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 32
+  },
+  {
+    "character": "FEMALE EMPLOYEE",
+    "totalEpisodes": 2,
+    "totalLines": 7,
+    "totalWords": 71
+  },
+  {
+    "character": "MR MAELLARD",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 345
+  },
+  {
+    "character": "SALESMAN",
+    "totalEpisodes": 2,
+    "totalLines": 8,
+    "totalWords": 103
+  },
+  {
+    "character": "FARMER JIMMY",
+    "totalEpisodes": 2,
+    "totalLines": 31,
+    "totalWords": 696
+  },
+  {
+    "character": "JEFF",
+    "totalEpisodes": 2,
+    "totalLines": 14,
+    "totalWords": 151
+  },
+  {
+    "character": "DEL HANLON",
+    "totalEpisodes": 2,
+    "totalLines": 12,
+    "totalWords": 132
+  },
+  {
+    "character": "SOLDIER",
+    "totalEpisodes": 2,
+    "totalLines": 7,
+    "totalWords": 82
+  },
+  {
+    "character": "NEIL",
+    "totalEpisodes": 2,
+    "totalLines": 8,
+    "totalWords": 151
+  },
+  {
+    "character": "GEESE",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 25
+  },
+  {
+    "character": "DR. MATTHEWS",
+    "totalEpisodes": 2,
+    "totalLines": 16,
+    "totalWords": 190
+  },
+  {
+    "character": "STAN",
+    "totalEpisodes": 2,
+    "totalLines": 13,
+    "totalWords": 80
+  },
+  {
+    "character": "MALE VOICE",
+    "totalEpisodes": 2,
+    "totalLines": 4,
+    "totalWords": 108
+  },
+  {
+    "character": "HILARY",
+    "totalEpisodes": 2,
+    "totalLines": 9,
+    "totalWords": 234
+  },
+  {
+    "character": "CAMERAMAN",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 21
+  },
+  {
+    "character": "SECRETARY",
+    "totalEpisodes": 2,
+    "totalLines": 5,
+    "totalWords": 19
+  },
+  {
+    "character": "TRENT",
+    "totalEpisodes": 2,
+    "totalLines": 39,
+    "totalWords": 430
+  },
+  {
+    "character": "TOBIAS",
+    "totalEpisodes": 2,
+    "totalLines": 14,
+    "totalWords": 97
+  },
+  {
+    "character": "PRESIDENT",
+    "totalEpisodes": 2,
+    "totalLines": 9,
+    "totalWords": 92
+  },
+  {
+    "character": "MILTON",
+    "totalEpisodes": 2,
+    "totalLines": 8,
+    "totalWords": 58
+  },
+  {
+    "character": "LANGER",
+    "totalEpisodes": 2,
+    "totalLines": 41,
+    "totalWords": 506
+  },
+  {
+    "character": "KIM",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 15
+  },
+  {
+    "character": "ALLISON",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 36
+  },
+  {
+    "character": "JAYLA",
+    "totalEpisodes": 2,
+    "totalLines": 3,
+    "totalWords": 17
+  },
+  {
+    "character": "SCIENTIST",
+    "totalEpisodes": 2,
+    "totalLines": 2,
+    "totalWords": 29
+  },
+  {
+    "character": "DR. DOME",
+    "totalEpisodes": 2,
+    "totalLines": 20,
+    "totalWords": 227
+  },
+  {
+    "character": "TANNER",
+    "totalEpisodes": 2,
+    "totalLines": 12,
+    "totalWords": 290
+  }
+]

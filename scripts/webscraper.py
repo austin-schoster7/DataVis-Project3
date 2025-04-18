@@ -1,5 +1,4 @@
 """
-regular_show_transcripts_scraper.py
 Scrape Regular Show transcripts from Fandom and save:
 season, episode, speaker, text, scene, url
 """
@@ -123,7 +122,7 @@ def parse_transcript(url: str, season: int, episode: int) -> list[dict]:
 
 # ----------------------------------------------------------- MAIN
 def main():
-    with open("regular_show_transcripts.csv", "w", newline="", encoding="utf-8") as f:
+    with open("data/regular_show_transcripts.csv", "w", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         writer.writerow(["season", "episode", "speaker", "text", "scene", "url"])
 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Regular Show Character Importance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Regular Show: Who’s Most Important?</h1>
+
+  <div id="overview" class="overview">
+    <h2>About Regular Show</h2>
+    <p>
+      <strong>Run:</strong> 2010 – 2017 on Cartoon Network <br>
+      <strong>Seasons:</strong> 8  |  <strong>Episodes:</strong> 261 <br>
+      <strong>Genre:</strong> Animated comedy
+    </p>
+    <p>Main Characters:</p>
+    <ul class="main-chars">
+      <li><img src="../icons/mordecai.jpeg" alt="Mordecai" /> Mordecai</li>
+      <li><img src="../icons/rigby.png"    alt="Rigby"    /> Rigby</li>
+      <li><img src="../icons/benson.png"   alt="Benson"   /> Benson</li>
+      <li><img src="../icons/muscleman.jpeg"alt="Muscle Man" /> Muscle Man</li>
+      <li><img src="../icons/skips.jpeg"    alt="Skips"    /> Skips</li>
+    </ul>
+    <p>
+      <a href="https://regularshow.fandom.com/wiki/Category:Transcripts" target="_blank">
+        View all transcripts on Regular Show Wiki 🔗
+      </a>
+    </p>
+  </div>
+
+  <div class="controls">
+    <label for="season">Season:</label>
+    <select id="season">
+      <option value="all">All</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select>
+  </div>
+
+  <div id="episodes-chart" class="chart"></div>
+  <div id="words-chart"    class="chart"></div>
+  <div id="detail-view"    class="detail"></div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

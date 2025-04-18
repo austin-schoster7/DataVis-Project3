@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.overview {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #f0f8ff;
+    border-radius: 8px;
+}
+
+.main-chars {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+.main-chars img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.chart {
+    margin: 0 auto 40px;
+    max-width: 700px;
+}
+
+.detail {
+    max-width: 700px;
+    margin: 0 auto 40px;
+    padding: 10px;
+    border-top: 2px solid #ccc;
+}
+
+.detail h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bar {
+    fill: steelblue;
+}
+
+.axis-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.chart h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.tooltip {
+    position: absolute;
+    /* the rest of the styles are set in script.js */
+}
+
+.bar, svg path, svg circle {
+    cursor: pointer;
+}
+  

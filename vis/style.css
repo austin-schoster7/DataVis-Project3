@@ -70,7 +70,32 @@ h1 {
     /* the rest of the styles are set in script.js */
 }
 
-.bar, svg path, svg circle {
+.bar,
+svg path,
+svg circle {
     cursor: pointer;
 }
-  
+
+#word-cloud {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#cloud-container {
+    min-height: 400px;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+.controls {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.controls select {
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}

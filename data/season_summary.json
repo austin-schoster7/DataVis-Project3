@@ -21,23 +21,6 @@
   },
   {
     "season": 1,
-    "character": "MORDECAI & RIGBY",
-    "episodes": [
-      1,
-      2,
-      3,
-      5,
-      6,
-      8,
-      9,
-      10,
-      11
-    ],
-    "lines": 46,
-    "words": 220
-  },
-  {
-    "season": 1,
     "character": "MAIN ANNOUNCER",
     "episodes": [
       3
@@ -428,15 +411,6 @@
   },
   {
     "season": 1,
-    "character": "BENSON, POPS, MUSCLE MAN, HI FIVE GHOST",
-    "episodes": [
-      5
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 1,
     "character": "FAT WOMAN",
     "episodes": [
       7
@@ -501,15 +475,6 @@
   },
   {
     "season": 1,
-    "character": "MUSCLE MAN & HI FIVE GHOST",
-    "episodes": [
-      2
-    ],
-    "lines": 1,
-    "words": 2
-  },
-  {
-    "season": 1,
     "character": "PONY",
     "episodes": [
       2
@@ -552,15 +517,6 @@
     ],
     "lines": 1,
     "words": 2
-  },
-  {
-    "season": 1,
-    "character": "BENSON & POPS",
-    "episodes": [
-      6
-    ],
-    "lines": 1,
-    "words": 21
   },
   {
     "season": 1,
@@ -663,7 +619,7 @@
   },
   {
     "season": 1,
-    "character": "B-BOY 1",
+    "character": "B BOY 1",
     "episodes": [
       9
     ],
@@ -672,7 +628,7 @@
   },
   {
     "season": 1,
-    "character": "B-BOY 2",
+    "character": "B BOY 2",
     "episodes": [
       9
     ],
@@ -699,7 +655,7 @@
   },
   {
     "season": 1,
-    "character": "HI FIVE GHOST",
+    "character": "HIGH FIVE GHOST",
     "episodes": [
       11
     ],
@@ -714,15 +670,6 @@
     ],
     "lines": 14,
     "words": 231
-  },
-  {
-    "season": 1,
-    "character": "MORDECAI, RIGBY, BENSON, POPS & SKIPS",
-    "episodes": [
-      1
-    ],
-    "lines": 1,
-    "words": 11
   },
   {
     "season": 1,
@@ -750,15 +697,6 @@
     ],
     "lines": 1,
     "words": 3
-  },
-  {
-    "season": 1,
-    "character": "JOHN #1 & 2",
-    "episodes": [
-      8
-    ],
-    "lines": 1,
-    "words": 25
   },
   {
     "season": 1,
@@ -1279,19 +1217,6 @@
   },
   {
     "season": 2,
-    "character": "MORDECAI & RIGBY",
-    "episodes": [
-      7,
-      15,
-      18,
-      22,
-      25
-    ],
-    "lines": 13,
-    "words": 31
-  },
-  {
-    "season": 2,
     "character": "BELLHOP",
     "episodes": [
       18
@@ -1364,7 +1289,7 @@
   },
   {
     "season": 2,
-    "character": "HI FIVE GHOST",
+    "character": "HIGH FIVE GHOST",
     "episodes": [
       8,
       14,
@@ -1376,8 +1301,8 @@
       24,
       26
     ],
-    "lines": 20,
-    "words": 111
+    "lines": 23,
+    "words": 118
   },
   {
     "season": 2,
@@ -1517,15 +1442,6 @@
   },
   {
     "season": 2,
-    "character": "MUSCLE MAN & RIGBY",
-    "episodes": [
-      2
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 2,
     "character": "FATHER TIME",
     "episodes": [
       2
@@ -1598,7 +1514,7 @@
   },
   {
     "season": 2,
-    "character": "HI-FIVES",
+    "character": "HI FIVES",
     "episodes": [
       24
     ],
@@ -1933,7 +1849,7 @@
   },
   {
     "season": 2,
-    "character": "FOUR-ARMAGEDDON",
+    "character": "FOUR ARMAGEDDON",
     "episodes": [
       20
     ],
@@ -1951,7 +1867,7 @@
   },
   {
     "season": 2,
-    "character": "LO-FIVE GHOST",
+    "character": "LO FIVE GHOST",
     "episodes": [
       17
     ],
@@ -1987,7 +1903,7 @@
   },
   {
     "season": 2,
-    "character": "EX-SKUNK HUMAN",
+    "character": "EX SKUNK HUMAN",
     "episodes": [
       27
     ],
@@ -2128,15 +2044,6 @@
     ],
     "lines": 1,
     "words": 18
-  },
-  {
-    "season": 2,
-    "character": "HIGH-FIVE GHOST",
-    "episodes": [
-      22
-    ],
-    "lines": 3,
-    "words": 7
   },
   {
     "season": 2,
@@ -2403,20 +2310,6 @@
   },
   {
     "season": 3,
-    "character": "MORDECAI & RIGBY",
-    "episodes": [
-      10,
-      14,
-      18,
-      27,
-      28,
-      29
-    ],
-    "lines": 10,
-    "words": 21
-  },
-  {
-    "season": 3,
     "character": "PAST RIGBY",
     "episodes": [
       39
@@ -2471,7 +2364,7 @@
   },
   {
     "season": 3,
-    "character": "BUTT-CHIN BLONDE",
+    "character": "BUTT CHIN BLONDE",
     "episodes": [
       2
     ],
@@ -2803,7 +2696,7 @@
   },
   {
     "season": 3,
-    "character": "STAG-MAN",
+    "character": "STAG MAN",
     "episodes": [
       5
     ],
@@ -3088,15 +2981,6 @@
   },
   {
     "season": 3,
-    "character": "(THERE IS A PAUSE, MORE WHISPERS, THEN",
-    "episodes": [
-      33
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 3,
     "character": "MANETTI",
     "episodes": [
       17
@@ -3317,12 +3201,15 @@
     "season": 3,
     "character": "HIGH FIVE GHOST",
     "episodes": [
+      4,
+      11,
       13,
+      18,
       31,
       34
     ],
-    "lines": 4,
-    "words": 18
+    "lines": 28,
+    "words": 154
   },
   {
     "season": 3,
@@ -3408,17 +3295,6 @@
   },
   {
     "season": 3,
-    "character": "HI FIVE GHOST",
-    "episodes": [
-      4,
-      11,
-      18
-    ],
-    "lines": 24,
-    "words": 136
-  },
-  {
-    "season": 3,
     "character": "FILBERT",
     "episodes": [
       18
@@ -3452,15 +3328,6 @@
     ],
     "lines": 1,
     "words": 5
-  },
-  {
-    "season": 3,
-    "character": "FILBERT & MULLIGAN",
-    "episodes": [
-      18
-    ],
-    "lines": 3,
-    "words": 7
   },
   {
     "season": 3,
@@ -3617,15 +3484,6 @@
   },
   {
     "season": 3,
-    "character": "MORDECAI, RIGBY & CART",
-    "episodes": [
-      31
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 3,
     "character": "PARAMEDIC #2",
     "episodes": [
       35
@@ -3671,12 +3529,12 @@
   },
   {
     "season": 3,
-    "character": "ALPHA-DOG",
+    "character": "ALPHA DOG",
     "episodes": [
       9
     ],
-    "lines": 4,
-    "words": 163
+    "lines": 15,
+    "words": 415
   },
   {
     "season": 3,
@@ -3686,15 +3544,6 @@
     ],
     "lines": 1,
     "words": 6
-  },
-  {
-    "season": 3,
-    "character": "ALPHA DOG",
-    "episodes": [
-      9
-    ],
-    "lines": 11,
-    "words": 252
   },
   {
     "season": 3,
@@ -3734,7 +3583,7 @@
   },
   {
     "season": 3,
-    "character": "DEMEL-ISHUN",
+    "character": "DEMEL ISHUN",
     "episodes": [
       9
     ],
@@ -3749,15 +3598,6 @@
     ],
     "lines": 23,
     "words": 190
-  },
-  {
-    "season": 3,
-    "character": "JEREMY & CHAD",
-    "episodes": [
-      22
-    ],
-    "lines": 2,
-    "words": 6
   },
   {
     "season": 3,
@@ -3821,15 +3661,6 @@
     ],
     "lines": 1,
     "words": 4
-  },
-  {
-    "season": 3,
-    "character": "BENSON, MORDECAI, RIGBY",
-    "episodes": [
-      3
-    ],
-    "lines": 1,
-    "words": 1
   },
   {
     "season": 3,
@@ -3902,24 +3733,6 @@
     ],
     "lines": 3,
     "words": 35
-  },
-  {
-    "season": 3,
-    "character": "MORDECAI, RIGBY, POPS",
-    "episodes": [
-      38
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 3,
-    "character": "SKIPS, POPS, MORDECAI, RIGBY",
-    "episodes": [
-      38
-    ],
-    "lines": 1,
-    "words": 1
   },
   {
     "season": 3,
@@ -4042,21 +3855,12 @@
   },
   {
     "season": 3,
-    "character": "HOLOGRAM-MORDECAI",
-    "episodes": [
-      21
-    ],
-    "lines": 1,
-    "words": 10
-  },
-  {
-    "season": 3,
-    "character": "HOLOGRAM-RIGBY",
+    "character": "HOLOGRAM MORDECAI",
     "episodes": [
       21
     ],
     "lines": 2,
-    "words": 29
+    "words": 30
   },
   {
     "season": 3,
@@ -4064,17 +3868,8 @@
     "episodes": [
       21
     ],
-    "lines": 1,
-    "words": 8
-  },
-  {
-    "season": 3,
-    "character": "HOLOGRAM MORDECAI",
-    "episodes": [
-      21
-    ],
-    "lines": 1,
-    "words": 20
+    "lines": 3,
+    "words": 37
   },
   {
     "season": 3,
@@ -5178,16 +4973,21 @@
   },
   {
     "season": 4,
-    "character": "HI FIVE GHOST",
+    "character": "HIGH FIVE GHOST",
     "episodes": [
       1,
       6,
       7,
       9,
-      11
+      11,
+      31,
+      33,
+      35,
+      36,
+      37
     ],
-    "lines": 35,
-    "words": 208
+    "lines": 50,
+    "words": 331
   },
   {
     "season": 4,
@@ -5488,20 +5288,6 @@
   },
   {
     "season": 4,
-    "character": "HIGH FIVE GHOST",
-    "episodes": [
-      7,
-      11,
-      31,
-      33,
-      35,
-      36
-    ],
-    "lines": 11,
-    "words": 114
-  },
-  {
-    "season": 4,
     "character": "COUNTRY CLUB MEMBERS",
     "episodes": [
       31
@@ -5774,16 +5560,6 @@
     ],
     "lines": 1,
     "words": 3
-  },
-  {
-    "season": 4,
-    "character": "HI-FIVE GHOST",
-    "episodes": [
-      11,
-      33
-    ],
-    "lines": 3,
-    "words": 8
   },
   {
     "season": 4,
@@ -6106,19 +5882,6 @@
   },
   {
     "season": 4,
-    "character": "MORDECAI & RIGBY",
-    "episodes": [
-      3,
-      9,
-      18,
-      21,
-      25
-    ],
-    "lines": 10,
-    "words": 44
-  },
-  {
-    "season": 4,
     "character": "MR. MAELLARD",
     "episodes": [
       21
@@ -6207,15 +5970,6 @@
     ],
     "lines": 8,
     "words": 101
-  },
-  {
-    "season": 4,
-    "character": "TOMMY & VINCE",
-    "episodes": [
-      36
-    ],
-    "lines": 1,
-    "words": 6
   },
   {
     "season": 4,
@@ -6644,15 +6398,6 @@
   },
   {
     "season": 4,
-    "character": "BENSON & THOMAS",
-    "episodes": [
-      35
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 4,
     "character": "HUGGSTABLE LEADER",
     "episodes": [
       35
@@ -6735,15 +6480,6 @@
   {
     "season": 4,
     "character": "THE PARK GANG",
-    "episodes": [
-      37
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 4,
-    "character": "HIGH-FIVE GHOST",
     "episodes": [
       37
     ],
@@ -7104,15 +6840,6 @@
   },
   {
     "season": 4,
-    "character": "MORDECAI, RIGBY, RGB2",
-    "episodes": [
-      18
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 4,
     "character": "LADY FAN",
     "episodes": [
       18
@@ -7266,7 +6993,7 @@
   },
   {
     "season": 4,
-    "character": "8-TRACK",
+    "character": "8 TRACK",
     "episodes": [
       30
     ],
@@ -7284,7 +7011,7 @@
   },
   {
     "season": 4,
-    "character": "REEL-TO-REEL",
+    "character": "REEL TO REEL",
     "episodes": [
       30
     ],
@@ -7302,7 +7029,7 @@
   },
   {
     "season": 4,
-    "character": "VC-ARBITRATOR",
+    "character": "VC ARBITRATOR",
     "episodes": [
       30
     ],
@@ -7892,25 +7619,30 @@
   },
   {
     "season": 5,
-    "character": "HI FIVE GHOST",
+    "character": "HIGH FIVE GHOST",
     "episodes": [
       4,
+      8,
+      9,
       10,
       11,
       12,
       13,
       14,
       15,
+      16,
       17,
+      19,
       20,
       26,
+      28,
       30,
       32,
       33,
       35
     ],
-    "lines": 77,
-    "words": 742
+    "lines": 100,
+    "words": 905
   },
   {
     "season": 5,
@@ -7956,22 +7688,6 @@
     ],
     "lines": 3,
     "words": 24
-  },
-  {
-    "season": 5,
-    "character": "MORDECAI & RIGBY",
-    "episodes": [
-      2,
-      5,
-      8,
-      9,
-      21,
-      22,
-      24,
-      36
-    ],
-    "lines": 22,
-    "words": 57
   },
   {
     "season": 5,
@@ -8531,17 +8247,6 @@
   },
   {
     "season": 5,
-    "character": "HIGH FIVE GHOST",
-    "episodes": [
-      8,
-      16,
-      28
-    ],
-    "lines": 7,
-    "words": 41
-  },
-  {
-    "season": 5,
     "character": "OLD MAN",
     "episodes": [
       28
@@ -8711,15 +8416,6 @@
   },
   {
     "season": 5,
-    "character": "MORDECAI RIGBY & BENSON",
-    "episodes": [
-      21
-    ],
-    "lines": 2,
-    "words": 2
-  },
-  {
-    "season": 5,
     "character": "BOUNCER",
     "episodes": [
       21
@@ -8771,18 +8467,6 @@
     ],
     "lines": 2,
     "words": 7
-  },
-  {
-    "season": 5,
-    "character": "HI-FIVE GHOST",
-    "episodes": [
-      8,
-      9,
-      11,
-      19
-    ],
-    "lines": 16,
-    "words": 122
   },
   {
     "season": 5,
@@ -8963,15 +8647,6 @@
     ],
     "lines": 1,
     "words": 6
-  },
-  {
-    "season": 5,
-    "character": "CARTER & BRIGGS",
-    "episodes": [
-      31
-    ],
-    "lines": 1,
-    "words": 2
   },
   {
     "season": 5,
@@ -9442,7 +9117,7 @@
   },
   {
     "season": 5,
-    "character": "T-SHIRT MAN",
+    "character": "T SHIRT MAN",
     "episodes": [
       33
     ],
@@ -9734,24 +9409,6 @@
   },
   {
     "season": 5,
-    "character": "MUSCLE MAN, HI-FIVE GHOST, & RIGBY",
-    "episodes": [
-      8
-    ],
-    "lines": 1,
-    "words": 4
-  },
-  {
-    "season": 5,
-    "character": "MORDECAI, RIGBY, & MUSCLE MAN",
-    "episodes": [
-      8
-    ],
-    "lines": 1,
-    "words": 3
-  },
-  {
-    "season": 5,
     "character": "SCARECROW",
     "episodes": [
       8
@@ -9788,7 +9445,7 @@
   },
   {
     "season": 5,
-    "character": "PUMPKIN HI-FIVE GHOSTS",
+    "character": "PUMPKIN HI FIVE GHOSTS",
     "episodes": [
       8
     ],
@@ -10957,18 +10614,6 @@
   },
   {
     "season": 6,
-    "character": "MORDECAI & RIGBY",
-    "episodes": [
-      16,
-      19,
-      23,
-      26
-    ],
-    "lines": 24,
-    "words": 50
-  },
-  {
-    "season": 6,
     "character": "SENSAI",
     "episodes": [
       26
@@ -11072,16 +10717,21 @@
   },
   {
     "season": 6,
-    "character": "HI FIVE GHOST",
+    "character": "HIGH FIVE GHOST",
     "episodes": [
+      2,
+      4,
       5,
       9,
+      10,
+      12,
       14,
       16,
+      22,
       28
     ],
-    "lines": 24,
-    "words": 307
+    "lines": 70,
+    "words": 691
   },
   {
     "season": 6,
@@ -11212,15 +10862,6 @@
   },
   {
     "season": 6,
-    "character": "MORDECAI, RIGBY, MUSCLE MAN & HFG",
-    "episodes": [
-      16
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 6,
     "character": "MICROFICHE",
     "episodes": [
       16
@@ -11312,7 +10953,7 @@
   },
   {
     "season": 6,
-    "character": "REEL-TO-REEL",
+    "character": "REEL TO REEL",
     "episodes": [
       16
     ],
@@ -11436,15 +11077,6 @@
     ],
     "lines": 5,
     "words": 46
-  },
-  {
-    "season": 6,
-    "character": "MORDECAI, RIGBY & POPS",
-    "episodes": [
-      23
-    ],
-    "lines": 1,
-    "words": 1
   },
   {
     "season": 6,
@@ -12174,19 +11806,6 @@
   },
   {
     "season": 6,
-    "character": "HI-FIVE GHOST",
-    "episodes": [
-      2,
-      4,
-      9,
-      12,
-      22
-    ],
-    "lines": 44,
-    "words": 364
-  },
-  {
-    "season": 6,
     "character": "GENE",
     "episodes": [
       12,
@@ -12321,15 +11940,6 @@
     ],
     "lines": 1,
     "words": 2
-  },
-  {
-    "season": 6,
-    "character": "HIGH-FIVE GHOST",
-    "episodes": [
-      10
-    ],
-    "lines": 1,
-    "words": 13
   },
   {
     "season": 6,
@@ -12681,15 +12291,6 @@
     ],
     "lines": 4,
     "words": 29
-  },
-  {
-    "season": 6,
-    "character": "HIGH FIVE GHOST",
-    "episodes": [
-      12
-    ],
-    "lines": 1,
-    "words": 7
   },
   {
     "season": 6,
@@ -13053,15 +12654,6 @@
   },
   {
     "season": 6,
-    "character": "MUSCLE MAN & HIGH FIVE GHOST",
-    "episodes": [
-      8
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 6,
     "character": "NATALIA",
     "episodes": [
       8
@@ -13392,13 +12984,24 @@
   },
   {
     "season": 7,
-    "character": "HI-FIVE GHOST",
+    "character": "HIGH FIVE GHOST",
     "episodes": [
+      2,
+      5,
+      8,
       13,
-      29
+      20,
+      22,
+      25,
+      26,
+      28,
+      29,
+      30,
+      34,
+      36
     ],
-    "lines": 2,
-    "words": 30
+    "lines": 112,
+    "words": 1036
   },
   {
     "season": 7,
@@ -13648,26 +13251,6 @@
   },
   {
     "season": 7,
-    "character": "MORDECAI & RIGBY",
-    "episodes": [
-      2,
-      5,
-      7,
-      8,
-      11,
-      18,
-      24,
-      26,
-      28,
-      31,
-      33,
-      35
-    ],
-    "lines": 62,
-    "words": 124
-  },
-  {
-    "season": 7,
     "character": "CORNY",
     "episodes": [
       24
@@ -13777,15 +13360,6 @@
     ],
     "lines": 1,
     "words": 3
-  },
-  {
-    "season": 7,
-    "character": "MORDECAI, RIGBY & CORNY",
-    "episodes": [
-      24
-    ],
-    "lines": 1,
-    "words": 1
   },
   {
     "season": 7,
@@ -13925,15 +13499,6 @@
   },
   {
     "season": 7,
-    "character": "MORDECAI, RIGBY & EILEEN",
-    "episodes": [
-      16
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 7,
     "character": "LEADER",
     "episodes": [
       16
@@ -13976,25 +13541,6 @@
     ],
     "lines": 1,
     "words": 2
-  },
-  {
-    "season": 7,
-    "character": "HI FIVE GHOST",
-    "episodes": [
-      2,
-      5,
-      8,
-      22,
-      25,
-      26,
-      28,
-      29,
-      30,
-      34,
-      36
-    ],
-    "lines": 102,
-    "words": 930
   },
   {
     "season": 7,
@@ -14187,16 +13733,6 @@
   },
   {
     "season": 7,
-    "character": "HIGH-FIVE GHOST",
-    "episodes": [
-      20,
-      29
-    ],
-    "lines": 4,
-    "words": 46
-  },
-  {
-    "season": 7,
     "character": "HFG",
     "episodes": [
       20,
@@ -14288,7 +13824,7 @@
   },
   {
     "season": 7,
-    "character": "LONG-HAIRED BENSON",
+    "character": "LONG HAIRED BENSON",
     "episodes": [
       1
     ],
@@ -14297,7 +13833,7 @@
   },
   {
     "season": 7,
-    "character": "SHORT-HAIRED BENSON",
+    "character": "SHORT HAIRED BENSON",
     "episodes": [
       1
     ],
@@ -14324,7 +13860,7 @@
   },
   {
     "season": 7,
-    "character": "RED-HEADED BUM",
+    "character": "RED HEADED BUM",
     "episodes": [
       1
     ],
@@ -14333,7 +13869,7 @@
   },
   {
     "season": 7,
-    "character": "GREY-HAIRED BUM",
+    "character": "GREY HAIRED BUM",
     "episodes": [
       1
     ],
@@ -14348,15 +13884,6 @@
     ],
     "lines": 1,
     "words": 12
-  },
-  {
-    "season": 7,
-    "character": "HIGH FIVE GHOST",
-    "episodes": [
-      29
-    ],
-    "lines": 4,
-    "words": 30
   },
   {
     "season": 7,
@@ -14560,15 +14087,6 @@
     ],
     "lines": 39,
     "words": 449
-  },
-  {
-    "season": 7,
-    "character": "MORDECAI, MUSCLE MAN & HFG",
-    "episodes": [
-      22
-    ],
-    "lines": 1,
-    "words": 1
   },
   {
     "season": 7,
@@ -14877,7 +14395,7 @@
   },
   {
     "season": 7,
-    "character": "MARY-LEE",
+    "character": "MARY LEE",
     "episodes": [
       12
     ],
@@ -15454,21 +14972,12 @@
   },
   {
     "season": 7,
-    "character": "ORANGE-HAIRED DOME GUARD",
+    "character": "ORANGE HAIRED DOME GUARD",
     "episodes": [
       32
     ],
-    "lines": 1,
-    "words": 3
-  },
-  {
-    "season": 7,
-    "character": "ORANGE - HAIRED DOME GUARD",
-    "episodes": [
-      32
-    ],
-    "lines": 2,
-    "words": 23
+    "lines": 3,
+    "words": 26
   },
   {
     "season": 7,
@@ -15730,24 +15239,6 @@
   },
   {
     "season": 7,
-    "character": "(LATER, AT 3",
-    "episodes": [
-      11
-    ],
-    "lines": 1,
-    "words": 15
-  },
-  {
-    "season": 7,
-    "character": "MORDECAI, RIGBY & SKIPS",
-    "episodes": [
-      11
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 7,
     "character": "KOKO",
     "episodes": [
       11
@@ -15782,15 +15273,6 @@
     ],
     "lines": 1,
     "words": 5
-  },
-  {
-    "season": 7,
-    "character": "MORDECAI, RIGBY & MARGARET",
-    "episodes": [
-      18
-    ],
-    "lines": 1,
-    "words": 1
   },
   {
     "season": 7,
@@ -15836,15 +15318,6 @@
     ],
     "lines": 8,
     "words": 94
-  },
-  {
-    "season": 7,
-    "character": "MUSCLE MAN & HI FIVE GHOST",
-    "episodes": [
-      8
-    ],
-    "lines": 6,
-    "words": 8
   },
   {
     "season": 7,
@@ -16089,15 +15562,6 @@
     ],
     "lines": 2,
     "words": 16
-  },
-  {
-    "season": 7,
-    "character": "MRS, KESSLER",
-    "episodes": [
-      14
-    ],
-    "lines": 1,
-    "words": 7
   },
   {
     "season": 7,
@@ -16536,25 +16000,32 @@
   },
   {
     "season": 8,
-    "character": "HI FIVE GHOST",
+    "character": "HIGH FIVE GHOST",
     "episodes": [
+      1,
+      3,
       4,
+      6,
+      7,
       14,
+      15,
       16,
       17,
+      19,
       20,
       21,
       22,
       23,
+      24,
       26,
       27
     ],
-    "lines": 38,
-    "words": 333
+    "lines": 60,
+    "words": 507
   },
   {
     "season": 8,
-    "character": "FRIVOLA-KRANUS",
+    "character": "FRIVOLA KRANUS",
     "episodes": [
       27
     ],
@@ -16563,7 +16034,7 @@
   },
   {
     "season": 8,
-    "character": "QUADRAVI-KRANUS",
+    "character": "QUADRAVI KRANUS",
     "episodes": [
       27
     ],
@@ -16590,7 +16061,7 @@
   },
   {
     "season": 8,
-    "character": "ANTI-POPS",
+    "character": "ANTI POPS",
     "episodes": [
       15,
       22,
@@ -16638,26 +16109,6 @@
   },
   {
     "season": 8,
-    "character": "MORDECAI & RIGBY",
-    "episodes": [
-      4,
-      5,
-      8,
-      9,
-      16,
-      17,
-      21,
-      22,
-      23,
-      25,
-      26,
-      27
-    ],
-    "lines": 36,
-    "words": 112
-  },
-  {
-    "season": 8,
     "character": "GILFOYLE",
     "episodes": [
       27
@@ -16676,7 +16127,7 @@
   },
   {
     "season": 8,
-    "character": "EGGUM-KRANUS",
+    "character": "EGGUM KRANUS",
     "episodes": [
       27
     ],
@@ -16715,7 +16166,7 @@
   },
   {
     "season": 8,
-    "character": "BLU-RAY",
+    "character": "BLU RAY",
     "episodes": [
       25,
       26,
@@ -17342,7 +16793,7 @@
   },
   {
     "season": 8,
-    "character": "R-659",
+    "character": "R 659",
     "episodes": [
       2
     ],
@@ -17351,7 +16802,7 @@
   },
   {
     "season": 8,
-    "character": "R-656",
+    "character": "R 656",
     "episodes": [
       2
     ],
@@ -17473,18 +16924,6 @@
   },
   {
     "season": 8,
-    "character": "HI-FIVE GHOST",
-    "episodes": [
-      1,
-      3,
-      6,
-      24
-    ],
-    "lines": 15,
-    "words": 120
-  },
-  {
-    "season": 8,
     "character": "ROBOT",
     "episodes": [
       5
@@ -17566,21 +17005,12 @@
   },
   {
     "season": 8,
-    "character": "REEL-TO-REEL",
+    "character": "REEL TO REEL",
     "episodes": [
       25
     ],
     "lines": 13,
     "words": 124
-  },
-  {
-    "season": 8,
-    "character": "BLACK & WHITE",
-    "episodes": [
-      25
-    ],
-    "lines": 7,
-    "words": 58
   },
   {
     "season": 8,
@@ -17758,7 +17188,7 @@
   },
   {
     "season": 8,
-    "character": "FRENCH\u00a0PERSON",
+    "character": "FRENCH PERSON",
     "episodes": [
       1
     ],
@@ -17773,18 +17203,6 @@
     ],
     "lines": 1,
     "words": 17
-  },
-  {
-    "season": 8,
-    "character": "HIGH FIVE GHOST",
-    "episodes": [
-      1,
-      7,
-      15,
-      19
-    ],
-    "lines": 7,
-    "words": 54
   },
   {
     "season": 8,
@@ -18139,7 +17557,7 @@
   },
   {
     "season": 8,
-    "character": "FLYING DISC FREE-STYLIST",
+    "character": "FLYING DISC FREE STYLIST",
     "episodes": [
       19
     ],
@@ -18229,15 +17647,6 @@
   },
   {
     "season": 8,
-    "character": "ALL EXCEPT RAWLS & KEITH",
-    "episodes": [
-      8
-    ],
-    "lines": 1,
-    "words": 1
-  },
-  {
-    "season": 8,
     "character": "RABBIT",
     "episodes": [
       7
@@ -18298,42 +17707,6 @@
     ],
     "lines": 1,
     "words": 10
-  },
-  {
-    "season": 8,
-    "character": "POPS, DRESSED AS CHARACTER",
-    "episodes": [
-      7
-    ],
-    "lines": 1,
-    "words": 3
-  },
-  {
-    "season": 8,
-    "character": "MORDECAI, DRESSED AS CHARACTER",
-    "episodes": [
-      7
-    ],
-    "lines": 1,
-    "words": 4
-  },
-  {
-    "season": 8,
-    "character": "SKIPS, DRESSED AS CHARACTER",
-    "episodes": [
-      7
-    ],
-    "lines": 1,
-    "words": 14
-  },
-  {
-    "season": 8,
-    "character": "BENSON, DRESSED AS CHARACTER",
-    "episodes": [
-      7
-    ],
-    "lines": 1,
-    "words": 19
   },
   {
     "season": 8,
@@ -18406,15 +17779,6 @@
     ],
     "lines": 1,
     "words": 1
-  },
-  {
-    "season": 8,
-    "character": "SKIPS & EILEEN",
-    "episodes": [
-      21
-    ],
-    "lines": 1,
-    "words": 2
   },
   {
     "season": 8,

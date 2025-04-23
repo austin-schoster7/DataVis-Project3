@@ -32,6 +32,10 @@
     </p>
   </div>
 
+  <div class="info">
+    <p>Click on a bar to see lines per episode for that character, or use the search bar to find more information about a word or phrase from the show</p>
+  </div>
+
   <div class="controls">
     <label for="season">Season:</label>
     <select id="season">
@@ -66,6 +70,18 @@
       <option value="Guardians of Eternal Youth">Guardians of Eternal Youth</option>
       <option value="Death">Death</option>
     </select>
+
+    <!-- Phrase search for Level 4 -->
+    <div class="controls" id="search-controls">
+        <label for="search-input">Search phrase:</label>
+        <input type="text" id="search-input" placeholder="Enter a word or phrase…" />
+        <button id="search-button">Go</button>
+    </div>
+
+    <!-- Results for search -->
+    <div id="search-chart" class="chart"></div>
+    <div id="search-speakers" class="chart"></div>
+
   </div>
 
 

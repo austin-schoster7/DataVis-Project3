@@ -36,22 +36,16 @@
     "totalWords": 12077
   },
   {
+    "character": "HIGH FIVE GHOST",
+    "totalEpisodes": 85,
+    "totalLines": 444,
+    "totalWords": 3746
+  },
+  {
     "character": "EILEEN",
     "totalEpisodes": 74,
     "totalLines": 739,
     "totalWords": 7609
-  },
-  {
-    "character": "MORDECAI & RIGBY",
-    "totalEpisodes": 61,
-    "totalLines": 223,
-    "totalWords": 659
-  },
-  {
-    "character": "HI FIVE GHOST",
-    "totalEpisodes": 58,
-    "totalLines": 321,
-    "totalWords": 2771
   },
   {
     "character": "MARGARET",
@@ -84,22 +78,10 @@
     "totalWords": 1378
   },
   {
-    "character": "HIGH FIVE GHOST",
-    "totalEpisodes": 18,
-    "totalLines": 34,
-    "totalWords": 264
-  },
-  {
     "character": "MR. MAELLARD",
     "totalEpisodes": 17,
     "totalLines": 102,
     "totalWords": 1496
-  },
-  {
-    "character": "HI-FIVE GHOST",
-    "totalEpisodes": 17,
-    "totalLines": 80,
-    "totalWords": 644
   },
   {
     "character": "BOTH",
@@ -258,12 +240,6 @@
     "totalWords": 236
   },
   {
-    "character": "HIGH-FIVE GHOST",
-    "totalEpisodes": 5,
-    "totalLines": 9,
-    "totalWords": 67
-  },
-  {
     "character": "TV",
     "totalEpisodes": 5,
     "totalLines": 11,
@@ -408,7 +384,7 @@
     "totalWords": 166
   },
   {
-    "character": "ANTI-POPS",
+    "character": "ANTI POPS",
     "totalEpisodes": 4,
     "totalLines": 89,
     "totalWords": 1118
@@ -612,7 +588,7 @@
     "totalWords": 298
   },
   {
-    "character": "REEL-TO-REEL",
+    "character": "REEL TO REEL",
     "totalEpisodes": 3,
     "totalLines": 19,
     "totalWords": 164
@@ -696,7 +672,7 @@
     "totalWords": 176
   },
   {
-    "character": "BLU-RAY",
+    "character": "BLU RAY",
     "totalEpisodes": 3,
     "totalLines": 31,
     "totalWords": 343
@@ -754,12 +730,6 @@
     "totalEpisodes": 2,
     "totalLines": 13,
     "totalWords": 274
-  },
-  {
-    "character": "MUSCLE MAN & HI FIVE GHOST",
-    "totalEpisodes": 2,
-    "totalLines": 7,
-    "totalWords": 10
   },
   {
     "character": "CLOWN",

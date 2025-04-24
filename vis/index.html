@@ -32,6 +32,11 @@
     </p>
   </div>
 
+  <div class="info">
+    <p>Click on a bar to see lines per episode for that character, or use the search bar to find more information about
+      a word or phrase from the show</p>
+  </div>
+
   <div class="controls">
     <label for="season">Season:</label>
     <select id="season">
@@ -45,6 +50,38 @@
       <option value="7">7</option>
       <option value="8">8</option>
     </select>
+
+    <label for="character">Character:</label>
+    <select id="character">
+      <option value="">-- Select a character --</option>
+      <option value="Mordecai">Mordecai</option>
+      <option value="Rigby">Rigby</option>
+      <option value="Muscle Man">Muscle Man</option>
+      <option value="Benson">Benson</option>
+      <option value="Pops">Pops</option>
+      <option value="Skips">Skips</option>
+      <option value="Hi-Five Ghost">Hi-Five Ghost</option>
+      <option value="Eileen">Eileen</option>
+      <option value="Margaret">Margaret</option>
+      <option value="CJ">CJ</option>
+      <option value="Thomas">Thomas</option>
+      <option value="Mr. Maellard">Mr. Maellard</option>
+      <option value="Starla">Starla</option>
+      <option value="Gary">Gary</option>
+      <option value="Guardians of Eternal Youth">Guardians of Eternal Youth</option>
+      <option value="Death">Death</option>
+    </select>
+
+    <!-- Phrase search for Level 4 -->
+    <div class="controls" id="search-controls">
+      <label for="search-input">Search phrase:</label>
+      <input type="text" id="search-input" placeholder="Enter a word or phrase…" />
+      <button id="search-button">Go</button>
+    </div>
+
+    <!-- Results for search -->
+    <div id="search-chart" class="chart"></div>
+    <div id="search-speakers" class="chart"></div>
 
 
   </div>

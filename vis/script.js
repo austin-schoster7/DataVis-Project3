@@ -58,6 +58,11 @@ Promise.all([
     drawBar('#words-chart',
       byW, 'totalWords', 'Words',
       'Top 10 Characters by Words');
+
+    updateWordCloud();
+
+    const phraseData = countSpecialPhrases(season);
+    drawPhraseChart('#phrases-chart', phraseData);
   }
 
   const stopwords = new Set([
@@ -115,11 +120,20 @@ Promise.all([
     });
 
     // Count words
-    let wordCounts = d3.rollups(
+    const wordCounts = d3.rollups(
       words,
-      v => v.length,
-      d => d
+      group => group.length, // Raw count of occurrences
+      word => word // Group by exact word
     ).map(([word, count]) => ({ text: word, size: count }));
+
+
+    const maxCount = d3.max(wordCounts, d => d.size);
+    const minCount = d3.min(wordCounts, d => d.size);
+
+    // Create a logarithmic scale for better visual distribution
+    const sizeScale = d3.scaleLog()
+      .domain([minCount, maxCount])
+      .range([10, 100]);  // min and max font sizes
 
     /*// Apply minimum occurrences
     const minOccurrences = season === 'all' ? 5 : 3;
@@ -162,7 +176,7 @@ Promise.all([
       .padding(5)
       .rotate(() => (Math.random() - 0.5) * 60)
       .font('Impact')
-      .fontSize(d => Math.min(100, Math.max(10, d.size * 3)))
+      .fontSize(d => sizeScale(d.size))  // Use the scale here
       .on('end', drawCloud);
 
     layout.start();
@@ -196,6 +210,115 @@ Promise.all([
           tooltip.style('opacity', 0);
         });
     }
+  }
+
+  function countSpecialPhrases(season) {
+    // Define the phrases we want to track (case insensitive)
+    const phrases = [
+      'dude', 'bro', 'hmph', 'ooohhhh',
+      'you\'re fired', 'my mom', 'jolly good show'
+    ];
+
+    // Filter transcripts by season if needed
+    let filtered = transcriptData;
+    if (season !== 'all') {
+      filtered = filtered.filter(d => +d.season === +season);
+    }
+
+    // Count occurrences of each phrase
+    const phraseCounts = phrases.map(phrase => {
+      // Create regex pattern to match whole phrase (case insensitive)
+      const regex = new RegExp(`\\b${phrase}\\b`, 'gi');
+      let count = 0;
+
+      // Count matches in all transcripts
+      filtered.forEach(line => {
+        const matches = line.text.match(regex);
+        if (matches) count += matches.length;
+      });
+
+      return {
+        phrase: phrase.charAt(0).toUpperCase() + phrase.slice(1), // Capitalize
+        count: count
+      };
+    });
+
+    return phraseCounts;
+  }
+
+  function drawPhraseChart(container, data) {
+    const width = 700,
+      height = 350,
+      margin = { top: 50, right: 20, bottom: 100, left: 60 };
+
+    const sel = d3.select(container);
+    sel.selectAll('*').remove();
+
+    sel.append('h2')
+      .text('Special Phrase Frequency')
+      .style('text-align', 'center')
+      .style('margin', '0 0 10px 0');
+
+    const x = d3.scaleBand()
+      .domain(data.map(d => d.phrase))
+      .range([margin.left, width - margin.right])
+      .padding(0.1);
+
+    const y = d3.scaleLinear()
+      .domain([0, d3.max(data, d => d.count)]).nice()
+      .range([height - margin.bottom, margin.top]);
+
+    const svg = sel.append('svg')
+      .attr('width', width)
+      .attr('height', height);
+
+    // Add bars
+    svg.append('g')
+      .selectAll('rect')
+      .data(data)
+      .join('rect')
+      .attr('x', d => x(d.phrase))
+      .attr('y', d => y(d.count))
+      .attr('width', x.bandwidth())
+      .attr('height', d => height - margin.bottom - y(d.count))
+      .attr('fill', '#4CAF50')
+      .on('mouseover', (event, d) => {
+        tooltip
+          .html(`<strong>${d.phrase}</strong><br>${d.count} occurrences`)
+          .style('opacity', 1);
+      })
+      .on('mousemove', event => {
+        tooltip
+          .style('left', (event.pageX + 10) + 'px')
+          .style('top', (event.pageY + 10) + 'px');
+      })
+      .on('mouseout', () => {
+        tooltip.style('opacity', 0);
+      });
+
+    // Add x-axis with rotated labels
+    svg.append('g')
+      .attr('transform', `translate(0,${height - margin.bottom})`)
+      .call(d3.axisBottom(x))
+      .selectAll('text')
+      .attr('transform', 'rotate(-45)')
+      .attr('text-anchor', 'end')
+      .attr('dx', '-0.5em')
+      .attr('dy', '0.5em');
+
+    // Add y-axis
+    svg.append('g')
+      .attr('transform', `translate(${margin.left},0)`)
+      .call(d3.axisLeft(y));
+
+    // Add y-axis label
+    svg.append('text')
+      .attr('class', 'axis-label')
+      .attr('transform', 'rotate(-90)')
+      .attr('x', -(height / 2))
+      .attr('y', margin.left - 40)
+      .attr('text-anchor', 'middle')
+      .text('Number of Occurrences');
   }
 
   // Add event listeners for the new controls

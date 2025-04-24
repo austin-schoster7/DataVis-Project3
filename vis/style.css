@@ -99,3 +99,17 @@ svg circle {
     border-radius: 4px;
     border: 1px solid #ccc;
 }
+
+#phrases-chart {
+    margin-top: 40px;
+    clear: both;
+}
+
+#phrases-chart .bar {
+    fill: #4CAF50;
+    transition: fill 0.3s;
+}
+
+#phrases-chart .bar:hover {
+    fill: #2E7D32;
+}

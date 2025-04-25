@@ -63,6 +63,10 @@ Promise.all([
 
     const phraseData = countSpecialPhrases(season);
     drawPhraseChart('#phrases-chart', phraseData);
+    
+    const arcData = getCooccurrenceData(transcriptData, season);
+    drawArcDiagram(arcData);
+      
   }
 
   const stopwords = new Set([
@@ -320,6 +324,167 @@ Promise.all([
       .attr('text-anchor', 'middle')
       .text('Number of Occurrences');
   }
+
+  const topCharacters = ['MORDECAI', 'RIGBY', 'MUSCLE MAN', 'BENSON', 'POPS', 'SKIPS', 'HI-FIVE GHOST', 'EILEEN', 'MARGARET', 'CJ']
+
+  function getCooccurrenceData(transcriptData, seasonFilter = 'all', windowSize = 5) {
+    const cooccurrence = new Map();
+  
+    // Season filter
+    let data = transcriptData;
+    if (seasonFilter !== 'all') {
+      data = transcriptData.filter(d => +d.season === +seasonFilter);
+    }
+  
+    // Sort by season, episode, and line number
+    data.sort((a, b) => {
+      return +a.season - +b.season ||
+             +a.episode - +b.episode ||
+             +a.line_number - +b.line_number;
+    });
+  
+    // Sliding window logic
+    for (let i = 0; i < data.length; i++) {
+      const baseSpeaker = data[i].speaker;
+      const windowEnd = Math.min(i + windowSize, data.length);
+      if (topCharacters.includes(baseSpeaker)) {
+        for (let j = i + 1; j < windowEnd; j++) {
+          const otherSpeaker = data[j].speaker;
+  
+          // Skip self-pairing and duplicate pairing
+          if (baseSpeaker !== otherSpeaker && topCharacters.includes(baseSpeaker) && topCharacters.includes(otherSpeaker)) {
+            const pair = [baseSpeaker, otherSpeaker].sort();
+            const key = `${pair[0]}|${pair[1]}`;
+            cooccurrence.set(key, (cooccurrence.get(key) || 0) + 1);
+          }
+        }
+      }
+    }
+  
+    // Format nodes and links
+    const allCharacters = new Set();
+    const links = Array.from(cooccurrence.entries()).map(([pair, value]) => {
+      const [source, target] = pair.split('|');
+      allCharacters.add(source);
+      allCharacters.add(target);
+      return { source, target, value };
+    });
+  
+    const nodes = Array.from(allCharacters).map(id => ({ id }));
+  
+    return { nodes, links };
+  }
+
+  const colorMap = { 'MORDECAI' : '#11a1f0',
+                      'RIGBY' : '#75501f', 
+                      'MUSCLE MAN' : '#0bf193', 
+                      'BENSON' : '#a9063e', 
+                      'POPS' : '#ff4cae', 
+                      'SKIPS' : '#f49c11', 
+                      'HI-FIVE GHOST' : 'purple', 
+                      'EILEEN' : '#b48d6c', 
+                      'MARGARET' : 'red', 
+                      'CJ' : 'yellow' }
+
+  function drawArcDiagram({ nodes, links }, container = '#arc-diagram') {
+    const width = 1000;
+    const height = 600;
+    const bottom = height - 100;
+    const radius = 5;
+  
+    d3.select(container).selectAll('*').remove();
+    const svg = d3.select(container).append('svg')
+      .attr('width', width)
+      .attr('height', height);
+  
+    const nodeOrder = nodes.map(d => d.id).sort();
+    const x = d3.scalePoint()
+      .domain(nodeOrder)
+      .range([50, width - 50]);
+  
+    // Draw arcs and keep reference
+    const arcGroup = svg.append('g');
+    const arcPaths = arcGroup
+      .selectAll('path')
+      .data(links)
+      .join('path')
+      .attr('fill', 'none')
+      .attr('stroke', '#999')
+      .attr('stroke-opacity', 0.6)
+      .attr('stroke-width', d => Math.sqrt(d.value) * 0.5)
+      .attr('d', d => {
+        const x1 = x(d.source), x2 = x(d.target);
+        const r = Math.abs(x2 - x1) / 2;
+        return `M${x1},${bottom} A${r},${r} 0 0,1 ${x2},${bottom}`;
+      });
+
+    let activeCharacter = null;
+  
+    // Draw nodes
+    svg.append('g')
+      .selectAll('circle')
+      .data(nodes)
+      .join('circle')
+      .attr('cx', d => x(d.id))
+      .attr('cy', bottom)
+      .attr('r', radius)
+      .attr('fill', 'steelblue')
+      .style('cursor', 'pointer')
+      .on('mouseover', (event, d) => {
+        tooltip
+          .html(`<strong>${d.id}</strong>`)
+          .style('opacity', 1);
+      })
+      .on('mousemove', (event) => {
+        tooltip
+          .style('left', (event.pageX + 10) + 'px')
+          .style('top', (event.pageY - 20) + 'px');
+      })
+      .on('mouseout', () => tooltip.style('opacity', 0))
+      .on('click', (event, d) => {
+        const selectedId = d.id;
+      
+        if (activeCharacter === selectedId) {
+          // Deselect if the same node is clicked again
+          activeCharacter = null;
+          arcPaths
+            .attr('stroke', '#999')
+            .attr('stroke-opacity', 0.6);
+        } else {
+          activeCharacter = selectedId;
+          const selectedColor = colorMap[selectedId];
+      
+          arcPaths
+            .attr('stroke', link =>
+              link.source === selectedId || link.target === selectedId
+                ? selectedColor
+                : '#999'
+            )
+            .attr('stroke-opacity', link =>
+              link.source === selectedId || link.target === selectedId
+                ? 1
+                : 0.2
+            );
+        }
+      });
+      
+      
+  
+    // Add labels
+    svg.append('g')
+      .selectAll('text')
+      .data(nodes)
+      .join('text')
+      .attr('x', d => x(d.id))
+      .attr('y', bottom + 20)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', '10px')
+      .text(d => d.id);
+  }
+  
+  
+  
+
 
   // Add event listeners for the new controls
   d3.select('#character').on('change', updateWordCloud);

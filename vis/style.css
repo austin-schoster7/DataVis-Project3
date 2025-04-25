@@ -139,3 +139,14 @@ svg circle {
     margin-top: 20px;
     font-family: sans-serif;
 }
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #arc-diagram {
+    margin-top: 20px; /* optional spacing */
+  }
+  

@@ -1,0 +1,7501 @@
+{
+  "nodes": [
+    {
+      "id": "RIGBY"
+    },
+    {
+      "id": "MAIN ANNOUNCER"
+    },
+    {
+      "id": "BACKGROUND ANNOUNCER"
+    },
+    {
+      "id": "MORDECAI"
+    },
+    {
+      "id": "MARGARET"
+    },
+    {
+      "id": "BENSON"
+    },
+    {
+      "id": "MUSCLE MAN"
+    },
+    {
+      "id": "SKIPS"
+    },
+    {
+      "id": "POPS"
+    },
+    {
+      "id": "(MONTAGE"
+    },
+    {
+      "id": "TICKET GUY"
+    },
+    {
+      "id": "COFFEE BEAN"
+    },
+    {
+      "id": "TRANSLATOR"
+    },
+    {
+      "id": "GIANT COFFEE BEAN"
+    },
+    {
+      "id": "LLAMA GUY"
+    },
+    {
+      "id": "SLASHER"
+    },
+    {
+      "id": "FIST PUMP"
+    },
+    {
+      "id": "GAME VOICE"
+    },
+    {
+      "id": "SENSAI"
+    },
+    {
+      "id": "STUDENT"
+    },
+    {
+      "id": "MAN #1"
+    },
+    {
+      "id": "MAN #2"
+    },
+    {
+      "id": "YOUNG RIGBY"
+    },
+    {
+      "id": "YOUNG DON"
+    },
+    {
+      "id": "RIGBY FRIEND 1"
+    },
+    {
+      "id": "RIGBY FRIEND 2"
+    },
+    {
+      "id": "YOUNG MORDECAI"
+    },
+    {
+      "id": "RIGBY FRIEND"
+    },
+    {
+      "id": "DON"
+    },
+    {
+      "id": "COMPUTER"
+    },
+    {
+      "id": "EVERYONE EXCEPT RIGBY"
+    },
+    {
+      "id": "DOORMAN"
+    },
+    {
+      "id": "CASHIER AT THE FREE STORE"
+    },
+    {
+      "id": "DREAM RIGBY"
+    },
+    {
+      "id": "GARY"
+    },
+    {
+      "id": "GUARDIAN OF ETERNAL YOUTH"
+    },
+    {
+      "id": "GUARDIAN OF ETERNAL YOUTH 2"
+    },
+    {
+      "id": "GUARDIAN OF ETERNAL YOUTH 3"
+    },
+    {
+      "id": "GUARDIANS OF ETERNAL YOUTH"
+    },
+    {
+      "id": "FAT WOMAN"
+    },
+    {
+      "id": "CHEEZER'S CASHIER"
+    },
+    {
+      "id": "JONES"
+    },
+    {
+      "id": "BARRY"
+    },
+    {
+      "id": "DR. ASINOSKOVICH"
+    },
+    {
+      "id": "JIMMY"
+    },
+    {
+      "id": "MAJOR WILLIAMS"
+    },
+    {
+      "id": "PONY"
+    },
+    {
+      "id": "CLOWN"
+    },
+    {
+      "id": "SPECIAL ENTERTAINMENT CLOWN"
+    },
+    {
+      "id": "KIDS"
+    },
+    {
+      "id": "DESTROYER"
+    },
+    {
+      "id": "HOT DOG"
+    },
+    {
+      "id": "DREAM MARGARET"
+    },
+    {
+      "id": "DREAM MORDECAI"
+    },
+    {
+      "id": "HOT DOG LEADER"
+    },
+    {
+      "id": "HOT DOG #1"
+    },
+    {
+      "id": "SIR GEOFFREY"
+    },
+    {
+      "id": "FUTURE MORDECAI"
+    },
+    {
+      "id": "FUTURE RIGBY"
+    },
+    {
+      "id": "ANGEL"
+    },
+    {
+      "id": "OLD WOMAN"
+    },
+    {
+      "id": "MASTER PRANK CALLER"
+    },
+    {
+      "id": "B BOY 1"
+    },
+    {
+      "id": "B BOY 2"
+    },
+    {
+      "id": "CLERK"
+    },
+    {
+      "id": "VOICE OF MORDECAI"
+    },
+    {
+      "id": "HIGH FIVE GHOST"
+    },
+    {
+      "id": "BODYBUILDER"
+    },
+    {
+      "id": "MAN ON TV"
+    },
+    {
+      "id": "JOHN #1"
+    },
+    {
+      "id": "JOHN #2"
+    },
+    {
+      "id": "1ST UNICORN"
+    },
+    {
+      "id": "4TH UNICORN"
+    },
+    {
+      "id": "5TH UNICORN"
+    },
+    {
+      "id": "7TH UNICORN"
+    },
+    {
+      "id": "UNICORNS"
+    },
+    {
+      "id": "3RD UNICORN"
+    },
+    {
+      "id": "EILEEN"
+    },
+    {
+      "id": "ANIMAL SHELTER RECEPTIONIST"
+    },
+    {
+      "id": "DUCKS"
+    },
+    {
+      "id": "BABY DUCKS"
+    },
+    {
+      "id": "DUCK COLLECTOR"
+    },
+    {
+      "id": "MOTHER DUCK"
+    },
+    {
+      "id": "DUCK GIANT"
+    },
+    {
+      "id": "BABY DUCK"
+    },
+    {
+      "id": "ALL 3"
+    },
+    {
+      "id": "MR. MAELLARD"
+    },
+    {
+      "id": "SUSAN"
+    },
+    {
+      "id": "LEON"
+    },
+    {
+      "id": "GIANT SUSAN"
+    },
+    {
+      "id": "VG"
+    },
+    {
+      "id": "CROWD OF BENSONS"
+    },
+    {
+      "id": "(THE PLANET CHASERS"
+    },
+    {
+      "id": "PERSON IN LINE 1"
+    },
+    {
+      "id": "PERSON IN LINE 2"
+    },
+    {
+      "id": "PERSON IN LINE 3"
+    },
+    {
+      "id": "PERSON IN LINE 4"
+    },
+    {
+      "id": "PASSERBY"
+    },
+    {
+      "id": "VOICE"
+    },
+    {
+      "id": "DARTHON"
+    },
+    {
+      "id": "ICEDROM"
+    },
+    {
+      "id": "IGBIR"
+    },
+    {
+      "id": "GENTLEMEN"
+    },
+    {
+      "id": "GENTLEMAN"
+    },
+    {
+      "id": "BELLHOP"
+    },
+    {
+      "id": "LADY"
+    },
+    {
+      "id": "EMPLOYEE"
+    },
+    {
+      "id": "BRITISH TAXI"
+    },
+    {
+      "id": "FISTS"
+    },
+    {
+      "id": "GANGSTER"
+    },
+    {
+      "id": "BRITISH PEOPLE"
+    },
+    {
+      "id": "EVIL VOICE"
+    },
+    {
+      "id": "GUY"
+    },
+    {
+      "id": "WEDGIE NINJA"
+    },
+    {
+      "id": "WARDEN OF THE INTERNET"
+    },
+    {
+      "id": "( SCREEN GOES TO A VHS OF LIBRARIA"
+    },
+    {
+      "id": "MOVIE SHACK HUT EMPLOYEE"
+    },
+    {
+      "id": "ZOMBIE SLAYER"
+    },
+    {
+      "id": "KID 1"
+    },
+    {
+      "id": "KID 2"
+    },
+    {
+      "id": "MANAGER"
+    },
+    {
+      "id": "JACK FARLEY"
+    },
+    {
+      "id": "DUDE"
+    },
+    {
+      "id": "HEAD"
+    },
+    {
+      "id": "GBF"
+    },
+    {
+      "id": "GIRL IN TRAILER"
+    },
+    {
+      "id": "FATHER TIME"
+    },
+    {
+      "id": "CARREY O 'KEY"
+    },
+    {
+      "id": "CARREY O' KEY"
+    },
+    {
+      "id": "WAITER"
+    },
+    {
+      "id": "CARL"
+    },
+    {
+      "id": "WORKER"
+    },
+    {
+      "id": "TEACHER"
+    },
+    {
+      "id": "COMPUTER VOICE"
+    },
+    {
+      "id": "HI FIVES"
+    },
+    {
+      "id": "STARLA"
+    },
+    {
+      "id": "(A MONTAGE BEGINS"
+    },
+    {
+      "id": "CHANNEL 6 NEWS HELICOPTER REPORTER"
+    },
+    {
+      "id": "TACO GUY"
+    },
+    {
+      "id": "POLICE OFFICER"
+    },
+    {
+      "id": "BOBBY"
+    },
+    {
+      "id": "MUSCLE BRO"
+    },
+    {
+      "id": "DOCTOR"
+    },
+    {
+      "id": "FATHER"
+    },
+    {
+      "id": "OTHER ANNOUNCER"
+    },
+    {
+      "id": "DEATH"
+    },
+    {
+      "id": "REFEREE"
+    },
+    {
+      "id": "GUEST 1"
+    },
+    {
+      "id": "PARTY PETE"
+    },
+    {
+      "id": "PARTY GUESTS"
+    },
+    {
+      "id": "PARTY PETE GUEST"
+    },
+    {
+      "id": "CENTAUR 1"
+    },
+    {
+      "id": "GUEST ON FIRE"
+    },
+    {
+      "id": "RANDOM GUEST"
+    },
+    {
+      "id": "CENTAUR LEADER"
+    },
+    {
+      "id": "UNIDENTIFIED CENTAUR"
+    },
+    {
+      "id": "INFOMERCIAL VO"
+    },
+    {
+      "id": "PHONE OPERATOR"
+    },
+    {
+      "id": "POP\u200bS"
+    },
+    {
+      "id": "PEEPS EYEBALL"
+    },
+    {
+      "id": "BOTH"
+    },
+    {
+      "id": "THE HAMMER"
+    },
+    {
+      "id": "MAN 1"
+    },
+    {
+      "id": "MAN 2"
+    },
+    {
+      "id": "COP"
+    },
+    {
+      "id": "TV ANNOUNCER"
+    },
+    {
+      "id": "(THE CLOCK FADES FROM 7"
+    },
+    {
+      "id": "MANAGER 1"
+    },
+    {
+      "id": "MANAGER 2"
+    },
+    {
+      "id": "FOUR ARMAGEDDON"
+    },
+    {
+      "id": "HUGE HEAD"
+    },
+    {
+      "id": "LO FIVE GHOST"
+    },
+    {
+      "id": "PPP"
+    },
+    {
+      "id": "HI FIVE GHOST'S FATHER"
+    },
+    {
+      "id": "SKUNK"
+    },
+    {
+      "id": "EX SKUNK HUMAN"
+    },
+    {
+      "id": "EXPLOSIVES GUY"
+    },
+    {
+      "id": "PARROT"
+    },
+    {
+      "id": "MUSCULAR REDNECK"
+    },
+    {
+      "id": "DOUG"
+    },
+    {
+      "id": "CUSTOMER"
+    },
+    {
+      "id": "RIGBY #1"
+    },
+    {
+      "id": "RIGBY #2"
+    },
+    {
+      "id": "BOTH RIGBYS"
+    },
+    {
+      "id": "VIDEO GAME"
+    },
+    {
+      "id": "RIGBY#1"
+    },
+    {
+      "id": "DETECTIVE"
+    },
+    {
+      "id": "POLICEMAN"
+    },
+    {
+      "id": "THE NIGHT OWL"
+    },
+    {
+      "id": "THE PERSON"
+    },
+    {
+      "id": "W.H.O.Z. WORKER"
+    },
+    {
+      "id": "SECURITY GUARD"
+    },
+    {
+      "id": "PAST NIGHT OWL"
+    },
+    {
+      "id": "PAST MORDECAI"
+    },
+    {
+      "id": "SINGER"
+    },
+    {
+      "id": "ELIEEN"
+    },
+    {
+      "id": "GRAFFITI GUY"
+    },
+    {
+      "id": "CLUB BOUNCER"
+    },
+    {
+      "id": "GIRL IN LINE"
+    },
+    {
+      "id": "PARTY CLUB MAN"
+    },
+    {
+      "id": "MALE CLUB MEMBER"
+    },
+    {
+      "id": "MULTIPLE CLUB MEMBERS"
+    },
+    {
+      "id": "LADONNA"
+    },
+    {
+      "id": "LAFAYETTE"
+    },
+    {
+      "id": "PAST RIGBY"
+    },
+    {
+      "id": "ALL"
+    },
+    {
+      "id": "PAST MARGARET"
+    },
+    {
+      "id": "VENDOR"
+    },
+    {
+      "id": "PAST MORDECAI 2"
+    },
+    {
+      "id": "BUTT CHIN BLONDE"
+    },
+    {
+      "id": "ASIAN BLONDE"
+    },
+    {
+      "id": "BLONDE"
+    },
+    {
+      "id": "BLACK BLONDE"
+    },
+    {
+      "id": "BLONDES"
+    },
+    {
+      "id": "CYCLOPS"
+    },
+    {
+      "id": "BIGGS"
+    },
+    {
+      "id": "HILLBILLY"
+    },
+    {
+      "id": "CART DEALERSHIP EMPLOYEE # 1"
+    },
+    {
+      "id": "CART DEALERSHIP EMPLOYEE # 2"
+    },
+    {
+      "id": "BOTH EMPLOYEES"
+    },
+    {
+      "id": "OPERATOR"
+    },
+    {
+      "id": "TELEPHONE OPERATOR"
+    },
+    {
+      "id": "ANSWERING MACHINE"
+    },
+    {
+      "id": "SMOKE SIGNAL"
+    },
+    {
+      "id": "SPOOL OF THREAD"
+    },
+    {
+      "id": "WEATHER GIRL"
+    },
+    {
+      "id": "PARK RANGER"
+    },
+    {
+      "id": "DEER"
+    },
+    {
+      "id": "STAG MAN"
+    },
+    {
+      "id": "NATIONAL FOREST EMPLOYEE"
+    },
+    {
+      "id": "MEN"
+    },
+    {
+      "id": "JUDGE BROSEPH CHILLAXTON"
+    },
+    {
+      "id": "PROSECUTOR"
+    },
+    {
+      "id": "DAS COOLEST EMPLOYEE"
+    },
+    {
+      "id": "COURT STENOGRAPHER"
+    },
+    {
+      "id": "COP 1"
+    },
+    {
+      "id": "COP 2"
+    },
+    {
+      "id": "BLONDE GIRL"
+    },
+    {
+      "id": "SCABITHA"
+    },
+    {
+      "id": "TRASH"
+    },
+    {
+      "id": "CHAD IRONCHEST"
+    },
+    {
+      "id": "TUCK PACKERD"
+    },
+    {
+      "id": "CHAD"
+    },
+    {
+      "id": "GIRL #1"
+    },
+    {
+      "id": "BLOODSHED"
+    },
+    {
+      "id": "MANSLAUGHTER"
+    },
+    {
+      "id": "TV"
+    },
+    {
+      "id": "YOUNG PILOT"
+    },
+    {
+      "id": "DEATH'S WIFE"
+    },
+    {
+      "id": "THOMAS"
+    },
+    {
+      "id": "MARGARE T"
+    },
+    {
+      "id": "ANIMAL CONTROL OPERATOR"
+    },
+    {
+      "id": "ANIMAL CONTROL OFFICER #1"
+    },
+    {
+      "id": "ANIMAL CONTROL OFFICER #2"
+    },
+    {
+      "id": "MANETTI"
+    },
+    {
+      "id": "EASTON"
+    },
+    {
+      "id": "NARRATOR"
+    },
+    {
+      "id": "PARAMEDIC #1"
+    },
+    {
+      "id": "KNIGHT"
+    },
+    {
+      "id": "MAITRE'D"
+    },
+    {
+      "id": "HERB"
+    },
+    {
+      "id": "ROSE"
+    },
+    {
+      "id": "(HE OPENS THE BOOK ON PAGE TITLED"
+    },
+    {
+      "id": "REGINALD"
+    },
+    {
+      "id": "KLORGBANE"
+    },
+    {
+      "id": "ARCHIBALD"
+    },
+    {
+      "id": "GUARDIAN"
+    },
+    {
+      "id": "WAITRESS"
+    },
+    {
+      "id": "BUS DRIVER"
+    },
+    {
+      "id": "THUG #1"
+    },
+    {
+      "id": "DANTE"
+    },
+    {
+      "id": "JANITOR"
+    },
+    {
+      "id": "WARLOCK"
+    },
+    {
+      "id": "DIEGO MONTEZ"
+    },
+    {
+      "id": "BEAR ROBOT"
+    },
+    {
+      "id": "DUCK ROBOT"
+    },
+    {
+      "id": "LOUIE"
+    },
+    {
+      "id": "FBI AGENT"
+    },
+    {
+      "id": "PILOT"
+    },
+    {
+      "id": "FBI SNIPER"
+    },
+    {
+      "id": "TEXT"
+    },
+    {
+      "id": "FILBERT"
+    },
+    {
+      "id": "MULLIGAN"
+    },
+    {
+      "id": "HFG"
+    },
+    {
+      "id": "NO RULES MAN"
+    },
+    {
+      "id": "PRANK CALLER"
+    },
+    {
+      "id": "OLD MORDECAI"
+    },
+    {
+      "id": "UNICORN 1"
+    },
+    {
+      "id": "UNICORN 2"
+    },
+    {
+      "id": "(BENSON WATCHES HIS WRISTWATCH GO TO 8"
+    },
+    {
+      "id": "(BENSON'S WATCH SHOWS 4"
+    },
+    {
+      "id": "SMARTEN KARTEN"
+    },
+    {
+      "id": "CART"
+    },
+    {
+      "id": "HOOLIGAN 1"
+    },
+    {
+      "id": "OWNER"
+    },
+    {
+      "id": "PUPPIES MAN"
+    },
+    {
+      "id": "KITTENS MAN"
+    },
+    {
+      "id": "HOOLIGAN 2"
+    },
+    {
+      "id": "HOOLIGAN 3"
+    },
+    {
+      "id": "HOOLIGAN 4"
+    },
+    {
+      "id": "PARAMEDIC #2"
+    },
+    {
+      "id": "GENE"
+    },
+    {
+      "id": "WARTIME BENSON"
+    },
+    {
+      "id": "WARTIME MUSCLE MAN"
+    },
+    {
+      "id": "EAST PINES EMPLOYEE"
+    },
+    {
+      "id": "ALPHA DOG"
+    },
+    {
+      "id": "CREWCREW"
+    },
+    {
+      "id": "BIG TROUBLE"
+    },
+    {
+      "id": "BLITZ COMET"
+    },
+    {
+      "id": "EVERYONE AT THE SNACK BAR"
+    },
+    {
+      "id": "FRANCOIS"
+    },
+    {
+      "id": "DEMEL ISHUN"
+    },
+    {
+      "id": "JEREMY"
+    },
+    {
+      "id": "PIZZA DELIVERY MAN"
+    },
+    {
+      "id": "PURPLE LAKE MONSTER"
+    },
+    {
+      "id": "BROWN LAKE MONSTER"
+    },
+    {
+      "id": "PARTYGOER"
+    },
+    {
+      "id": "BOWLING MANAGER"
+    },
+    {
+      "id": "PARK STRIKERS"
+    },
+    {
+      "id": "PHOTOGRAPHER"
+    },
+    {
+      "id": "EMPLOYEE 1"
+    },
+    {
+      "id": "EMPLOYEE 2"
+    },
+    {
+      "id": "TECHMO"
+    },
+    {
+      "id": "DOOM MA GEDDON"
+    },
+    {
+      "id": "CHONG"
+    },
+    {
+      "id": "FLASHBACK BENSON"
+    },
+    {
+      "id": "DAVE"
+    },
+    {
+      "id": "PERCY"
+    },
+    {
+      "id": "SCOTTIE"
+    },
+    {
+      "id": "HEROLD"
+    },
+    {
+      "id": "NIGEL"
+    },
+    {
+      "id": "ARCHIE"
+    },
+    {
+      "id": "CROWD"
+    },
+    {
+      "id": "CANDY GIVER"
+    },
+    {
+      "id": "FAKE CHILDREN"
+    },
+    {
+      "id": "HALLOWEEN WIZARD"
+    },
+    {
+      "id": "ALL OF THE GUYS"
+    },
+    {
+      "id": "AJAY"
+    },
+    {
+      "id": "HOLOGRAM MORDECAI"
+    },
+    {
+      "id": "HOLOGRAM RIGBY"
+    },
+    {
+      "id": "MOVIE SHACK HUT EMPLYEE"
+    },
+    {
+      "id": "BUTTONWILLOW MCBUTTONWILLOW"
+    },
+    {
+      "id": "FITCH"
+    },
+    {
+      "id": "YOUNG BENSON"
+    },
+    {
+      "id": "BENSON'S FATHER"
+    },
+    {
+      "id": "BENSON'S DAD"
+    },
+    {
+      "id": "THE URGE"
+    },
+    {
+      "id": "TRASH BOAT"
+    },
+    {
+      "id": "BUTT CHEEKS"
+    },
+    {
+      "id": "CHUBBY GUY"
+    },
+    {
+      "id": "DUNCAN FLEX"
+    },
+    {
+      "id": "VELVET OVERKILL"
+    },
+    {
+      "id": "CROCODILE DEATHSPIN"
+    },
+    {
+      "id": "MUSICIAN"
+    },
+    {
+      "id": "MUSCLE MAN \u200b"
+    },
+    {
+      "id": "MUSCLE DAD"
+    },
+    {
+      "id": "YOUNG MUSCLE MAN"
+    },
+    {
+      "id": "TRUCKER BUDDY"
+    },
+    {
+      "id": "TEEN JOHN"
+    },
+    {
+      "id": "TEEN MUSCLE MAN"
+    },
+    {
+      "id": "BEAR DOG"
+    },
+    {
+      "id": "BEAR CAT"
+    },
+    {
+      "id": "TEENAGER"
+    },
+    {
+      "id": "GUARD #1"
+    },
+    {
+      "id": "GUARD #2"
+    },
+    {
+      "id": "BERG"
+    },
+    {
+      "id": "GHOSTS"
+    },
+    {
+      "id": "MIC ANNOUNCER"
+    },
+    {
+      "id": "PERSON"
+    },
+    {
+      "id": "PARK AVENUE"
+    },
+    {
+      "id": "MORDECA I"
+    },
+    {
+      "id": "VOICEOVER"
+    },
+    {
+      "id": "BOY"
+    },
+    {
+      "id": "TEENAGE BOY"
+    },
+    {
+      "id": "MOREDCAI"
+    },
+    {
+      "id": "GAME"
+    },
+    {
+      "id": "GIANT MAXIMUM GLOVE"
+    },
+    {
+      "id": "AUDREY"
+    },
+    {
+      "id": "CHUCK"
+    },
+    {
+      "id": "BLONDE WOMAN"
+    },
+    {
+      "id": "CANARY GIRL"
+    },
+    {
+      "id": "BLACK HAIR WOMAN"
+    },
+    {
+      "id": "FLAMINGO WOMAN"
+    },
+    {
+      "id": "SMART WOMAN"
+    },
+    {
+      "id": "CJ"
+    },
+    {
+      "id": "CJ'S FRIEND'S"
+    },
+    {
+      "id": "JOHN"
+    },
+    {
+      "id": "ROBOT IN MOVIE"
+    },
+    {
+      "id": "OGGY"
+    },
+    {
+      "id": "GUNNER"
+    },
+    {
+      "id": "HAIR TO THE THRONE"
+    },
+    {
+      "id": "AUDIENCE MEMBER"
+    },
+    {
+      "id": "PARK MEMBERS"
+    },
+    {
+      "id": "BABY DUCK 1"
+    },
+    {
+      "id": "BABY DUCK 2"
+    },
+    {
+      "id": "BABY DUCK 3"
+    },
+    {
+      "id": "BABY DUCK 4"
+    },
+    {
+      "id": "GOOSE"
+    },
+    {
+      "id": "GOOSE MONSTER"
+    },
+    {
+      "id": "DUCK MAN"
+    },
+    {
+      "id": "ACE BALTHAZAR"
+    },
+    {
+      "id": "RICKY GRANT"
+    },
+    {
+      "id": "JOHN MOORE"
+    },
+    {
+      "id": "AT RV"
+    },
+    {
+      "id": "ADRENALINE"
+    },
+    {
+      "id": "PIERCE FESNER"
+    },
+    {
+      "id": "FAT MAN"
+    },
+    {
+      "id": "SIR GABLETHORP"
+    },
+    {
+      "id": "RICKY"
+    },
+    {
+      "id": "PIERCE"
+    },
+    {
+      "id": "JENKINS"
+    },
+    {
+      "id": "ACE"
+    },
+    {
+      "id": "INTERVIEWER"
+    },
+    {
+      "id": "ACE BATHAZAR"
+    },
+    {
+      "id": "EGGSCELLENT KNIGHT"
+    },
+    {
+      "id": "TONY"
+    },
+    {
+      "id": "DJ"
+    },
+    {
+      "id": "GUY #1"
+    },
+    {
+      "id": "GUY #2"
+    },
+    {
+      "id": "GIRL"
+    },
+    {
+      "id": "GIRL SKATERS"
+    },
+    {
+      "id": "BOY SKATER"
+    },
+    {
+      "id": "GIRL #2"
+    },
+    {
+      "id": "GHOST MOOSE"
+    },
+    {
+      "id": "SAMMY"
+    },
+    {
+      "id": "BRIGGS"
+    },
+    {
+      "id": "CARTER"
+    },
+    {
+      "id": "DAVIS"
+    },
+    {
+      "id": "ANNOUNCER ON THE TV"
+    },
+    {
+      "id": "BRIGGS POSER"
+    },
+    {
+      "id": "CARTER POSER"
+    },
+    {
+      "id": "CAVEMAN"
+    },
+    {
+      "id": "GREGG"
+    },
+    {
+      "id": "DIANE"
+    },
+    {
+      "id": "ANIMAL CONTROL OFFICER"
+    },
+    {
+      "id": "CASHIER"
+    },
+    {
+      "id": "DR. HENRY"
+    },
+    {
+      "id": "GOAT"
+    },
+    {
+      "id": "THOMAS'S CONSCIOUSNESS"
+    },
+    {
+      "id": "COOL CUBED"
+    },
+    {
+      "id": "ROGER"
+    },
+    {
+      "id": "COUNTRY CLUB LEADER"
+    },
+    {
+      "id": "MALE MEMBER 2"
+    },
+    {
+      "id": "FEMALE MEMBER 1"
+    },
+    {
+      "id": "FEMALE MEMBER 2"
+    },
+    {
+      "id": "COUNTRY CLUB MEMBERS"
+    },
+    {
+      "id": "SECURITY GUARD 1"
+    },
+    {
+      "id": "SECURITY GUARD 2"
+    },
+    {
+      "id": "GATE GUARD"
+    },
+    {
+      "id": "JOCKEY"
+    },
+    {
+      "id": "SUBMARINE DIVER"
+    },
+    {
+      "id": "TENNIS PLAYER"
+    },
+    {
+      "id": "BUCKTOOTH BOB"
+    },
+    {
+      "id": "MAN IN MOVIE"
+    },
+    {
+      "id": "???"
+    },
+    {
+      "id": "GBF JR"
+    },
+    {
+      "id": "GBF SR"
+    },
+    {
+      "id": "EVERYONE EXCEPT SKIPS"
+    },
+    {
+      "id": "SUMMERTIME SONG"
+    },
+    {
+      "id": "SUPER DUCK"
+    },
+    {
+      "id": "BLONDE MAN"
+    },
+    {
+      "id": "DENISE"
+    },
+    {
+      "id": "FRANK"
+    },
+    {
+      "id": "DARRELL"
+    },
+    {
+      "id": "FRED"
+    },
+    {
+      "id": "HECTOR"
+    },
+    {
+      "id": "ARMANDO"
+    },
+    {
+      "id": "SPECTATOR #1"
+    },
+    {
+      "id": "SPECTATOR #2"
+    },
+    {
+      "id": "EL DIABLO"
+    },
+    {
+      "id": "ANNOUNCERBOT"
+    },
+    {
+      "id": "SHINEHARA"
+    },
+    {
+      "id": "AUDIENCE"
+    },
+    {
+      "id": "CLIVE"
+    },
+    {
+      "id": "ANNONCERBOT"
+    },
+    {
+      "id": "(TIMECARD"
+    },
+    {
+      "id": "REPORTER"
+    },
+    {
+      "id": "CONTESTANT"
+    },
+    {
+      "id": "MYSTERY PRIZE BOX"
+    },
+    {
+      "id": "? ALL"
+    },
+    {
+      "id": "? MORDECAI"
+    },
+    {
+      "id": "PIZZA GUY"
+    },
+    {
+      "id": "TOUGH GUY"
+    },
+    {
+      "id": "RUSSELL"
+    },
+    {
+      "id": "OTHER GUY 1"
+    },
+    {
+      "id": "OTHER GUY 2"
+    },
+    {
+      "id": "OTHER GUY 3"
+    },
+    {
+      "id": "OTHER GUY 4"
+    },
+    {
+      "id": "OTHER GUY"
+    },
+    {
+      "id": "PARAMEDIC"
+    },
+    {
+      "id": "PHONE MONITOR"
+    },
+    {
+      "id": "SPANISH/LATIN PHONE MONITOR"
+    },
+    {
+      "id": "SPEAKER"
+    },
+    {
+      "id": "DONNY G"
+    },
+    {
+      "id": "PAST DONNY G"
+    },
+    {
+      "id": "K.I.L.I.T. DJ 3000"
+    },
+    {
+      "id": "K.I.L.I.T DJ 3000"
+    },
+    {
+      "id": "MARTY"
+    },
+    {
+      "id": "MAN IN THE BLUE SUIT"
+    },
+    {
+      "id": "GUARDIAN OF THE FRIEND ZONE"
+    },
+    {
+      "id": "MAN ON ADVERTISEMENT"
+    },
+    {
+      "id": "PARTY PEOPLE"
+    },
+    {
+      "id": "PARTY BENSON"
+    },
+    {
+      "id": "LOGO VOICE"
+    },
+    {
+      "id": "VINCE"
+    },
+    {
+      "id": "TOMMY"
+    },
+    {
+      "id": "PARTY GIRL 1"
+    },
+    {
+      "id": "PARTY PETE CLONE"
+    },
+    {
+      "id": "PARTY ZOE"
+    },
+    {
+      "id": "PARTY ROBERT"
+    },
+    {
+      "id": "GUARD"
+    },
+    {
+      "id": "PARTY PETE'S CLONE"
+    },
+    {
+      "id": "POLICEMAN W/MOUSTACHE"
+    },
+    {
+      "id": "BLONDE POLICEMAN"
+    },
+    {
+      "id": "BIG CHINNED POLICEMAN"
+    },
+    {
+      "id": "NEWSSTAND GUY"
+    },
+    {
+      "id": "LEE"
+    },
+    {
+      "id": "NATE"
+    },
+    {
+      "id": "WICKET LEADER"
+    },
+    {
+      "id": "BARRANCA"
+    },
+    {
+      "id": "THOMPSON"
+    },
+    {
+      "id": "THE WICKETS"
+    },
+    {
+      "id": "GASTON"
+    },
+    {
+      "id": "RAYMOND"
+    },
+    {
+      "id": "THE WICKETS LEADER"
+    },
+    {
+      "id": "TAMBRYA"
+    },
+    {
+      "id": "AIRPORT LADY"
+    },
+    {
+      "id": "PROMISE PIE"
+    },
+    {
+      "id": "QUIPS"
+    },
+    {
+      "id": "QUIPS PHOTO #1"
+    },
+    {
+      "id": "QUIPS PHOTO #2"
+    },
+    {
+      "id": "QUIPS PHOTO #3"
+    },
+    {
+      "id": "QUIPS PHOTO #4"
+    },
+    {
+      "id": "TEMPLE GUARD"
+    },
+    {
+      "id": "GUARDS"
+    },
+    {
+      "id": "GRAND MASTER"
+    },
+    {
+      "id": "STRESS MACHINE"
+    },
+    {
+      "id": "PHARMACIST"
+    },
+    {
+      "id": "ANA"
+    },
+    {
+      "id": "HUGGSTABLE #1"
+    },
+    {
+      "id": "ROBBER"
+    },
+    {
+      "id": "HUGGSTABLES #2"
+    },
+    {
+      "id": "ALL HUGGSTABLES"
+    },
+    {
+      "id": "HUGGSTABLE #3"
+    },
+    {
+      "id": "HUGGSTABLE #4"
+    },
+    {
+      "id": "HUGGSTABLE #2"
+    },
+    {
+      "id": "FIVE HUGGSTABLES"
+    },
+    {
+      "id": "HUGGSTABLE LEADER"
+    },
+    {
+      "id": "T HOMAS"
+    },
+    {
+      "id": "ACTOR"
+    },
+    {
+      "id": "KEITH"
+    },
+    {
+      "id": "R IGBY"
+    },
+    {
+      "id": "RECEPTIONIST"
+    },
+    {
+      "id": "MORELLI"
+    },
+    {
+      "id": "KESSLER"
+    },
+    {
+      "id": "MALE COP"
+    },
+    {
+      "id": "THE PARK GANG"
+    },
+    {
+      "id": "SUSPECT"
+    },
+    {
+      "id": "MALE OFFICER"
+    },
+    {
+      "id": "BEAR"
+    },
+    {
+      "id": "AMADEUS"
+    },
+    {
+      "id": "JESSIE"
+    },
+    {
+      "id": "CLUB BOUNCER 1"
+    },
+    {
+      "id": "CLUB BOUNCER 2"
+    },
+    {
+      "id": "CLUB BOUNCER 3"
+    },
+    {
+      "id": "CLUB BOUNCER 4"
+    },
+    {
+      "id": "JOHNNY EMP'R'R"
+    },
+    {
+      "id": "DARYL"
+    },
+    {
+      "id": "COOL SHAD\u00c9"
+    },
+    {
+      "id": "EMPR\u2019R"
+    },
+    {
+      "id": "UNCLE STEVE"
+    },
+    {
+      "id": "TEENAGER 1"
+    },
+    {
+      "id": "TEENAGER 2"
+    },
+    {
+      "id": "PARTY GUY 1"
+    },
+    {
+      "id": "ALL PARTY PEOPLE"
+    },
+    {
+      "id": "TOW TRUCK GUY"
+    },
+    {
+      "id": "JAN"
+    },
+    {
+      "id": "DELIVERY GUY"
+    },
+    {
+      "id": "TELEVISION CEO"
+    },
+    {
+      "id": "RGB2"
+    },
+    {
+      "id": "DAD"
+    },
+    {
+      "id": "FANS"
+    },
+    {
+      "id": "MALE RGB2 FAN"
+    },
+    {
+      "id": "EXECUTIVE #1"
+    },
+    {
+      "id": "CEO"
+    },
+    {
+      "id": "MAGICIAN"
+    },
+    {
+      "id": "DRIVER"
+    },
+    {
+      "id": "LADY FAN"
+    },
+    {
+      "id": "SANTA"
+    },
+    {
+      "id": "QUILLGIN"
+    },
+    {
+      "id": "MAELLARD"
+    },
+    {
+      "id": "SANTA CLAUS"
+    },
+    {
+      "id": "EAST PINES WORKER"
+    },
+    {
+      "id": "LARRY"
+    },
+    {
+      "id": "ALL PARK MEMBERS"
+    },
+    {
+      "id": "TIMMY"
+    },
+    {
+      "id": "SP"
+    },
+    {
+      "id": "LP"
+    },
+    {
+      "id": "LIBRARIAN"
+    },
+    {
+      "id": "LIBRARY"
+    },
+    {
+      "id": "BETAMAX"
+    },
+    {
+      "id": "8 TRACK"
+    },
+    {
+      "id": "FLOPPY DISK"
+    },
+    {
+      "id": "REEL TO REEL"
+    },
+    {
+      "id": "ANCIENT ORDER MEMBER"
+    },
+    {
+      "id": "VC ARBITRATOR"
+    },
+    {
+      "id": "GUARDIANS OF OBSOLETE FORMATS"
+    },
+    {
+      "id": "ACTOR 1"
+    },
+    {
+      "id": "ACTOR 2"
+    },
+    {
+      "id": "MAN IN THE MOVIE"
+    },
+    {
+      "id": "WOMAN IN THE MOVIE"
+    },
+    {
+      "id": "STARLA AS CHICKEN WING"
+    },
+    {
+      "id": "STARLA AS MOP"
+    },
+    {
+      "id": "STARLA AS WATERMELON"
+    },
+    {
+      "id": "STARLA AS CLOUD"
+    },
+    {
+      "id": "STARLA AS LAMP"
+    },
+    {
+      "id": "STARLA AS BOWLING BALL"
+    },
+    {
+      "id": "STARLA'S VOICE"
+    },
+    {
+      "id": "EVERYONE EXCEPT MUSCLE MAN"
+    },
+    {
+      "id": "HEALTH INSPECTOR"
+    },
+    {
+      "id": "MUSICLE MAN"
+    },
+    {
+      "id": "ASSISTANT"
+    },
+    {
+      "id": "FRANK JONES"
+    },
+    {
+      "id": "PARK WORKERS"
+    },
+    {
+      "id": "BOSS 1"
+    },
+    {
+      "id": "BOSS 2"
+    },
+    {
+      "id": "BOSS 3"
+    },
+    {
+      "id": "DELIVERY MAN"
+    },
+    {
+      "id": "EVERYBODY"
+    },
+    {
+      "id": "ROGERS"
+    },
+    {
+      "id": "WALKS"
+    },
+    {
+      "id": "SAMSON"
+    },
+    {
+      "id": "CAR VOICE"
+    },
+    {
+      "id": "WING KINGDOM MANAGER"
+    },
+    {
+      "id": "GUYS"
+    },
+    {
+      "id": "KID #1"
+    },
+    {
+      "id": "KID #2"
+    },
+    {
+      "id": "WING KINDOM MANAGER"
+    },
+    {
+      "id": "GUY #3"
+    },
+    {
+      "id": "ZINGOS"
+    },
+    {
+      "id": "ZINGO #1"
+    },
+    {
+      "id": "MONICA"
+    },
+    {
+      "id": "PAINT MANAGER"
+    },
+    {
+      "id": "BENNY"
+    },
+    {
+      "id": "BENSON BUTT SLIDE"
+    },
+    {
+      "id": "BENSON FACE SLIDE"
+    },
+    {
+      "id": "BENSON BIG HAND SLIDE"
+    },
+    {
+      "id": "BENSON BLOB SLIDE"
+    },
+    {
+      "id": "HOST"
+    },
+    {
+      "id": "CASH BANKIS"
+    },
+    {
+      "id": "TWO GUYS"
+    },
+    {
+      "id": "GOD OF BASKETBALL"
+    },
+    {
+      "id": "MOVIE BOY"
+    },
+    {
+      "id": "MOVIE GIRL"
+    },
+    {
+      "id": "OFFICER"
+    },
+    {
+      "id": "JACK"
+    },
+    {
+      "id": "VICKI"
+    },
+    {
+      "id": "ARMOND"
+    },
+    {
+      "id": "FEMALE OPERATOR"
+    },
+    {
+      "id": "SURFER #1"
+    },
+    {
+      "id": "DUKE"
+    },
+    {
+      "id": "SURFER #3"
+    },
+    {
+      "id": "SURFER #4"
+    },
+    {
+      "id": "HURL"
+    },
+    {
+      "id": "MURL"
+    },
+    {
+      "id": "BURL"
+    },
+    {
+      "id": "WAVY TRAIN GUY"
+    },
+    {
+      "id": "GROUNDSKEEPERS"
+    },
+    {
+      "id": "HUMPBACK WHALE"
+    },
+    {
+      "id": "EVERYONE ELSE"
+    },
+    {
+      "id": "THUNDER GIRL MEMBER"
+    },
+    {
+      "id": "BALLERZ"
+    },
+    {
+      "id": "THUNDER GIRL MEMBER #2"
+    },
+    {
+      "id": "THUNDER GIRLS"
+    },
+    {
+      "id": "IDC #1"
+    },
+    {
+      "id": "IDC #2"
+    },
+    {
+      "id": "IDC #3"
+    },
+    {
+      "id": "IDC #4"
+    },
+    {
+      "id": "JIMBROS"
+    },
+    {
+      "id": "JIMBO"
+    },
+    {
+      "id": "JIM"
+    },
+    {
+      "id": "LOW FIVE GHOST"
+    },
+    {
+      "id": "COP #1"
+    },
+    {
+      "id": "COP #2"
+    },
+    {
+      "id": "BERT COLEMAN"
+    },
+    {
+      "id": "ANONYMOUS CREW MEMBER"
+    },
+    {
+      "id": "OLD MAN"
+    },
+    {
+      "id": "GAME ANNOUNCER"
+    },
+    {
+      "id": "CODY"
+    },
+    {
+      "id": "SHORT MAN"
+    },
+    {
+      "id": "KID"
+    },
+    {
+      "id": "BURT COLEMAN"
+    },
+    {
+      "id": "JOE"
+    },
+    {
+      "id": "ANONYMOUS"
+    },
+    {
+      "id": "TANGO"
+    },
+    {
+      "id": "STACHE"
+    },
+    {
+      "id": "SHERIFF"
+    },
+    {
+      "id": "BRUCE ROCK"
+    },
+    {
+      "id": "RONNIE"
+    },
+    {
+      "id": "NEWS REPORTER"
+    },
+    {
+      "id": "BOUNCER"
+    },
+    {
+      "id": "KID CRUNCHY Z"
+    },
+    {
+      "id": "YUJI"
+    },
+    {
+      "id": "TIN CANS WITH STRING"
+    },
+    {
+      "id": "SMOKE SIGNAL FIRE"
+    },
+    {
+      "id": "CARLOCK 1"
+    },
+    {
+      "id": "CARLOCK 2"
+    },
+    {
+      "id": "CARLOCK KING"
+    },
+    {
+      "id": "POSTMAN"
+    },
+    {
+      "id": "MARGARET'S SWEATER"
+    },
+    {
+      "id": "COLLEGE GUY 1"
+    },
+    {
+      "id": "COLLEGE GUY 2"
+    },
+    {
+      "id": "COLLEGE GUY 3"
+    },
+    {
+      "id": "COLLEGE GUY 4"
+    },
+    {
+      "id": "COLLEGE GIRL"
+    },
+    {
+      "id": "FUTURE PHONE"
+    },
+    {
+      "id": "TRACY"
+    },
+    {
+      "id": "(A MESSAGE SAYS"
+    },
+    {
+      "id": "STEALTH CO. AGENT"
+    },
+    {
+      "id": "CERBERUS MOM"
+    },
+    {
+      "id": "SERPENT DAD"
+    },
+    {
+      "id": "MINOTAUR"
+    },
+    {
+      "id": "HELICOPTER PILOT"
+    },
+    {
+      "id": "AUTOMATED SYSTEM"
+    },
+    {
+      "id": "GENERAL"
+    },
+    {
+      "id": "CORPORAL"
+    },
+    {
+      "id": "CORPORAL #2"
+    },
+    {
+      "id": "MORDECAI/GENERAL"
+    },
+    {
+      "id": "DALE"
+    },
+    {
+      "id": "MUSLCE MAN"
+    },
+    {
+      "id": "BODYBUILDER 1"
+    },
+    {
+      "id": "BODYBUILDERS"
+    },
+    {
+      "id": "BODYBUILDER 2"
+    },
+    {
+      "id": "BODYBUILDER 3"
+    },
+    {
+      "id": "CHAZ MCALLISTER"
+    },
+    {
+      "id": "CHAZ"
+    },
+    {
+      "id": "JUDGE"
+    },
+    {
+      "id": "JUDGE #3"
+    },
+    {
+      "id": "DENUNZIO"
+    },
+    {
+      "id": "CONCIERGE"
+    },
+    {
+      "id": "MATCHMAKER MCINTYRE"
+    },
+    {
+      "id": "MCINTYRE"
+    },
+    {
+      "id": "AUTO T."
+    },
+    {
+      "id": "BARBARA"
+    },
+    {
+      "id": "JUMPING JIM"
+    },
+    {
+      "id": "JUMPIN' JIM"
+    },
+    {
+      "id": "JOHNNY"
+    },
+    {
+      "id": "(SONG"
+    },
+    {
+      "id": "GARBAGE MAN #1"
+    },
+    {
+      "id": "MICKEY"
+    },
+    {
+      "id": "(THEN IT SHOWS \"ZOMBIES RETURN 2"
+    },
+    {
+      "id": "(THEN IT SHOWS \"ZOMBIES RETURN 3"
+    },
+    {
+      "id": "SILVER DUDE"
+    },
+    {
+      "id": "BOOM BOX"
+    },
+    {
+      "id": "GOD OF STREET PERFORMING"
+    },
+    {
+      "id": "\u266a RIGBY"
+    },
+    {
+      "id": "BOOMBOX"
+    },
+    {
+      "id": "LADY #1"
+    },
+    {
+      "id": "LADY #2"
+    },
+    {
+      "id": "LADY #3"
+    },
+    {
+      "id": "BOB"
+    },
+    {
+      "id": "SHEENA"
+    },
+    {
+      "id": "T SHIRT MAN"
+    },
+    {
+      "id": "FOUR LEGGED CREW MEMBER #1"
+    },
+    {
+      "id": "HEADMASTER BENNETT"
+    },
+    {
+      "id": "GARETH"
+    },
+    {
+      "id": "DRAMATIC STUDENT"
+    },
+    {
+      "id": "IMMORTAL STUDENT COUNCIL"
+    },
+    {
+      "id": "KLORGBANE THE DESTROYER"
+    },
+    {
+      "id": "BOSWALD"
+    },
+    {
+      "id": "MONA"
+    },
+    {
+      "id": "GRISWALD"
+    },
+    {
+      "id": "OSWALD"
+    },
+    {
+      "id": "DRAMA TEACHER"
+    },
+    {
+      "id": "LATIN TEACHER"
+    },
+    {
+      "id": "MONA'S DAD"
+    },
+    {
+      "id": "MONA'S MOM"
+    },
+    {
+      "id": "MODECAI"
+    },
+    {
+      "id": "FEMALE EMPLOYEE"
+    },
+    {
+      "id": "FEMALE CUSTOMER"
+    },
+    {
+      "id": "ALLEY LEADER"
+    },
+    {
+      "id": "MR MAELLARD"
+    },
+    {
+      "id": "SALESMAN"
+    },
+    {
+      "id": "TANTS CO. PRESIDENT"
+    },
+    {
+      "id": "TANTS SOLDIER #1"
+    },
+    {
+      "id": "MUD SPORTS FANS"
+    },
+    {
+      "id": "MC"
+    },
+    {
+      "id": "PEGGY"
+    },
+    {
+      "id": "PARK GANG"
+    },
+    {
+      "id": "JOHNNY ALLENWRENCH"
+    },
+    {
+      "id": "SCARECROW"
+    },
+    {
+      "id": "KID'S MOM"
+    },
+    {
+      "id": "PUMPKIN MUSCLE MEN"
+    },
+    {
+      "id": "PUMPKIN RIGBYS"
+    },
+    {
+      "id": "PUMPKIN HI FIVE GHOSTS"
+    },
+    {
+      "id": "JEBEDIAH TOWNHOUSE"
+    },
+    {
+      "id": "JEBEDIAH TOWNHOUSE #1"
+    },
+    {
+      "id": "JEBEDIAH TOWNHOUSE #2"
+    },
+    {
+      "id": "JEBEDIAH TOWNHOUSE #3"
+    },
+    {
+      "id": "BESNON"
+    },
+    {
+      "id": "JOHNNY CRASHER"
+    },
+    {
+      "id": "CELIA"
+    },
+    {
+      "id": "WES"
+    },
+    {
+      "id": "WESTLEY"
+    },
+    {
+      "id": "COMMENTATOR"
+    },
+    {
+      "id": "RICHARD"
+    },
+    {
+      "id": "COMMENTATOR BILL"
+    },
+    {
+      "id": "COMMENTATOR CHUCK"
+    },
+    {
+      "id": "(THE CHAIN OF EVENTS IS AS FOLLOWS"
+    },
+    {
+      "id": "FARMER JIMMY"
+    },
+    {
+      "id": "BILLIE"
+    },
+    {
+      "id": "BROCK"
+    },
+    {
+      "id": "PILGRIM"
+    },
+    {
+      "id": "INDIAN"
+    },
+    {
+      "id": "THANKSGIVING CHARACTERS"
+    },
+    {
+      "id": "RICH"
+    },
+    {
+      "id": "DUSTY B"
+    },
+    {
+      "id": "JENNIFER"
+    },
+    {
+      "id": "TWINS"
+    },
+    {
+      "id": "DUSTY B."
+    },
+    {
+      "id": "MORDECAI'S FATHER"
+    },
+    {
+      "id": "MORDECAI'S MOTHER"
+    },
+    {
+      "id": "RIGBY'S MOTHER"
+    },
+    {
+      "id": "RIGBY'S FATHER"
+    },
+    {
+      "id": "THOMAS'S MOM"
+    },
+    {
+      "id": "BENSON OVER WALKIE TALKIE"
+    },
+    {
+      "id": "OTHER EAST PINES WORKER"
+    },
+    {
+      "id": "JEFF"
+    },
+    {
+      "id": "INTERN"
+    },
+    {
+      "id": "GENE ON THOMAS' PHONE"
+    },
+    {
+      "id": "MR. MURPHY"
+    },
+    {
+      "id": "COMMERCIAL"
+    },
+    {
+      "id": "ROBBY"
+    },
+    {
+      "id": "JACKIE CARMICHAEL"
+    },
+    {
+      "id": "DEL HANLON"
+    },
+    {
+      "id": "RICH STEVE"
+    },
+    {
+      "id": "TAILOR"
+    },
+    {
+      "id": "SECOND GUARD"
+    },
+    {
+      "id": "SUIT"
+    },
+    {
+      "id": "HUMAN SHIELD #1"
+    },
+    {
+      "id": "NEW HUMAN SHIELD #1"
+    },
+    {
+      "id": "SOLDIER"
+    },
+    {
+      "id": "PARK GUYS"
+    },
+    {
+      "id": "PLAYCO BUSINESSMAN #1"
+    },
+    {
+      "id": "PLAYCO BUSINESSMAN #2"
+    },
+    {
+      "id": "COMMERCIAL VOICE"
+    },
+    {
+      "id": "CHILD VOICE #1"
+    },
+    {
+      "id": "CHILD VOICE #2"
+    },
+    {
+      "id": "TWO BOYS"
+    },
+    {
+      "id": "CASSOWARY"
+    },
+    {
+      "id": "A BABY DUCK"
+    },
+    {
+      "id": "ANOTHER BABY DUCK"
+    },
+    {
+      "id": "A GOOSE"
+    },
+    {
+      "id": "NEIL"
+    },
+    {
+      "id": "HYPERDUCK"
+    },
+    {
+      "id": "GOOSEOWARY X"
+    },
+    {
+      "id": "REST OF THE PARK CREW"
+    },
+    {
+      "id": "REST OF PARK CREW"
+    },
+    {
+      "id": "PARK CREW"
+    },
+    {
+      "id": "PLAYCO BUSINESSMEN"
+    },
+    {
+      "id": "ANDY"
+    },
+    {
+      "id": "PLAYCO TESTER"
+    },
+    {
+      "id": "SAMANTHA"
+    },
+    {
+      "id": "PLAYCO BUSINESSMAN"
+    },
+    {
+      "id": "PLAYCO BUSINESS MAN"
+    },
+    {
+      "id": "ANOTHER GOOSE"
+    },
+    {
+      "id": "GEESE"
+    },
+    {
+      "id": "CHEEZERS WAITER"
+    },
+    {
+      "id": "MASCOT"
+    },
+    {
+      "id": "CARL PUTTER"
+    },
+    {
+      "id": "CAR OWNER"
+    },
+    {
+      "id": "JERRY"
+    },
+    {
+      "id": "DR. MATTHEWS"
+    },
+    {
+      "id": "DR MATTHEWS"
+    },
+    {
+      "id": "DEATH KWON DO DOCTOR"
+    },
+    {
+      "id": "TONGUE DEPRESSOR INTERN"
+    },
+    {
+      "id": "BOSS"
+    },
+    {
+      "id": "RANDAL"
+    },
+    {
+      "id": "NURSE"
+    },
+    {
+      "id": "PATIENT"
+    },
+    {
+      "id": "JOANNE"
+    },
+    {
+      "id": "JOANNE'S VOICE"
+    },
+    {
+      "id": "GHOST LAWYER"
+    },
+    {
+      "id": "GRANDPA HANATRONIC"
+    },
+    {
+      "id": "PHIL"
+    },
+    {
+      "id": "GRUMPY OLD LADY"
+    },
+    {
+      "id": "BROWN HAIRED LADY"
+    },
+    {
+      "id": "ORANGE HAIRED GUY"
+    },
+    {
+      "id": "OLD GREY HAIRED MAN"
+    },
+    {
+      "id": "EVERYONE BUT BENSON"
+    },
+    {
+      "id": "MICROFICHE"
+    },
+    {
+      "id": "DVD"
+    },
+    {
+      "id": "INTERNET"
+    },
+    {
+      "id": "UNIVERSAL REMOTE"
+    },
+    {
+      "id": "ENIAC"
+    },
+    {
+      "id": "TECH SUPPORT"
+    },
+    {
+      "id": "AMPEX QUADRUPLEX"
+    },
+    {
+      "id": "STREAMING"
+    },
+    {
+      "id": "MAURY"
+    },
+    {
+      "id": "PETITION GUY"
+    },
+    {
+      "id": "BASKETBALL PLAYER"
+    },
+    {
+      "id": "FIREFIGHTER"
+    },
+    {
+      "id": "BOLT KEEPER"
+    },
+    {
+      "id": "TOILET KEEPER"
+    },
+    {
+      "id": "HORSE KNIGHT"
+    },
+    {
+      "id": "GARAGE DOOR SALESMAN"
+    },
+    {
+      "id": "GARAGE SALE DOORSMAN"
+    },
+    {
+      "id": "EMPLOYEES"
+    },
+    {
+      "id": "MALE EMPLOYEE"
+    },
+    {
+      "id": "CAKE CARTEL"
+    },
+    {
+      "id": "DINER EMPLOYEES"
+    },
+    {
+      "id": "SON"
+    },
+    {
+      "id": "MOTHER"
+    },
+    {
+      "id": "DINER EMPLOYEE"
+    },
+    {
+      "id": "SUNSHINE"
+    },
+    {
+      "id": "DARKNESS"
+    },
+    {
+      "id": "COLETTE"
+    },
+    {
+      "id": "JUDY"
+    },
+    {
+      "id": "YOUNG GAMER"
+    },
+    {
+      "id": "AXELROD"
+    },
+    {
+      "id": "HAPPY BIRTHDAY"
+    },
+    {
+      "id": "HAPPY BITTHDAY"
+    },
+    {
+      "id": "HAPPY BITHDAY"
+    },
+    {
+      "id": "RANDALL"
+    },
+    {
+      "id": "AUDIENCE MEMBER #1"
+    },
+    {
+      "id": "AUDIENCE MEMBER #2"
+    },
+    {
+      "id": "LAWYER"
+    },
+    {
+      "id": "STAN"
+    },
+    {
+      "id": "SECURITY GUY"
+    },
+    {
+      "id": "YOGA TEACHER"
+    },
+    {
+      "id": "NARRATOR ON TV"
+    },
+    {
+      "id": "YOUTH TOPIA EMPLOYEE"
+    },
+    {
+      "id": "HANK"
+    },
+    {
+      "id": "GLENN"
+    },
+    {
+      "id": "YOUTH TOPIA MEMBER"
+    },
+    {
+      "id": "BABY SEA TURTLE"
+    },
+    {
+      "id": "MANNY"
+    },
+    {
+      "id": "MURRAY"
+    },
+    {
+      "id": "VILLIAN"
+    },
+    {
+      "id": "COMMERCIAL ANNOUNCER"
+    },
+    {
+      "id": "SHERM"
+    },
+    {
+      "id": "AGENT 1"
+    },
+    {
+      "id": "AGENT 2"
+    },
+    {
+      "id": "RGB2 TOY"
+    },
+    {
+      "id": "MALE VOICE"
+    },
+    {
+      "id": "SANDWICH"
+    },
+    {
+      "id": "SANDWICH MONSTER"
+    },
+    {
+      "id": "KYLE GARRITY"
+    },
+    {
+      "id": "MAURICE"
+    },
+    {
+      "id": "CASTING DIRECTOR"
+    },
+    {
+      "id": "PUPPY FIANC\u00c9"
+    },
+    {
+      "id": "PUPPY FIANC\u00c9E"
+    },
+    {
+      "id": "ORPHAN FIANC\u00c9E"
+    },
+    {
+      "id": "TEDDY"
+    },
+    {
+      "id": "TINA"
+    },
+    {
+      "id": "AUDIENCE MEMBER 1"
+    },
+    {
+      "id": "AUDIENCE MEMBER 2"
+    },
+    {
+      "id": "AUDIENCE MEMBERS"
+    },
+    {
+      "id": "AUDIENCE MEMBER 3"
+    },
+    {
+      "id": "ALIEN ANT"
+    },
+    {
+      "id": "DAPHNE"
+    },
+    {
+      "id": "HILARY"
+    },
+    {
+      "id": "WILLIAM"
+    },
+    {
+      "id": "(TITLE CARD"
+    },
+    {
+      "id": "MORDECAI'S MOM"
+    },
+    {
+      "id": "\"SLIP 'N SLIDE\" MORDECAI"
+    },
+    {
+      "id": "\"PETER PAN\" MORDECAI"
+    },
+    {
+      "id": "BABY MORDECAI"
+    },
+    {
+      "id": "MARCHING BAND MORDECAI"
+    },
+    {
+      "id": "TAYLOR"
+    },
+    {
+      "id": "(THE LABEL SAYS \"CAUTION"
+    },
+    {
+      "id": "ANONYMOUS #1"
+    },
+    {
+      "id": "ANONYMOUS #2"
+    },
+    {
+      "id": "ANONYMOUS #3"
+    },
+    {
+      "id": "ANONYMOUS #4"
+    },
+    {
+      "id": "ANONYMOUS #5"
+    },
+    {
+      "id": "ANONYMOUS #6"
+    },
+    {
+      "id": "ANONYMOUS #7"
+    },
+    {
+      "id": "FEMALE HIPSTER"
+    },
+    {
+      "id": "MALE MODEL"
+    },
+    {
+      "id": "MALE HIPSTER"
+    },
+    {
+      "id": "BOGAN"
+    },
+    {
+      "id": "ASTRONAUT 1"
+    },
+    {
+      "id": "OUTBACK JOEY"
+    },
+    {
+      "id": "AUSTRALIAN NEWS REPORTER"
+    },
+    {
+      "id": "ANGUS"
+    },
+    {
+      "id": "MILES"
+    },
+    {
+      "id": "WEBER"
+    },
+    {
+      "id": "LUKE"
+    },
+    {
+      "id": "WALLY THARAH"
+    },
+    {
+      "id": "AUSTRALIAN TICKET COUNTER"
+    },
+    {
+      "id": "PRIME MINISTER"
+    },
+    {
+      "id": "AUSTRALIAN WOMAN"
+    },
+    {
+      "id": "AUSTRALIAN BODYGUARD"
+    },
+    {
+      "id": "ANGUS' HEAD"
+    },
+    {
+      "id": "RIGBY'S HEAD"
+    },
+    {
+      "id": "BURKE"
+    },
+    {
+      "id": "RUGBY PLAYERS"
+    },
+    {
+      "id": "AUSTRALIAN NEWS REPORTER #2"
+    },
+    {
+      "id": "MALE STUDENT 1"
+    },
+    {
+      "id": "MALE STUDENTS"
+    },
+    {
+      "id": "FEMALE STUDENT 1"
+    },
+    {
+      "id": "FEMALE STUDENT 2"
+    },
+    {
+      "id": "REGGIE"
+    },
+    {
+      "id": "FEMALE STUDENT 3"
+    },
+    {
+      "id": "MALE STUDENT"
+    },
+    {
+      "id": "LACEY"
+    },
+    {
+      "id": "LACEY'S FRIEND"
+    },
+    {
+      "id": "STUDENT 1"
+    },
+    {
+      "id": "STUDENT 2"
+    },
+    {
+      "id": "DEL"
+    },
+    {
+      "id": "CAMERAMAN"
+    },
+    {
+      "id": "RANDOM GUY"
+    },
+    {
+      "id": "REFEREE GUY"
+    },
+    {
+      "id": "MALE PARK MANAGER"
+    },
+    {
+      "id": "FEMALE PARK MANAGER"
+    },
+    {
+      "id": "MASKED GUY"
+    },
+    {
+      "id": "MASKED GUY 2"
+    },
+    {
+      "id": "STEFFEN"
+    },
+    {
+      "id": "GIMELLI"
+    },
+    {
+      "id": "PARTY HORSE 42699"
+    },
+    {
+      "id": "PRINCIPAL PARTY HORSE"
+    },
+    {
+      "id": "OTHER PARTY HORSES"
+    },
+    {
+      "id": "SAD SAD GUY"
+    },
+    {
+      "id": "SAD SAX GUY"
+    },
+    {
+      "id": "TELEGRAM GUY"
+    },
+    {
+      "id": "SAX SAX GUY"
+    },
+    {
+      "id": "CONSTRUCTION WORKERS"
+    },
+    {
+      "id": "ANOTHER CONSTRUCTION WORKER"
+    },
+    {
+      "id": "CONSTRUCTION WORKER"
+    },
+    {
+      "id": "OWL"
+    },
+    {
+      "id": "CONVICT"
+    },
+    {
+      "id": "TOLL BOOTH OPERATOR"
+    },
+    {
+      "id": "EXECUTIVE #2"
+    },
+    {
+      "id": "DALE SANDERS"
+    },
+    {
+      "id": "HELLEN"
+    },
+    {
+      "id": "FREDDY"
+    },
+    {
+      "id": "BARBER"
+    },
+    {
+      "id": "WYATT"
+    },
+    {
+      "id": "SCHOOLGIRL"
+    },
+    {
+      "id": "WEREWOLF"
+    },
+    {
+      "id": "KIMIKO"
+    },
+    {
+      "id": "SCHOOL GIRL VILLAIN"
+    },
+    {
+      "id": "FEMALE VOICE"
+    },
+    {
+      "id": "MUSCLE MOM"
+    },
+    {
+      "id": "CIA AGENT"
+    },
+    {
+      "id": "NATALIE"
+    },
+    {
+      "id": "RUSSIAN SPY #1"
+    },
+    {
+      "id": "RUSSIAN SPY #2"
+    },
+    {
+      "id": "NATALIA"
+    },
+    {
+      "id": "NIKOLAI"
+    },
+    {
+      "id": "FLASHBACK SKIPS"
+    },
+    {
+      "id": "FLASHBACK THOMAS/NIKOLAI"
+    },
+    {
+      "id": "THOMAS' MOM"
+    },
+    {
+      "id": "ANATOLY"
+    },
+    {
+      "id": "PRESIDENT DAVIS"
+    },
+    {
+      "id": "MCMURPHY"
+    },
+    {
+      "id": "PREMIER KOSHKOV"
+    },
+    {
+      "id": "COMMANDER"
+    },
+    {
+      "id": "PRIVATE"
+    },
+    {
+      "id": "CLIFTON"
+    },
+    {
+      "id": "KARPOV"
+    },
+    {
+      "id": "NAVY MEN"
+    },
+    {
+      "id": "OTHERS"
+    },
+    {
+      "id": "ALLEY ELF"
+    },
+    {
+      "id": "WHITE ELEPHANT"
+    },
+    {
+      "id": "POLICE OFFICER 1"
+    },
+    {
+      "id": "POLICE OFFICER 2"
+    },
+    {
+      "id": "MERV"
+    },
+    {
+      "id": "HARRY"
+    },
+    {
+      "id": "APPLESAUCE"
+    },
+    {
+      "id": "ARMED COP"
+    },
+    {
+      "id": "GAME WAVE EMPLOYEE"
+    },
+    {
+      "id": "ZAXON"
+    },
+    {
+      "id": "TENDINDO BOSS"
+    },
+    {
+      "id": "CGI MORDECAI"
+    },
+    {
+      "id": "CGI SKIPS"
+    },
+    {
+      "id": "AI VOICE"
+    },
+    {
+      "id": "ELECTRONIC VOICE"
+    },
+    {
+      "id": "GARBAGE MAN"
+    },
+    {
+      "id": "GATEKEEPER"
+    },
+    {
+      "id": "CORNY"
+    },
+    {
+      "id": "GARBAGE CREATURE"
+    },
+    {
+      "id": "TV PEOPLE"
+    },
+    {
+      "id": "MOUNTAIN CLIMBER"
+    },
+    {
+      "id": "BIRDS"
+    },
+    {
+      "id": "COWBOY"
+    },
+    {
+      "id": "LION"
+    },
+    {
+      "id": "ZEBRA"
+    },
+    {
+      "id": "BEE"
+    },
+    {
+      "id": "ZIGGY"
+    },
+    {
+      "id": "GARBAGE MONSTERS"
+    },
+    {
+      "id": "MAN IN VIDEO"
+    },
+    {
+      "id": "MASTERSON"
+    },
+    {
+      "id": "SECRETARY"
+    },
+    {
+      "id": "CAT MASTERSON"
+    },
+    {
+      "id": "PARK MANAGER #1"
+    },
+    {
+      "id": "PARK MANAGER #2"
+    },
+    {
+      "id": "JONNO"
+    },
+    {
+      "id": "(BEHIND JONNO IS HER ART PIECE"
+    },
+    {
+      "id": "LEADER"
+    },
+    {
+      "id": "WASP RIDER 3"
+    },
+    {
+      "id": "BIKER 3"
+    },
+    {
+      "id": "BIKER 2"
+    },
+    {
+      "id": "BIKER 1"
+    },
+    {
+      "id": "RANDY"
+    },
+    {
+      "id": "GIL"
+    },
+    {
+      "id": "CUBE BROS"
+    },
+    {
+      "id": "OFFICE DRONES"
+    },
+    {
+      "id": "TRENT"
+    },
+    {
+      "id": "TOBIAS"
+    },
+    {
+      "id": "RACHEL"
+    },
+    {
+      "id": "GUARD 1"
+    },
+    {
+      "id": "GUARD 2"
+    },
+    {
+      "id": "SCIENTISTS"
+    },
+    {
+      "id": "BILLY"
+    },
+    {
+      "id": "MARIA"
+    },
+    {
+      "id": "MAN IN ALLIGATOR SUIT"
+    },
+    {
+      "id": "PRESIDENT"
+    },
+    {
+      "id": "VHS EMPLOYEE"
+    },
+    {
+      "id": "DONUT FAN #1"
+    },
+    {
+      "id": "STEFFAN"
+    },
+    {
+      "id": "LAZY DAVE"
+    },
+    {
+      "id": "TAPE HUNTER"
+    },
+    {
+      "id": "DONUT FAN #2"
+    },
+    {
+      "id": "SAD SAX"
+    },
+    {
+      "id": "TEENAGE BENSON"
+    },
+    {
+      "id": "COLLEGE BENSON"
+    },
+    {
+      "id": "LONG HAIRED BENSON"
+    },
+    {
+      "id": "SHORT HAIRED BENSON"
+    },
+    {
+      "id": "DELI CLERK"
+    },
+    {
+      "id": "HOUSE RESIDENTS"
+    },
+    {
+      "id": "RED HEADED BUM"
+    },
+    {
+      "id": "GREY HAIRED BUM"
+    },
+    {
+      "id": "LAZY WHEELZ RENTAL OWNER"
+    },
+    {
+      "id": "IN YO FACE APPAREL CLERK"
+    },
+    {
+      "id": "SCIENTIST #1"
+    },
+    {
+      "id": "PAM"
+    },
+    {
+      "id": "SCIENTIST #2"
+    },
+    {
+      "id": "SCIENTIST #3"
+    },
+    {
+      "id": "MACHINE"
+    },
+    {
+      "id": "KNITTED MUSCLE MAN"
+    },
+    {
+      "id": "DR. LANGER"
+    },
+    {
+      "id": "DAVID"
+    },
+    {
+      "id": "SECURITY BOT"
+    },
+    {
+      "id": "ROBERT"
+    },
+    {
+      "id": "AUTOMATED VOICE"
+    },
+    {
+      "id": "SYNTHIZEN"
+    },
+    {
+      "id": "SYNTHIZENS"
+    },
+    {
+      "id": "BANK MANAGER"
+    },
+    {
+      "id": "MYSTERY MAN"
+    },
+    {
+      "id": "LEAD SPY"
+    },
+    {
+      "id": "GLASS GUY 1"
+    },
+    {
+      "id": "GLASS GUY 2"
+    },
+    {
+      "id": "SPY"
+    },
+    {
+      "id": "PRINCIPAL DEAN"
+    },
+    {
+      "id": "JABLONSKI"
+    },
+    {
+      "id": "TEENAGE RIGBY"
+    },
+    {
+      "id": "MILTON"
+    },
+    {
+      "id": "AIDEN"
+    },
+    {
+      "id": "MARSHAL GIRL"
+    },
+    {
+      "id": "DIRTY BUSINESSMAN"
+    },
+    {
+      "id": "CHEEZER'S GUY"
+    },
+    {
+      "id": "TEAM JABLONSKI"
+    },
+    {
+      "id": "WAITRESS 1"
+    },
+    {
+      "id": "PRINCIPAL ZHANG"
+    },
+    {
+      "id": "STUDENTS"
+    },
+    {
+      "id": "KOBE"
+    },
+    {
+      "id": "LEBRON"
+    },
+    {
+      "id": "APPLE"
+    },
+    {
+      "id": "BARBERA"
+    },
+    {
+      "id": "RIGBY'S FAMILY"
+    },
+    {
+      "id": "MOVIE USHER"
+    },
+    {
+      "id": "WAYNE"
+    },
+    {
+      "id": "MARY LEE"
+    },
+    {
+      "id": "RADIO"
+    },
+    {
+      "id": "DAISUKE"
+    },
+    {
+      "id": "CLOUD MARGARET"
+    },
+    {
+      "id": "CLOUD MORDECAI"
+    },
+    {
+      "id": "GENE HAZARD"
+    },
+    {
+      "id": "LANGER"
+    },
+    {
+      "id": "VINCE VANDERCLIFFE"
+    },
+    {
+      "id": "RIKKI NOVA"
+    },
+    {
+      "id": "PRODUCER OF LOCAL NEWS"
+    },
+    {
+      "id": "JACKIE"
+    },
+    {
+      "id": "LOCAL NEWS PRODUCER"
+    },
+    {
+      "id": "MARGARITA"
+    },
+    {
+      "id": "FROM"
+    },
+    {
+      "id": "DAISY"
+    },
+    {
+      "id": "MARGARETE"
+    },
+    {
+      "id": "OTHER EMPLOYEES"
+    },
+    {
+      "id": "SKIPS / BENSON"
+    },
+    {
+      "id": "PRUNER"
+    },
+    {
+      "id": "VAN DRIVER CHANNEL 6"
+    },
+    {
+      "id": "EMPLOYEE WHO I WAS ON THE COMPUTER"
+    },
+    {
+      "id": "CONDUCTOR"
+    },
+    {
+      "id": "FRANK / MARGARITA"
+    },
+    {
+      "id": "MORDECAI / RIGBY"
+    },
+    {
+      "id": "FLIGHT ATTENDANT"
+    },
+    {
+      "id": "PASSENGERS"
+    },
+    {
+      "id": "COOK 1"
+    },
+    {
+      "id": "OFFICE WORKER"
+    },
+    {
+      "id": "SECURITY"
+    },
+    {
+      "id": "GUY ON STILTS"
+    },
+    {
+      "id": "DWARF"
+    },
+    {
+      "id": "WENCH"
+    },
+    {
+      "id": "RIGNATIUS"
+    },
+    {
+      "id": "MORDICUS"
+    },
+    {
+      "id": "KING EDMUND"
+    },
+    {
+      "id": "SQUIRE"
+    },
+    {
+      "id": "BARNABY"
+    },
+    {
+      "id": "MARVOLO"
+    },
+    {
+      "id": "PALOM"
+    },
+    {
+      "id": "KNIGHT 1"
+    },
+    {
+      "id": "KNIGHT 2"
+    },
+    {
+      "id": "KNIGHTS"
+    },
+    {
+      "id": "MORDIUCS"
+    },
+    {
+      "id": "WING KINGDOM CASHIER"
+    },
+    {
+      "id": "CHILD"
+    },
+    {
+      "id": "EVERYONE IN LINE"
+    },
+    {
+      "id": "BALD DOME GUARD"
+    },
+    {
+      "id": "ORANGE HAIRED DOME GUARD"
+    },
+    {
+      "id": "BALD DONE GUARD"
+    },
+    {
+      "id": "DR . LANGER"
+    },
+    {
+      "id": "KIM"
+    },
+    {
+      "id": "ALLISON"
+    },
+    {
+      "id": "JAYLA"
+    },
+    {
+      "id": "GIRLS"
+    },
+    {
+      "id": "MALE PROM DATE #1"
+    },
+    {
+      "id": "FEMALE PROM DATE"
+    },
+    {
+      "id": "MALE PROM DATE #2"
+    },
+    {
+      "id": "SCIENTIST"
+    },
+    {
+      "id": "FLANNERY SHEDLAWN"
+    },
+    {
+      "id": "OLD LADY"
+    },
+    {
+      "id": "COLLEGE ANNOUNCER"
+    },
+    {
+      "id": "FRANK SMITH"
+    },
+    {
+      "id": "LITTLE GIRL"
+    },
+    {
+      "id": "MOM"
+    },
+    {
+      "id": "MORALES"
+    },
+    {
+      "id": "MACCREEDY"
+    },
+    {
+      "id": "POLICE CHIEF"
+    },
+    {
+      "id": "DR. SHELDON WEATHERBERRY"
+    },
+    {
+      "id": "BARISTA"
+    },
+    {
+      "id": "KOKO"
+    },
+    {
+      "id": "APOLLO"
+    },
+    {
+      "id": "SUN"
+    },
+    {
+      "id": "SKI EMPLOYEE 1"
+    },
+    {
+      "id": "SKI EMPLOYEE 2"
+    },
+    {
+      "id": "SKI EMPLOYEE 3"
+    },
+    {
+      "id": "DEAD SKI EMPLOYEE"
+    },
+    {
+      "id": "PEDESTRIAN"
+    },
+    {
+      "id": "RACKI"
+    },
+    {
+      "id": "MR BOSSMAN"
+    },
+    {
+      "id": "MR. BOSSMAN"
+    },
+    {
+      "id": "RACKI THE WISHMAKER"
+    },
+    {
+      "id": "JOHN WOLFHARD'S LAWYER"
+    },
+    {
+      "id": "JOHN WOLFHARD"
+    },
+    {
+      "id": "DR. DOME"
+    },
+    {
+      "id": "BUTTON"
+    },
+    {
+      "id": "FAKE MORDECAI"
+    },
+    {
+      "id": "FAKE SKIPS"
+    },
+    {
+      "id": "FAKE RIGBY"
+    },
+    {
+      "id": "FAKE POPS"
+    },
+    {
+      "id": "FAKE HI FIVE GHOST"
+    },
+    {
+      "id": "FAKE MUSCLE MAN"
+    },
+    {
+      "id": "FAKE TECHMO"
+    },
+    {
+      "id": "FAKE AUDREY"
+    },
+    {
+      "id": "FAKE BENSON"
+    },
+    {
+      "id": "WEATHER CONTROLLER"
+    },
+    {
+      "id": "CONTROLLER"
+    },
+    {
+      "id": "ANTARES"
+    },
+    {
+      "id": "MRS. KESSLER"
+    },
+    {
+      "id": "JADEN"
+    },
+    {
+      "id": "BRAEDEN"
+    },
+    {
+      "id": "JOCKS"
+    },
+    {
+      "id": "MALE GUEST"
+    },
+    {
+      "id": "MR. SENGLEY"
+    },
+    {
+      "id": "VICTORIA"
+    },
+    {
+      "id": "JARED"
+    },
+    {
+      "id": "TED"
+    },
+    {
+      "id": "HOSTESS"
+    },
+    {
+      "id": "ASTRONAUT"
+    },
+    {
+      "id": "BECCA"
+    },
+    {
+      "id": "RICK"
+    },
+    {
+      "id": "(LATER AT 2"
+    },
+    {
+      "id": "PRODUCER"
+    },
+    {
+      "id": "RAMSES"
+    },
+    {
+      "id": "AMY"
+    },
+    {
+      "id": "MARKETING"
+    },
+    {
+      "id": "SCABBY"
+    },
+    {
+      "id": "LAMPREY"
+    },
+    {
+      "id": "LENNY PRIZE"
+    },
+    {
+      "id": "FRIVOLA KRANUS"
+    },
+    {
+      "id": "QUADRAVI KRANUS"
+    },
+    {
+      "id": "WEIRD MUSHROOM GUY"
+    },
+    {
+      "id": "ANTI POPS"
+    },
+    {
+      "id": "SHIP A.I."
+    },
+    {
+      "id": "LEAD BOUNTY HUNTER"
+    },
+    {
+      "id": "DROID BOUNTY HUNTER"
+    },
+    {
+      "id": "GILFOYLE"
+    },
+    {
+      "id": "GRUFF"
+    },
+    {
+      "id": "EGGUM KRANUS"
+    },
+    {
+      "id": "WEAVER"
+    },
+    {
+      "id": "HD DVD"
+    },
+    {
+      "id": "BLU RAY"
+    },
+    {
+      "id": "RECAP"
+    },
+    {
+      "id": "SURESHOT"
+    },
+    {
+      "id": "SALLY"
+    },
+    {
+      "id": "PARTY HORSE"
+    },
+    {
+      "id": "NAIVE MAN"
+    },
+    {
+      "id": "THE SEER"
+    },
+    {
+      "id": "FEMALE COMPUTER VOICE"
+    },
+    {
+      "id": "MARY"
+    },
+    {
+      "id": "SILAS"
+    },
+    {
+      "id": "CRAWLING VILLAGER"
+    },
+    {
+      "id": "VILLAGER"
+    },
+    {
+      "id": "PIG"
+    },
+    {
+      "id": "STEVE"
+    },
+    {
+      "id": "CAPTAIN MARY STONE"
+    },
+    {
+      "id": "CREW MEMBER 1"
+    },
+    {
+      "id": "CREW MEMBER 2"
+    },
+    {
+      "id": "CREW MEMBER 3"
+    },
+    {
+      "id": "VILLAGERS"
+    },
+    {
+      "id": "\"SILAS\""
+    },
+    {
+      "id": "WALLACE"
+    },
+    {
+      "id": "VILLAGER 1"
+    },
+    {
+      "id": "VILLAGER 2"
+    },
+    {
+      "id": "ALPHA DOME CREW"
+    },
+    {
+      "id": "RECAP ROBOT"
+    },
+    {
+      "id": "TOOTHPICK SALLY"
+    },
+    {
+      "id": "CHANCE SURESHOT"
+    },
+    {
+      "id": "LOBIAN #1"
+    },
+    {
+      "id": "LOBIAN #2"
+    },
+    {
+      "id": "LOBIAN #3"
+    },
+    {
+      "id": "LOBIAN #4"
+    },
+    {
+      "id": "LOBIAN POLICE OFFICER"
+    },
+    {
+      "id": "LOBIAN JUDGE"
+    },
+    {
+      "id": "LOBIAN PROSECUTOR"
+    },
+    {
+      "id": "LOBIAN DEFENDANT"
+    },
+    {
+      "id": "LOBIAN EAR #4"
+    },
+    {
+      "id": "DOMINIC"
+    },
+    {
+      "id": "GARRETT BOBBY FERGUSON"
+    },
+    {
+      "id": "LOBIAN EAR #5"
+    },
+    {
+      "id": "AURICLE"
+    },
+    {
+      "id": "NURSE EAR"
+    },
+    {
+      "id": "LOBIAN EAR GUARD #1"
+    },
+    {
+      "id": "LOBIAN EAR GUARD #3"
+    },
+    {
+      "id": "CAKE"
+    },
+    {
+      "id": "CELSIAN SNOW MONSTERS"
+    },
+    {
+      "id": "SNOW MONSTER"
+    },
+    {
+      "id": "SNOW MONSTERS"
+    },
+    {
+      "id": "LUDLOW"
+    },
+    {
+      "id": "CAROLER"
+    },
+    {
+      "id": "VALET"
+    },
+    {
+      "id": "MALL SPEAKER"
+    },
+    {
+      "id": "THEORETICAL POPS"
+    },
+    {
+      "id": "KRAMPUS"
+    },
+    {
+      "id": "GERMAN GIRL"
+    },
+    {
+      "id": "SPACE SANTA"
+    },
+    {
+      "id": "LEADER BRO BOT"
+    },
+    {
+      "id": "R 659"
+    },
+    {
+      "id": "R 656"
+    },
+    {
+      "id": "ROBOT SCANNER"
+    },
+    {
+      "id": "MAN WITH GUN"
+    },
+    {
+      "id": "REAPER BOT"
+    },
+    {
+      "id": "MAN WITH GUN/CHANCE SURESHOT"
+    },
+    {
+      "id": "CHANCE"
+    },
+    {
+      "id": "FLOATING ROCK"
+    },
+    {
+      "id": "ROXY"
+    },
+    {
+      "id": "CRYSTAL"
+    },
+    {
+      "id": "EARL"
+    },
+    {
+      "id": "ROBOT"
+    },
+    {
+      "id": "MANTIS GUARD"
+    },
+    {
+      "id": "MANTIS KING"
+    },
+    {
+      "id": "MANTIS WAITER"
+    },
+    {
+      "id": "MANTIS PRINCESS"
+    },
+    {
+      "id": "MANTISES"
+    },
+    {
+      "id": "ICE CREAM BABY"
+    },
+    {
+      "id": "STREAM BOX 1"
+    },
+    {
+      "id": "STREAM BOX 2"
+    },
+    {
+      "id": "MICROWAVE"
+    },
+    {
+      "id": "NIELSEN WORKER"
+    },
+    {
+      "id": "SEER"
+    },
+    {
+      "id": "BOYFRIEND"
+    },
+    {
+      "id": "GREETER"
+    },
+    {
+      "id": "BOUNTY HUNTER"
+    },
+    {
+      "id": "GL\u00d6MB"
+    },
+    {
+      "id": "BIG VOICE"
+    },
+    {
+      "id": "JUSTIN BRINK"
+    },
+    {
+      "id": "ITALIAN PERSON"
+    },
+    {
+      "id": "INDIAN PERSON"
+    },
+    {
+      "id": "AFRICAN PERSON"
+    },
+    {
+      "id": "FRENCH PERSON"
+    },
+    {
+      "id": "BLUE ALIEN"
+    },
+    {
+      "id": "ANGELO"
+    },
+    {
+      "id": "SKATEBOARDER #1"
+    },
+    {
+      "id": "SKATEBOARDER #2"
+    },
+    {
+      "id": "SPACE TREE WORKER"
+    },
+    {
+      "id": "DR WHISKERS"
+    },
+    {
+      "id": "(END OF OPERATION"
+    },
+    {
+      "id": "(MORDECAI LOOKS AT TWO VHS BOXES"
+    },
+    {
+      "id": "JAMAICAN DOMER"
+    },
+    {
+      "id": "JESSICA"
+    },
+    {
+      "id": "CRAIG"
+    },
+    {
+      "id": "COLONEL RAWLS"
+    },
+    {
+      "id": "RAWLS"
+    },
+    {
+      "id": "SPACE TREE PERSONNEL"
+    },
+    {
+      "id": "APE ALIEN"
+    },
+    {
+      "id": "HUMANOID ALIEN"
+    },
+    {
+      "id": "DROID"
+    },
+    {
+      "id": "CANADIAN 1"
+    },
+    {
+      "id": "CANADIAN 2"
+    },
+    {
+      "id": "CANADIANS"
+    },
+    {
+      "id": "SPACEY MCSPACETREE"
+    },
+    {
+      "id": "T.O.M."
+    },
+    {
+      "id": "CANADIAN"
+    },
+    {
+      "id": "UNKNOWN"
+    },
+    {
+      "id": "GIANT BAT"
+    },
+    {
+      "id": "FLYING DISC FREE STYLIST"
+    },
+    {
+      "id": "GIANT ALIEN SPIDER"
+    },
+    {
+      "id": "SPACE SEA MONKEY"
+    },
+    {
+      "id": "VICTORIAN ALIEN"
+    },
+    {
+      "id": "SHANNON"
+    },
+    {
+      "id": "BRAIN"
+    },
+    {
+      "id": "CADET"
+    },
+    {
+      "id": "RABBIT"
+    },
+    {
+      "id": "NIGHTMARE ALIEN"
+    },
+    {
+      "id": "UNNAMED CHARACTER"
+    },
+    {
+      "id": "OLD CROTCHETY ELMER"
+    },
+    {
+      "id": "WUNKY"
+    },
+    {
+      "id": "ALFIE"
+    },
+    {
+      "id": "OKLAHOMA MUD PIGEON"
+    },
+    {
+      "id": "DR SWEET DREAMS"
+    },
+    {
+      "id": "JOEL"
+    },
+    {
+      "id": "KAI"
+    },
+    {
+      "id": "FI"
+    },
+    {
+      "id": "MAILMAN"
+    },
+    {
+      "id": "EVERYONE BUT POPS"
+    },
+    {
+      "id": "HANS"
+    },
+    {
+      "id": "LARS"
+    },
+    {
+      "id": "RACE ANNOUNCER"
+    },
+    {
+      "id": "SERGEANT TANNER"
+    },
+    {
+      "id": "TANNER"
+    },
+    {
+      "id": "BRUCE"
+    },
+    {
+      "id": "JOLENE"
+    },
+    {
+      "id": "PHILLIPPE"
+    },
+    {
+      "id": "UNKNOWN MAN"
+    },
+    {
+      "id": "PRANKENSTEIN"
+    },
+    {
+      "id": "FIVES"
+    },
+    {
+      "id": "SPACE BUSH PERSONNEL"
+    },
+    {
+      "id": "SPACE BUSH OFFICER"
+    },
+    {
+      "id": "SPACE BUSH P.A."
+    },
+    {
+      "id": "COL. RAWLS"
+    },
+    {
+      "id": "REPORTER 1"
+    },
+    {
+      "id": "REPORTER 2"
+    },
+    {
+      "id": "REPORTER 3"
+    },
+    {
+      "id": "NEIGHBOR LADY"
+    },
+    {
+      "id": "COLLEGE STUDENT 1"
+    },
+    {
+      "id": "COLLEGE STUDENT 2"
+    },
+    {
+      "id": "COLLEGE STUDENT 3"
+    }
+  ],
+  "links": [
+    {
+      "source": "BENSON",
+      "target": "MARGARET",
+      "value": 24
+    },
+    {
+      "source": "BENSON",
+      "target": "MORDECAI",
+      "value": 225
+    },
+    {
+      "source": "BENSON",
+      "target": "MUSCLE MAN",
+      "value": 145
+    },
+    {
+      "source": "BENSON",
+      "target": "POPS",
+      "value": 127
+    },
+    {
+      "source": "BENSON",
+      "target": "RIGBY",
+      "value": 221
+    },
+    {
+      "source": "BENSON",
+      "target": "SKIPS",
+      "value": 135
+    },
+    {
+      "source": "MARGARET",
+      "target": "MORDECAI",
+      "value": 51
+    },
+    {
+      "source": "MARGARET",
+      "target": "MUSCLE MAN",
+      "value": 21
+    },
+    {
+      "source": "MARGARET",
+      "target": "POPS",
+      "value": 19
+    },
+    {
+      "source": "MARGARET",
+      "target": "RIGBY",
+      "value": 51
+    },
+    {
+      "source": "MARGARET",
+      "target": "SKIPS",
+      "value": 18
+    },
+    {
+      "source": "MORDECAI",
+      "target": "MUSCLE MAN",
+      "value": 183
+    },
+    {
+      "source": "MORDECAI",
+      "target": "POPS",
+      "value": 153
+    },
+    {
+      "source": "MORDECAI",
+      "target": "RIGBY",
+      "value": 372
+    },
+    {
+      "source": "MORDECAI",
+      "target": "SKIPS",
+      "value": 168
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "POPS",
+      "value": 116
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "RIGBY",
+      "value": 181
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "SKIPS",
+      "value": 115
+    },
+    {
+      "source": "POPS",
+      "target": "RIGBY",
+      "value": 153
+    },
+    {
+      "source": "POPS",
+      "target": "SKIPS",
+      "value": 111
+    },
+    {
+      "source": "RIGBY",
+      "target": "SKIPS",
+      "value": 169
+    },
+    {
+      "source": "MORDECAI",
+      "target": "SENSAI",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "STUDENT",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "SENSAI",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "STUDENT",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "COMPUTER",
+      "value": 7
+    },
+    {
+      "source": "BENSON",
+      "target": "DON",
+      "value": 3
+    },
+    {
+      "source": "COMPUTER",
+      "target": "MORDECAI",
+      "value": 7
+    },
+    {
+      "source": "COMPUTER",
+      "target": "MUSCLE MAN",
+      "value": 5
+    },
+    {
+      "source": "COMPUTER",
+      "target": "POPS",
+      "value": 6
+    },
+    {
+      "source": "COMPUTER",
+      "target": "RIGBY",
+      "value": 7
+    },
+    {
+      "source": "COMPUTER",
+      "target": "SKIPS",
+      "value": 7
+    },
+    {
+      "source": "DON",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "DON",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "DON",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "DON",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "GARY",
+      "value": 9
+    },
+    {
+      "source": "DREAM RIGBY",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "DREAM RIGBY",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "GARY",
+      "target": "MORDECAI",
+      "value": 12
+    },
+    {
+      "source": "GARY",
+      "target": "MUSCLE MAN",
+      "value": 8
+    },
+    {
+      "source": "GARY",
+      "target": "POPS",
+      "value": 5
+    },
+    {
+      "source": "GARY",
+      "target": "RIGBY",
+      "value": 13
+    },
+    {
+      "source": "GARY",
+      "target": "SKIPS",
+      "value": 10
+    },
+    {
+      "source": "BENSON",
+      "target": "JIMMY",
+      "value": 6
+    },
+    {
+      "source": "JIMMY",
+      "target": "MORDECAI",
+      "value": 6
+    },
+    {
+      "source": "JIMMY",
+      "target": "RIGBY",
+      "value": 6
+    },
+    {
+      "source": "JIMMY",
+      "target": "MUSCLE MAN",
+      "value": 5
+    },
+    {
+      "source": "JIMMY",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "KIDS",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "CLERK",
+      "value": 6
+    },
+    {
+      "source": "BENSON",
+      "target": "OLD WOMAN",
+      "value": 3
+    },
+    {
+      "source": "CLERK",
+      "target": "MORDECAI",
+      "value": 6
+    },
+    {
+      "source": "CLERK",
+      "target": "POPS",
+      "value": 5
+    },
+    {
+      "source": "CLERK",
+      "target": "RIGBY",
+      "value": 6
+    },
+    {
+      "source": "CLERK",
+      "target": "SKIPS",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "OLD WOMAN",
+      "value": 3
+    },
+    {
+      "source": "OLD WOMAN",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "OLD WOMAN",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "MORDECAI",
+      "value": 85
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "MUSCLE MAN",
+      "value": 86
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "POPS",
+      "value": 64
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "RIGBY",
+      "value": 86
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "SKIPS",
+      "value": 62
+    },
+    {
+      "source": "BENSON",
+      "target": "MAN ON TV",
+      "value": 4
+    },
+    {
+      "source": "MAN ON TV",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "MAN ON TV",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "MAN ON TV",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "MAN ON TV",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "BABY DUCK",
+      "target": "BENSON",
+      "value": 3
+    },
+    {
+      "source": "BABY DUCK",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "BABY DUCK",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "BABY DUCK",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "BABY DUCKS",
+      "target": "BENSON",
+      "value": 4
+    },
+    {
+      "source": "BABY DUCKS",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "BABY DUCKS",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "BABY DUCKS",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "EILEEN",
+      "value": 52
+    },
+    {
+      "source": "EILEEN",
+      "target": "MARGARET",
+      "value": 33
+    },
+    {
+      "source": "EILEEN",
+      "target": "MORDECAI",
+      "value": 78
+    },
+    {
+      "source": "EILEEN",
+      "target": "POPS",
+      "value": 36
+    },
+    {
+      "source": "EILEEN",
+      "target": "RIGBY",
+      "value": 76
+    },
+    {
+      "source": "ALL 3",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "ALL 3",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "ALL 3",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "MR. MAELLARD",
+      "value": 18
+    },
+    {
+      "source": "MORDECAI",
+      "target": "MR. MAELLARD",
+      "value": 17
+    },
+    {
+      "source": "MR. MAELLARD",
+      "target": "MUSCLE MAN",
+      "value": 14
+    },
+    {
+      "source": "MR. MAELLARD",
+      "target": "POPS",
+      "value": 15
+    },
+    {
+      "source": "MR. MAELLARD",
+      "target": "RIGBY",
+      "value": 18
+    },
+    {
+      "source": "EILEEN",
+      "target": "SKIPS",
+      "value": 37
+    },
+    {
+      "source": "BENSON",
+      "target": "VOICE",
+      "value": 8
+    },
+    {
+      "source": "CLERK",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "VOICE",
+      "value": 9
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "VOICE",
+      "value": 6
+    },
+    {
+      "source": "POPS",
+      "target": "VOICE",
+      "value": 5
+    },
+    {
+      "source": "RIGBY",
+      "target": "VOICE",
+      "value": 8
+    },
+    {
+      "source": "SKIPS",
+      "target": "VOICE",
+      "value": 4
+    },
+    {
+      "source": "MR. MAELLARD",
+      "target": "SKIPS",
+      "value": 13
+    },
+    {
+      "source": "BENSON",
+      "target": "LADY",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "MUSCLE MAN",
+      "value": 46
+    },
+    {
+      "source": "LADY",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "LADY",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "LADY",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "LADY",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "EMPLOYEE",
+      "value": 7
+    },
+    {
+      "source": "EMPLOYEE",
+      "target": "MORDECAI",
+      "value": 9
+    },
+    {
+      "source": "EMPLOYEE",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "EMPLOYEE",
+      "target": "RIGBY",
+      "value": 9
+    },
+    {
+      "source": "EMPLOYEE",
+      "target": "SKIPS",
+      "value": 5
+    },
+    {
+      "source": "GUY",
+      "target": "HIGH FIVE GHOST",
+      "value": 6
+    },
+    {
+      "source": "GUY",
+      "target": "MORDECAI",
+      "value": 12
+    },
+    {
+      "source": "GUY",
+      "target": "MUSCLE MAN",
+      "value": 8
+    },
+    {
+      "source": "GUY",
+      "target": "POPS",
+      "value": 7
+    },
+    {
+      "source": "GUY",
+      "target": "RIGBY",
+      "value": 12
+    },
+    {
+      "source": "MORDECAI",
+      "target": "MOVIE SHACK HUT EMPLOYEE",
+      "value": 3
+    },
+    {
+      "source": "MOVIE SHACK HUT EMPLOYEE",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "KID 1",
+      "target": "KID 2",
+      "value": 5
+    },
+    {
+      "source": "KID 1",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "KID 1",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "KID 2",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "JACK FARLEY",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "GBF",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "GBF",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "HIGH FIVE GHOST",
+      "value": 74
+    },
+    {
+      "source": "BENSON",
+      "target": "WAITER",
+      "value": 9
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "WAITER",
+      "value": 10
+    },
+    {
+      "source": "POPS",
+      "target": "WAITER",
+      "value": 9
+    },
+    {
+      "source": "SKIPS",
+      "target": "WAITER",
+      "value": 8
+    },
+    {
+      "source": "BENSON",
+      "target": "COMPUTER VOICE",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "WORKER",
+      "value": 3
+    },
+    {
+      "source": "COMPUTER VOICE",
+      "target": "HIGH FIVE GHOST",
+      "value": 3
+    },
+    {
+      "source": "COMPUTER VOICE",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "COMPUTER VOICE",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "COMPUTER VOICE",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "WORKER",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "WORKER",
+      "value": 3
+    },
+    {
+      "source": "POPS",
+      "target": "WORKER",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "WORKER",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "STARLA",
+      "value": 12
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "STARLA",
+      "value": 12
+    },
+    {
+      "source": "MORDECAI",
+      "target": "STARLA",
+      "value": 19
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "STARLA",
+      "value": 19
+    },
+    {
+      "source": "RIGBY",
+      "target": "STARLA",
+      "value": 19
+    },
+    {
+      "source": "BENSON",
+      "target": "BOBBY",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "POLICE OFFICER",
+      "value": 4
+    },
+    {
+      "source": "BOBBY",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "BOBBY",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "BOBBY",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "POLICE OFFICER",
+      "value": 4
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "POLICE OFFICER",
+      "value": 4
+    },
+    {
+      "source": "POLICE OFFICER",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "DOCTOR",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "DOCTOR",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "DEATH",
+      "target": "RIGBY",
+      "value": 10
+    },
+    {
+      "source": "DEATH",
+      "target": "SKIPS",
+      "value": 10
+    },
+    {
+      "source": "REFEREE",
+      "target": "SKIPS",
+      "value": 4
+    },
+    {
+      "source": "BOTH",
+      "target": "MORDECAI",
+      "value": 15
+    },
+    {
+      "source": "BOTH",
+      "target": "RIGBY",
+      "value": 15
+    },
+    {
+      "source": "BENSON",
+      "target": "BOTH",
+      "value": 12
+    },
+    {
+      "source": "BOTH",
+      "target": "HIGH FIVE GHOST",
+      "value": 7
+    },
+    {
+      "source": "BOTH",
+      "target": "MUSCLE MAN",
+      "value": 10
+    },
+    {
+      "source": "BOTH",
+      "target": "POPS",
+      "value": 7
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "JIMMY",
+      "value": 3
+    },
+    {
+      "source": "MAN 1",
+      "target": "MAN 2",
+      "value": 3
+    },
+    {
+      "source": "MAN 1",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "MAN 1",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "HUGE HEAD",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "TV ANNOUNCER",
+      "value": 8
+    },
+    {
+      "source": "COP",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "COP",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "HUGE HEAD",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "HUGE HEAD",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "REFEREE",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "TV ANNOUNCER",
+      "value": 12
+    },
+    {
+      "source": "POPS",
+      "target": "TV ANNOUNCER",
+      "value": 6
+    },
+    {
+      "source": "REFEREE",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "TV ANNOUNCER",
+      "value": 12
+    },
+    {
+      "source": "BENSON",
+      "target": "CUSTOMER",
+      "value": 3
+    },
+    {
+      "source": "CUSTOMER",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "CUSTOMER",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "CUSTOMER",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "VIDEO GAME",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "VIDEO GAME",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "PAST MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "SECURITY GUARD",
+      "value": 4
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "SECURITY GUARD",
+      "value": 3
+    },
+    {
+      "source": "PAST MORDECAI",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "SECURITY GUARD",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "SINGER",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "SINGER",
+      "value": 3
+    },
+    {
+      "source": "ALL",
+      "target": "EILEEN",
+      "value": 6
+    },
+    {
+      "source": "ALL",
+      "target": "MARGARET",
+      "value": 4
+    },
+    {
+      "source": "ALL",
+      "target": "MORDECAI",
+      "value": 22
+    },
+    {
+      "source": "ALL",
+      "target": "RIGBY",
+      "value": 22
+    },
+    {
+      "source": "MORDECAI",
+      "target": "WAITER",
+      "value": 12
+    },
+    {
+      "source": "RIGBY",
+      "target": "WAITER",
+      "value": 11
+    },
+    {
+      "source": "GARY",
+      "target": "JUDGE BROSEPH CHILLAXTON",
+      "value": 5
+    },
+    {
+      "source": "JUDGE BROSEPH CHILLAXTON",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "JUDGE BROSEPH CHILLAXTON",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "JUDGE BROSEPH CHILLAXTON",
+      "target": "PROSECUTOR",
+      "value": 5
+    },
+    {
+      "source": "BENSON",
+      "target": "JUDGE BROSEPH CHILLAXTON",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "TV ANNOUNCER",
+      "value": 5
+    },
+    {
+      "source": "MARGARET",
+      "target": "TV ANNOUNCER",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "TV",
+      "value": 5
+    },
+    {
+      "source": "RIGBY",
+      "target": "TV",
+      "value": 5
+    },
+    {
+      "source": "DEATH",
+      "target": "MORDECAI",
+      "value": 9
+    },
+    {
+      "source": "DEATH",
+      "target": "MUSCLE MAN",
+      "value": 7
+    },
+    {
+      "source": "DEATH",
+      "target": "THOMAS",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "THOMAS",
+      "value": 32
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "THOMAS",
+      "value": 29
+    },
+    {
+      "source": "RIGBY",
+      "target": "THOMAS",
+      "value": 32
+    },
+    {
+      "source": "BENSON",
+      "target": "PILOT",
+      "value": 4
+    },
+    {
+      "source": "EILEEN",
+      "target": "EMPLOYEE",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "PILOT",
+      "value": 3
+    },
+    {
+      "source": "EMPLOYEE",
+      "target": "MUSCLE MAN",
+      "value": 6
+    },
+    {
+      "source": "MORDECAI",
+      "target": "PILOT",
+      "value": 6
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "PILOT",
+      "value": 5
+    },
+    {
+      "source": "PILOT",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "PILOT",
+      "target": "RIGBY",
+      "value": 6
+    },
+    {
+      "source": "PILOT",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "KNIGHT",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "NARRATOR",
+      "value": 7
+    },
+    {
+      "source": "KNIGHT",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "KNIGHT",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "NARRATOR",
+      "value": 7
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "NARRATOR",
+      "value": 6
+    },
+    {
+      "source": "NARRATOR",
+      "target": "RIGBY",
+      "value": 7
+    },
+    {
+      "source": "NARRATOR",
+      "target": "SKIPS",
+      "value": 7
+    },
+    {
+      "source": "POPS",
+      "target": "STARLA",
+      "value": 12
+    },
+    {
+      "source": "BENSON",
+      "target": "REGINALD",
+      "value": 7
+    },
+    {
+      "source": "BOTH",
+      "target": "SKIPS",
+      "value": 8
+    },
+    {
+      "source": "GARY",
+      "target": "REGINALD",
+      "value": 7
+    },
+    {
+      "source": "MORDECAI",
+      "target": "REGINALD",
+      "value": 9
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "REGINALD",
+      "value": 6
+    },
+    {
+      "source": "REGINALD",
+      "target": "RIGBY",
+      "value": 9
+    },
+    {
+      "source": "REGINALD",
+      "target": "SKIPS",
+      "value": 9
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "VOICE",
+      "value": 3
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "WAITER",
+      "value": 6
+    },
+    {
+      "source": "MORDECAI",
+      "target": "WAITRESS",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "WAITRESS",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "HFG",
+      "value": 8
+    },
+    {
+      "source": "HFG",
+      "target": "HIGH FIVE GHOST",
+      "value": 4
+    },
+    {
+      "source": "HFG",
+      "target": "MORDECAI",
+      "value": 9
+    },
+    {
+      "source": "HFG",
+      "target": "MUSCLE MAN",
+      "value": 11
+    },
+    {
+      "source": "HFG",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "HFG",
+      "target": "RIGBY",
+      "value": 9
+    },
+    {
+      "source": "HFG",
+      "target": "SKIPS",
+      "value": 5
+    },
+    {
+      "source": "MORDECAI",
+      "target": "NO RULES MAN",
+      "value": 6
+    },
+    {
+      "source": "NO RULES MAN",
+      "target": "RIGBY",
+      "value": 6
+    },
+    {
+      "source": "BENSON",
+      "target": "GENE",
+      "value": 7
+    },
+    {
+      "source": "GENE",
+      "target": "MORDECAI",
+      "value": 7
+    },
+    {
+      "source": "GENE",
+      "target": "MUSCLE MAN",
+      "value": 6
+    },
+    {
+      "source": "GENE",
+      "target": "POPS",
+      "value": 5
+    },
+    {
+      "source": "GENE",
+      "target": "RIGBY",
+      "value": 7
+    },
+    {
+      "source": "GENE",
+      "target": "SKIPS",
+      "value": 7
+    },
+    {
+      "source": "ALPHA DOG",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "ALPHA DOG",
+      "target": "POPS",
+      "value": 7
+    },
+    {
+      "source": "ALPHA DOG",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "DEMEL ISHUN",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "BOTH",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "DEATH",
+      "value": 6
+    },
+    {
+      "source": "DEATH",
+      "target": "POPS",
+      "value": 5
+    },
+    {
+      "source": "DEATH",
+      "target": "REGINALD",
+      "value": 3
+    },
+    {
+      "source": "POPS",
+      "target": "REGINALD",
+      "value": 4
+    },
+    {
+      "source": "SKIPS",
+      "target": "TECHMO",
+      "value": 8
+    },
+    {
+      "source": "MORDECAI",
+      "target": "TECHMO",
+      "value": 5
+    },
+    {
+      "source": "RIGBY",
+      "target": "TECHMO",
+      "value": 3
+    },
+    {
+      "source": "DOOM MA GEDDON",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "CHONG",
+      "value": 3
+    },
+    {
+      "source": "ARCHIE",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "ARCHIE",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "ARCHIE",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "CROWD",
+      "target": "HIGH FIVE GHOST",
+      "value": 4
+    },
+    {
+      "source": "CROWD",
+      "target": "MORDECAI",
+      "value": 10
+    },
+    {
+      "source": "CROWD",
+      "target": "MUSCLE MAN",
+      "value": 5
+    },
+    {
+      "source": "CROWD",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "CROWD",
+      "target": "RIGBY",
+      "value": 11
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "SCOTTIE",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "SCOTTIE",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "SCOTTIE",
+      "value": 3
+    },
+    {
+      "source": "POPS",
+      "target": "SCOTTIE",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "SCOTTIE",
+      "value": 3
+    },
+    {
+      "source": "BUTTONWILLOW MCBUTTONWILLOW",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "BUTTONWILLOW MCBUTTONWILLOW",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "GUY",
+      "value": 9
+    },
+    {
+      "source": "GUY",
+      "target": "SKIPS",
+      "value": 6
+    },
+    {
+      "source": "MORDECAI",
+      "target": "MUSCLE DAD",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE DAD",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE DAD",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "AUDREY",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "AUDREY",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "CHUCK",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "CHUCK",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "AUDREY",
+      "target": "BENSON",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "CROWD",
+      "value": 5
+    },
+    {
+      "source": "BENSON",
+      "target": "CJ",
+      "value": 13
+    },
+    {
+      "source": "BENSON",
+      "target": "JOHN",
+      "value": 4
+    },
+    {
+      "source": "CJ",
+      "target": "MARGARET",
+      "value": 8
+    },
+    {
+      "source": "CJ",
+      "target": "MORDECAI",
+      "value": 23
+    },
+    {
+      "source": "CJ",
+      "target": "RIGBY",
+      "value": 23
+    },
+    {
+      "source": "CJ",
+      "target": "SKIPS",
+      "value": 8
+    },
+    {
+      "source": "JOHN",
+      "target": "MARGARET",
+      "value": 3
+    },
+    {
+      "source": "JOHN",
+      "target": "MORDECAI",
+      "value": 6
+    },
+    {
+      "source": "JOHN",
+      "target": "RIGBY",
+      "value": 6
+    },
+    {
+      "source": "JOHN",
+      "target": "SKIPS",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "THOMAS",
+      "value": 26
+    },
+    {
+      "source": "SKIPS",
+      "target": "THOMAS",
+      "value": 27
+    },
+    {
+      "source": "ALL",
+      "target": "BENSON",
+      "value": 16
+    },
+    {
+      "source": "ALL",
+      "target": "POPS",
+      "value": 11
+    },
+    {
+      "source": "ALL",
+      "target": "SKIPS",
+      "value": 14
+    },
+    {
+      "source": "BABY DUCKS",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "CROWD",
+      "target": "EILEEN",
+      "value": 5
+    },
+    {
+      "source": "CROWD",
+      "target": "MARGARET",
+      "value": 3
+    },
+    {
+      "source": "EGGSCELLENT KNIGHT",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "EGGSCELLENT KNIGHT",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "GIRL",
+      "value": 4
+    },
+    {
+      "source": "EILEEN",
+      "target": "HIGH FIVE GHOST",
+      "value": 28
+    },
+    {
+      "source": "EILEEN",
+      "target": "STARLA",
+      "value": 7
+    },
+    {
+      "source": "GIRL",
+      "target": "HIGH FIVE GHOST",
+      "value": 3
+    },
+    {
+      "source": "GIRL",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "GIRL",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "GIRL",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "MARGARET",
+      "value": 6
+    },
+    {
+      "source": "MARGARET",
+      "target": "STARLA",
+      "value": 7
+    },
+    {
+      "source": "SKIPS",
+      "target": "STARLA",
+      "value": 10
+    },
+    {
+      "source": "BENSON",
+      "target": "BRIGGS",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "CARTER",
+      "value": 4
+    },
+    {
+      "source": "BRIGGS",
+      "target": "CARTER",
+      "value": 5
+    },
+    {
+      "source": "BRIGGS",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "BRIGGS",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "BRIGGS",
+      "target": "NARRATOR",
+      "value": 3
+    },
+    {
+      "source": "BRIGGS",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "BRIGGS",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "BRIGGS",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "CARTER",
+      "target": "MORDECAI",
+      "value": 6
+    },
+    {
+      "source": "CARTER",
+      "target": "MUSCLE MAN",
+      "value": 5
+    },
+    {
+      "source": "CARTER",
+      "target": "NARRATOR",
+      "value": 3
+    },
+    {
+      "source": "CARTER",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "CARTER",
+      "target": "RIGBY",
+      "value": 6
+    },
+    {
+      "source": "CARTER",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "NARRATOR",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "CASHIER",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "CASHIER",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "CASHIER",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "DR. HENRY",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "DR. HENRY",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "DR. HENRY",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "DR. HENRY",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "POPS",
+      "target": "THOMAS",
+      "value": 24
+    },
+    {
+      "source": "BENSON",
+      "target": "ROGER",
+      "value": 4
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "THOMAS",
+      "value": 19
+    },
+    {
+      "source": "MORDECAI",
+      "target": "ROGER",
+      "value": 4
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "ROGER",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "ROGER",
+      "value": 4
+    },
+    {
+      "source": "ROGER",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "???",
+      "target": "BENSON",
+      "value": 6
+    },
+    {
+      "source": "???",
+      "target": "HIGH FIVE GHOST",
+      "value": 5
+    },
+    {
+      "source": "???",
+      "target": "MORDECAI",
+      "value": 6
+    },
+    {
+      "source": "???",
+      "target": "MUSCLE MAN",
+      "value": 5
+    },
+    {
+      "source": "???",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "???",
+      "target": "RIGBY",
+      "value": 6
+    },
+    {
+      "source": "???",
+      "target": "SKIPS",
+      "value": 6
+    },
+    {
+      "source": "ALL",
+      "target": "HIGH FIVE GHOST",
+      "value": 13
+    },
+    {
+      "source": "ALL",
+      "target": "MUSCLE MAN",
+      "value": 16
+    },
+    {
+      "source": "ALL",
+      "target": "THOMAS",
+      "value": 7
+    },
+    {
+      "source": "DEATH",
+      "target": "HIGH FIVE GHOST",
+      "value": 4
+    },
+    {
+      "source": "EILEEN",
+      "target": "FRANK",
+      "value": 4
+    },
+    {
+      "source": "FRANK",
+      "target": "MARGARET",
+      "value": 4
+    },
+    {
+      "source": "FRANK",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "FRANK",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "EMPLOYEE",
+      "target": "HIGH FIVE GHOST",
+      "value": 3
+    },
+    {
+      "source": "AUDIENCE",
+      "target": "BENSON",
+      "value": 6
+    },
+    {
+      "source": "AUDIENCE",
+      "target": "MORDECAI",
+      "value": 8
+    },
+    {
+      "source": "AUDIENCE",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "AUDIENCE",
+      "target": "RIGBY",
+      "value": 8
+    },
+    {
+      "source": "MORDECAI",
+      "target": "PIZZA GUY",
+      "value": 3
+    },
+    {
+      "source": "PIZZA GUY",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "HFG",
+      "target": "STARLA",
+      "value": 3
+    },
+    {
+      "source": "AUDIENCE",
+      "target": "SKIPS",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "GUARD",
+      "value": 3
+    },
+    {
+      "source": "GUARD",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "GUARD",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "TV ANNOUNCER",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "TV ANNOUNCER",
+      "value": 4
+    },
+    {
+      "source": "SKIPS",
+      "target": "TV ANNOUNCER",
+      "value": 4
+    },
+    {
+      "source": "STARLA",
+      "target": "THOMAS",
+      "value": 4
+    },
+    {
+      "source": "KEITH",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "KEITH",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "KEITH",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "THOMAS",
+      "value": 7
+    },
+    {
+      "source": "MORDECAI",
+      "target": "RGB2",
+      "value": 6
+    },
+    {
+      "source": "RGB2",
+      "target": "RIGBY",
+      "value": 6
+    },
+    {
+      "source": "BENSON",
+      "target": "MAELLARD",
+      "value": 3
+    },
+    {
+      "source": "GENE",
+      "target": "HIGH FIVE GHOST",
+      "value": 4
+    },
+    {
+      "source": "MAELLARD",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "MAELLARD",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "MAELLARD",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "REEL TO REEL",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "REEL TO REEL",
+      "value": 3
+    },
+    {
+      "source": "REEL TO REEL",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "HFG",
+      "value": 4
+    },
+    {
+      "source": "JOHN",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "JOHN",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "DELIVERY MAN",
+      "value": 3
+    },
+    {
+      "source": "CLERK",
+      "target": "HIGH FIVE GHOST",
+      "value": 3
+    },
+    {
+      "source": "DELIVERY MAN",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "DELIVERY MAN",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "ALL",
+      "target": "GUYS",
+      "value": 3
+    },
+    {
+      "source": "GUYS",
+      "target": "HIGH FIVE GHOST",
+      "value": 10
+    },
+    {
+      "source": "GUYS",
+      "target": "MORDECAI",
+      "value": 12
+    },
+    {
+      "source": "GUYS",
+      "target": "MUSCLE MAN",
+      "value": 11
+    },
+    {
+      "source": "GUYS",
+      "target": "RIGBY",
+      "value": 12
+    },
+    {
+      "source": "GUYS",
+      "target": "SKIPS",
+      "value": 8
+    },
+    {
+      "source": "CJ",
+      "target": "HIGH FIVE GHOST",
+      "value": 8
+    },
+    {
+      "source": "CJ",
+      "target": "MUSCLE MAN",
+      "value": 12
+    },
+    {
+      "source": "CJ",
+      "target": "THOMAS",
+      "value": 6
+    },
+    {
+      "source": "GARY",
+      "target": "HIGH FIVE GHOST",
+      "value": 3
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "REGINALD",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "GUYS",
+      "value": 10
+    },
+    {
+      "source": "BENSON",
+      "target": "LOW FIVE GHOST",
+      "value": 4
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "LOW FIVE GHOST",
+      "value": 4
+    },
+    {
+      "source": "LOW FIVE GHOST",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "LOW FIVE GHOST",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "LOW FIVE GHOST",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "ANONYMOUS",
+      "target": "BENSON",
+      "value": 3
+    },
+    {
+      "source": "ANONYMOUS",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "ANONYMOUS",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "ANONYMOUS",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "KID",
+      "value": 4
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "KID",
+      "value": 4
+    },
+    {
+      "source": "KID",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "KID",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "KID",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "KID",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "KID",
+      "target": "SKIPS",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "OLD MAN",
+      "value": 3
+    },
+    {
+      "source": "OLD MAN",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "GUYS",
+      "target": "MR. MAELLARD",
+      "value": 3
+    },
+    {
+      "source": "GUYS",
+      "target": "POPS",
+      "value": 7
+    },
+    {
+      "source": "GUYS",
+      "target": "THOMAS",
+      "value": 4
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "MR. MAELLARD",
+      "value": 10
+    },
+    {
+      "source": "BENSON",
+      "target": "NEWS REPORTER",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "NEWS REPORTER",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "NEWS REPORTER",
+      "value": 3
+    },
+    {
+      "source": "NEWS REPORTER",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "CJ",
+      "target": "EILEEN",
+      "value": 19
+    },
+    {
+      "source": "CJ",
+      "target": "POPS",
+      "value": 6
+    },
+    {
+      "source": "BENSON",
+      "target": "RGB2",
+      "value": 3
+    },
+    {
+      "source": "CJ",
+      "target": "VOICE",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "VOICE",
+      "value": 4
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "RGB2",
+      "value": 3
+    },
+    {
+      "source": "DEATH",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "GUYS",
+      "value": 4
+    },
+    {
+      "source": "BARBARA",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "BARBARA",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "BARBARA",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "(SONG",
+      "target": "BENSON",
+      "value": 7
+    },
+    {
+      "source": "(SONG",
+      "target": "HIGH FIVE GHOST",
+      "value": 3
+    },
+    {
+      "source": "(SONG",
+      "target": "MORDECAI",
+      "value": 8
+    },
+    {
+      "source": "(SONG",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "(SONG",
+      "target": "RIGBY",
+      "value": 8
+    },
+    {
+      "source": "(SONG",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "ALL",
+      "target": "AUDIENCE",
+      "value": 4
+    },
+    {
+      "source": "AUDIENCE",
+      "target": "HIGH FIVE GHOST",
+      "value": 3
+    },
+    {
+      "source": "AUDIENCE",
+      "target": "MUSCLE MAN",
+      "value": 5
+    },
+    {
+      "source": "MORDECAI",
+      "target": "OSWALD",
+      "value": 4
+    },
+    {
+      "source": "OSWALD",
+      "target": "REGINALD",
+      "value": 4
+    },
+    {
+      "source": "OSWALD",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "OSWALD",
+      "target": "SKIPS",
+      "value": 4
+    },
+    {
+      "source": "EILEEN",
+      "target": "MR. MAELLARD",
+      "value": 4
+    },
+    {
+      "source": "CJ",
+      "target": "STARLA",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "FRANK",
+      "value": 3
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "PILOT",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "COMMERCIAL",
+      "value": 3
+    },
+    {
+      "source": "COMMERCIAL",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "COMMERCIAL",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "COMMERCIAL",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "GUY",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "NEIL",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "NEIL",
+      "value": 3
+    },
+    {
+      "source": "NEIL",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "NEIL",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "NEIL",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "ANDY",
+      "target": "BENSON",
+      "value": 3
+    },
+    {
+      "source": "ANDY",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "ANDY",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "ANDY",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "ANDY",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "STREAMING",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "STREAMING",
+      "value": 3
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "STREAMING",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "STREAMING",
+      "value": 3
+    },
+    {
+      "source": "AUDIENCE",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "SHERM",
+      "value": 5
+    },
+    {
+      "source": "RIGBY",
+      "target": "SHERM",
+      "value": 5
+    },
+    {
+      "source": "BENSON",
+      "target": "SHERM",
+      "value": 3
+    },
+    {
+      "source": "(TITLE CARD",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "(TITLE CARD",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "HUGE HEAD",
+      "target": "MR. MAELLARD",
+      "value": 3
+    },
+    {
+      "source": "DEL",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "DEL",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "DEL",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "STEFFEN",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "STEFFEN",
+      "value": 3
+    },
+    {
+      "source": "RIGBY",
+      "target": "STEFFEN",
+      "value": 3
+    },
+    {
+      "source": "COWBOY",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "COWBOY",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "COWBOY",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "DR. LANGER",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "DR. LANGER",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "PAM",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "PAM",
+      "value": 5
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "PAM",
+      "value": 3
+    },
+    {
+      "source": "PAM",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "AIDEN",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "AIDEN",
+      "target": "PRINCIPAL DEAN",
+      "value": 4
+    },
+    {
+      "source": "AIDEN",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "PRINCIPAL DEAN",
+      "value": 5
+    },
+    {
+      "source": "PRINCIPAL DEAN",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "BENSON",
+      "target": "PRINCIPAL DEAN",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "SHERM",
+      "value": 3
+    },
+    {
+      "source": "???",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "PAM",
+      "value": 4
+    },
+    {
+      "source": "AIDEN",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "PRINCIPAL DEAN",
+      "value": 3
+    },
+    {
+      "source": "ANTI POPS",
+      "target": "BENSON",
+      "value": 4
+    },
+    {
+      "source": "ANTI POPS",
+      "target": "EILEEN",
+      "value": 4
+    },
+    {
+      "source": "ANTI POPS",
+      "target": "HIGH FIVE GHOST",
+      "value": 4
+    },
+    {
+      "source": "ANTI POPS",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "ANTI POPS",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "ANTI POPS",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "ANTI POPS",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "ANTI POPS",
+      "target": "SKIPS",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "BLU RAY",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "HD DVD",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "RECAP",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "SALLY",
+      "value": 5
+    },
+    {
+      "source": "BENSON",
+      "target": "SURESHOT",
+      "value": 6
+    },
+    {
+      "source": "BLU RAY",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "BLU RAY",
+      "target": "HD DVD",
+      "value": 3
+    },
+    {
+      "source": "BLU RAY",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "BLU RAY",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "BLU RAY",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "BLU RAY",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "BLU RAY",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "HD DVD",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "RECAP",
+      "value": 4
+    },
+    {
+      "source": "EILEEN",
+      "target": "SALLY",
+      "value": 5
+    },
+    {
+      "source": "EILEEN",
+      "target": "SURESHOT",
+      "value": 6
+    },
+    {
+      "source": "HD DVD",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "HD DVD",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "HD DVD",
+      "target": "POPS",
+      "value": 3
+    },
+    {
+      "source": "HD DVD",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "HD DVD",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "RECAP",
+      "value": 4
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "SALLY",
+      "value": 3
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "SURESHOT",
+      "value": 6
+    },
+    {
+      "source": "MORDECAI",
+      "target": "RECAP",
+      "value": 4
+    },
+    {
+      "source": "MORDECAI",
+      "target": "SALLY",
+      "value": 5
+    },
+    {
+      "source": "MORDECAI",
+      "target": "SURESHOT",
+      "value": 7
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "RECAP",
+      "value": 4
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "SALLY",
+      "value": 4
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "SURESHOT",
+      "value": 6
+    },
+    {
+      "source": "POPS",
+      "target": "RECAP",
+      "value": 3
+    },
+    {
+      "source": "POPS",
+      "target": "SALLY",
+      "value": 4
+    },
+    {
+      "source": "POPS",
+      "target": "SURESHOT",
+      "value": 5
+    },
+    {
+      "source": "RECAP",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "RECAP",
+      "target": "SALLY",
+      "value": 3
+    },
+    {
+      "source": "RECAP",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "RECAP",
+      "target": "SURESHOT",
+      "value": 4
+    },
+    {
+      "source": "RIGBY",
+      "target": "SALLY",
+      "value": 5
+    },
+    {
+      "source": "RIGBY",
+      "target": "SURESHOT",
+      "value": 7
+    },
+    {
+      "source": "SALLY",
+      "target": "SKIPS",
+      "value": 5
+    },
+    {
+      "source": "SALLY",
+      "target": "SURESHOT",
+      "value": 3
+    },
+    {
+      "source": "SKIPS",
+      "target": "SURESHOT",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "CHANCE SURESHOT",
+      "value": 3
+    },
+    {
+      "source": "BENSON",
+      "target": "RECAP ROBOT",
+      "value": 7
+    },
+    {
+      "source": "BENSON",
+      "target": "TOOTHPICK SALLY",
+      "value": 6
+    },
+    {
+      "source": "CHANCE SURESHOT",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "CHANCE SURESHOT",
+      "target": "MORDECAI",
+      "value": 3
+    },
+    {
+      "source": "CHANCE SURESHOT",
+      "target": "MUSCLE MAN",
+      "value": 3
+    },
+    {
+      "source": "CHANCE SURESHOT",
+      "target": "RECAP ROBOT",
+      "value": 3
+    },
+    {
+      "source": "CHANCE SURESHOT",
+      "target": "RIGBY",
+      "value": 3
+    },
+    {
+      "source": "CHANCE SURESHOT",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "CHANCE SURESHOT",
+      "target": "TOOTHPICK SALLY",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "RECAP ROBOT",
+      "value": 7
+    },
+    {
+      "source": "EILEEN",
+      "target": "TOOTHPICK SALLY",
+      "value": 6
+    },
+    {
+      "source": "MORDECAI",
+      "target": "RECAP ROBOT",
+      "value": 8
+    },
+    {
+      "source": "MORDECAI",
+      "target": "TOOTHPICK SALLY",
+      "value": 7
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "RECAP ROBOT",
+      "value": 7
+    },
+    {
+      "source": "MUSCLE MAN",
+      "target": "TOOTHPICK SALLY",
+      "value": 5
+    },
+    {
+      "source": "RECAP ROBOT",
+      "target": "RIGBY",
+      "value": 8
+    },
+    {
+      "source": "RECAP ROBOT",
+      "target": "SKIPS",
+      "value": 6
+    },
+    {
+      "source": "RECAP ROBOT",
+      "target": "TOOTHPICK SALLY",
+      "value": 5
+    },
+    {
+      "source": "RIGBY",
+      "target": "TOOTHPICK SALLY",
+      "value": 7
+    },
+    {
+      "source": "SKIPS",
+      "target": "TOOTHPICK SALLY",
+      "value": 5
+    },
+    {
+      "source": "COMPUTER",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "POPS",
+      "target": "RECAP ROBOT",
+      "value": 5
+    },
+    {
+      "source": "POPS",
+      "target": "TOOTHPICK SALLY",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "EARL",
+      "value": 4
+    },
+    {
+      "source": "EARL",
+      "target": "EILEEN",
+      "value": 4
+    },
+    {
+      "source": "EARL",
+      "target": "HIGH FIVE GHOST",
+      "value": 4
+    },
+    {
+      "source": "EARL",
+      "target": "MORDECAI",
+      "value": 4
+    },
+    {
+      "source": "EARL",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "EARL",
+      "target": "POPS",
+      "value": 4
+    },
+    {
+      "source": "EARL",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "EARL",
+      "target": "SKIPS",
+      "value": 4
+    },
+    {
+      "source": "RECAP ROBOT",
+      "target": "SURESHOT",
+      "value": 4
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "TOOTHPICK SALLY",
+      "value": 3
+    },
+    {
+      "source": "HIGH FIVE GHOST",
+      "target": "RECAP ROBOT",
+      "value": 5
+    },
+    {
+      "source": "BENSON",
+      "target": "COLONEL RAWLS",
+      "value": 4
+    },
+    {
+      "source": "BENSON",
+      "target": "RAWLS",
+      "value": 4
+    },
+    {
+      "source": "COLONEL RAWLS",
+      "target": "EILEEN",
+      "value": 3
+    },
+    {
+      "source": "COLONEL RAWLS",
+      "target": "MORDECAI",
+      "value": 5
+    },
+    {
+      "source": "COLONEL RAWLS",
+      "target": "MUSCLE MAN",
+      "value": 4
+    },
+    {
+      "source": "COLONEL RAWLS",
+      "target": "RAWLS",
+      "value": 3
+    },
+    {
+      "source": "COLONEL RAWLS",
+      "target": "RIGBY",
+      "value": 5
+    },
+    {
+      "source": "COLONEL RAWLS",
+      "target": "SKIPS",
+      "value": 3
+    },
+    {
+      "source": "EILEEN",
+      "target": "RAWLS",
+      "value": 3
+    },
+    {
+      "source": "MORDECAI",
+      "target": "RAWLS",
+      "value": 4
+    },
+    {
+      "source": "RAWLS",
+      "target": "RIGBY",
+      "value": 4
+    },
+    {
+      "source": "RAWLS",
+      "target": "SKIPS",
+      "value": 3
+    }
+  ]
+}

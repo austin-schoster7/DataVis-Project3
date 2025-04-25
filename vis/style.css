@@ -139,17 +139,3 @@ svg circle {
     margin-top: 20px;
     font-family: sans-serif;
 }
-
-#phrases-chart {
-    margin-top: 40px;
-    clear: both;
-}
-
-#phrases-chart .bar {
-    fill: #4CAF50;
-    transition: fill 0.3s;
-}
-
-#phrases-chart .bar:hover {
-    fill: #2E7D32;
-}

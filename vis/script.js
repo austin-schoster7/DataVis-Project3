@@ -643,6 +643,291 @@ Promise.all([
           .call(d3.axisLeft(y));
     }
 
+    // 4) Load & draw the network
+    d3.json('../data/cooccurrence.json').then(graph => {
+        const width   = 700,
+              height  = 500,
+              MIN_LINK = 10;               // only show edges ≥ 20 scenes
+        // 1) filter links & nodes
+        const links = graph.links.filter(l => l.value >= MIN_LINK);
+        const nodeIds = new Set();
+        links.forEach(l => {
+          nodeIds.add(l.source);
+          nodeIds.add(l.target);
+        });
+        const nodes = graph.nodes.filter(n => nodeIds.has(n.id));
+      
+        // 2) SVG + zoom container
+        const svg   = d3.select('#cooccurrence-chart')
+                        .append('svg')
+                          .attr('width', width)
+                          .attr('height', height);
+        const mainG = svg.append('g');
+        svg.call(d3.zoom()
+            .extent([[0,0],[width,height]])
+            .scaleExtent([0.5,5])
+            .on('zoom', e => mainG.attr('transform', e.transform))
+        );
+      
+        // 3) simulation with collide
+        const sim = d3.forceSimulation(nodes)
+            .force('link',   d3.forceLink(links).id(d=>d.id).distance(100).strength(0.2))
+            .force('charge', d3.forceManyBody().strength(-200))
+            .force('center', d3.forceCenter(width/2, height/2))
+            .force('collide', d3.forceCollide(12));
+      
+        // 4) draw links
+        const link = mainG.append('g')
+            .attr('stroke','#999')
+            .selectAll('line')
+            .data(links)
+            .join('line')
+              .attr('stroke-width', d=>Math.sqrt(d.value));
+      
+        // 5) draw nodes
+        const node = mainG.append('g')
+            .selectAll('circle')
+            .data(nodes)
+            .join('circle')
+              .attr('r', 6)
+              .attr('fill','steelblue')
+              .style('cursor','pointer')
+              .call(d3.drag()
+                .on('start', dragstarted)
+                .on('drag', dragged)
+                .on('end', dragended)
+              );
+      
+        // 6) click to toggle highlight / deselect
+        let selected = null;
+        node.on('click', (ev, d) => {
+          if (selected === d.id) {
+            // deselect
+            node.attr('opacity', 1);
+            node.attr('fill', 'steelblue');
+            link.attr('opacity', 1);
+            selected = null;
+          } else {
+            selected = d.id;
+            // find its neighbors
+            const nbrs = new Set(
+              links
+                .filter(l => l.source.id === d.id || l.target.id === d.id)
+                .flatMap(l => [l.source.id, l.target.id])
+            );
+            node.attr('fill', n => {
+              if (n.id === d.id) return 'orange';
+              return nbrs.has(n.id) ? 'lightgreen' : '#999';
+            });
+            node.attr('opacity', n => nbrs.has(n.id) || n.id === d.id ? 1 : 0.1);
+            link.attr('opacity', l =>
+              l.source.id === d.id || l.target.id === d.id ? 1 : 0.1
+            );
+          }
+        });
+      
+        // 7) tooltips
+        node
+          .on('mouseover', (ev, d) => tooltip.html(`<strong>${d.id}</strong>`).style('opacity',1))
+          .on('mousemove', (ev)  => tooltip.style('left', (ev.pageX+10)+'px').style('top', (ev.pageY+10)+'px'))
+          .on('mouseout', ()     => tooltip.style('opacity',0));
+      
+        // 8) optional labels
+        const label = mainG.append('g')
+            .selectAll('text')
+            .data(nodes)
+            .join('text')
+              .attr('dx', 8)
+              .attr('dy', 4)
+              .text(d=>d.id)
+              .style('pointer-events','none')
+              .style('font-size','10px');
+      
+        // 9) on tick
+        sim.on('tick', () => {
+          link
+            .attr('x1', d=>d.source.x)
+            .attr('y1', d=>d.source.y)
+            .attr('x2', d=>d.target.x)
+            .attr('y2', d=>d.target.y);
+          node
+            .attr('cx', d=>d.x)
+            .attr('cy', d=>d.y);
+          label
+            .attr('x', d=>d.x)
+            .attr('y', d=>d.y);
+        });
+      
+        // drag helpers
+        function dragstarted(event, d) {
+          if (!event.active) sim.alphaTarget(0.3).restart();
+          d.fx = d.x; d.fy = d.y;
+        }
+        function dragged(event, d) {
+          d.fx = event.x; d.fy = event.y;
+        }
+        function dragended(event, d) {
+          if (!event.active) sim.alphaTarget(0);
+          d.fx = null; d.fy = null;
+        }
+      });
+
+// ─── Level 4: “Who speaks when” single-episode timeline ───
+d3.json('../data/timing.json').then(timingData => {
+    // selectors
+    const sel1     = d3.select('#when-char1');
+    const sel2     = d3.select('#when-char2');
+    const epSelect = d3.select('#when-episode');
+  
+    // populate chars
+    const chars = allData.map(d => d.character);
+    [sel1, sel2].forEach(sel => {
+      sel.selectAll('option')
+        .data([''].concat(chars))
+        .join('option')
+          .attr('value', d => d)
+          .text(d => d || '-- none --');
+    });
+  
+    // populate eps
+    const eps = Array.from(new Set(
+        timingData.map(d => `${d.season}-${d.episode}`)
+      ))
+      .sort((a,b) => {
+        const [s1,e1]=a.split('-').map(Number),
+              [s2,e2]=b.split('-').map(Number);
+        return s1!==s2? s1-s2 : e1-e2;
+      });
+    epSelect.selectAll('option.ep')
+      .data(eps)
+      .join('option')
+        .attr('class','ep')
+        .attr('value', d => d)
+        .text(d => {
+          const [s,e] = d.split('-');
+          return `Season ${s} Episode ${e}`;
+        });
+  
+    // bind all three
+    [sel1, sel2, epSelect].forEach(sel => sel.on('change', drawWhen));
+  
+    function drawWhen() {
+      const c1    = sel1.property('value'),
+            c2    = sel2.property('value'),
+            epVal = epSelect.property('value'),
+            container = d3.select('#when-chart');
+  
+      // clear old
+      container.selectAll('svg').remove();
+      container.selectAll('.msg').remove();
+  
+      // need at least one char + an episode
+      if (!epVal || (!c1 && !c2)) {
+        container.append('p')
+          .attr('class','msg')
+          .text('Select two characters and an episode.');
+        return;
+      }
+  
+      // parse S & E
+      const [seasonNum, episodeNum] = epVal.split('-').map(Number);
+  
+      // find their records
+      const recsRaw = [
+        { character: c1, rec: timingData.find(d =>
+            d.character===c1 && d.season===seasonNum && d.episode===episodeNum
+          )
+        },
+        { character: c2, rec: timingData.find(d =>
+            d.character===c2 && d.season===seasonNum && d.episode===episodeNum
+          )
+        }
+      ];
+  
+      // separate out those that have data
+      const recs = recsRaw.filter(d => d.rec).map(d => d.rec);
+      const missing = recsRaw.filter(d => !d.rec).map(d => d.character);
+  
+      // if none have data
+      if (recs.length === 0) {
+        container.append('p')
+          .attr('class','msg')
+          .text(`Neither ${c1} nor ${c2} speaks in Season ${seasonNum}, Episode ${episodeNum}.`);
+        return;
+      }
+  
+      // if one is missing, show notice
+      if (missing.length) {
+        container.append('p')
+          .attr('class','msg')
+          .text(`${missing.join(' and ')} has no lines in S${seasonNum}E${episodeNum}.`);
+      }
+  
+      // build chart for recs.length (1 or 2)
+      const chosen = recs.map(r => r.character);
+      const w = 700, h = 300, m = { top:40, right:20, bottom:40, left:100 };
+      const svg = container.append('svg')
+        .attr('width', w)
+        .attr('height', h);
+  
+      const x = d3.scaleLinear().domain([0,1]).range([m.left, w-m.right]);
+      const y = d3.scalePoint()
+        .domain(chosen)
+        .range([m.top, h-m.bottom])
+        .padding(0.5);
+  
+      const color = d3.scaleOrdinal()
+        .domain(chosen)
+        .range(['steelblue','orange']);
+  
+      const jitter = 10;
+  
+      recs.forEach(rec => {
+        svg.append('g')
+          .selectAll('circle')
+          .data(rec.positions)
+          .join('circle')
+            .attr('cx', p => x(p))
+            .attr('cy', () => y(rec.character) + (Math.random()-0.5)*jitter)
+            .attr('r', 3)
+            .attr('fill', color(rec.character))
+            .attr('opacity', 0.7)
+          .on('mouseover', (ev,p) => {
+            tooltip
+              .html(
+                `<strong>${rec.character}</strong><br>` +
+                `S${rec.season}E${rec.episode}<br>` +
+                `${Math.round(p*100)}% into episode`
+              )
+              .style('opacity',1);
+          })
+          .on('mousemove', ev => {
+            tooltip
+              .style('left', (ev.pageX+8)+'px')
+              .style('top',  (ev.pageY+8)+'px');
+          })
+          .on('mouseout', () => tooltip.style('opacity',0));
+      });
+  
+      // axes
+      svg.append('g')
+        .attr('transform', `translate(0,${h-m.bottom})`)
+        .call(d3.axisBottom(x).tickFormat(d3.format('.0%')));
+
+      // X axis label
+      svg.append('text')
+        .attr('class', 'axis-label')
+        .attr('x', m.left + (w - m.left - m.right) / 2)
+        .attr('y', h - m.bottom + 30)
+        .attr('text-anchor', 'middle')
+        .text('Position in Episode (% of dialogue)');
+  
+      svg.append('g')
+        .attr('transform', `translate(${m.left},0)`)
+        .call(d3.axisLeft(y));
+    }
+  });  
+
   // initial draw & bind dropdown now that functions exist
   updateCharts();
   seasonSelect.on('change', () => {

@@ -1,6 +1,5 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
     background-color: #f5f5f5;
@@ -36,10 +35,10 @@ h3 {
 
 select,
 input {
-  padding: 8px 12px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  min-width: 150px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    min-width: 150px;
 }
 
 .overview {
@@ -87,6 +86,7 @@ button {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 button:hover {
     background-color: #388E3C;
 }
@@ -202,9 +202,10 @@ svg circle {
     padding: 20px;
     margin-bottom: 30px;
 }
-  
+
 #arc-diagram {
-    margin-top: 20px; /* optional spacing */
+    margin-top: 20px;
+    /* optional spacing */
 }
 
 .dashboard-container {
@@ -248,6 +249,7 @@ svg circle {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
+
 .character-card img {
     width: 80px;
     height: 80px;
@@ -277,16 +279,16 @@ svg circle {
     box-sizing: border-box;
     justify-items: center;
 }
-  
+
 .interaction-chart {
-    overflow: visible;     
+    overflow: visible;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 20px;
 }
-  
+
 .interaction-chart svg {
     max-width: 100%;
     max-height: 300px;
@@ -303,16 +305,17 @@ svg circle {
 }
 
 #arc-diagram svg {
-  max-height: none !important;
-  height: 600px !important;
-  width: 100% !important;
+    max-height: none !important;
+    height: 600px !important;
+    width: 100% !important;
 }
+
 #arc-diagram {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 @media (max-width: 1000px) {
     .interaction-charts {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
 }

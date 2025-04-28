@@ -63,10 +63,10 @@ Promise.all([
 
     const phraseData = countSpecialPhrases(season);
     drawPhraseChart('#phrases-chart', phraseData);
-    
+
     const arcData = getCooccurrenceData(transcriptData, season);
     drawArcDiagram(arcData);
-      
+
   }
 
   const stopwords = new Set([
@@ -97,7 +97,7 @@ Promise.all([
     const character = d3.select('#character').property('value');
 
     if (!character) {
-      d3.select('#cloud-container').html('<p>Select a character to see their word frequency</p>');
+      d3.select('#cloud-container').html('<p>Select a character above</p>');
       return;
     }
 
@@ -329,20 +329,20 @@ Promise.all([
 
   function getCooccurrenceData(transcriptData, seasonFilter = 'all', windowSize = 5) {
     const cooccurrence = new Map();
-  
+
     // Season filter
     let data = transcriptData;
     if (seasonFilter !== 'all') {
       data = transcriptData.filter(d => +d.season === +seasonFilter);
     }
-  
+
     // Sort by season, episode, and line number
     data.sort((a, b) => {
       return +a.season - +b.season ||
-             +a.episode - +b.episode ||
-             +a.line_number - +b.line_number;
+        +a.episode - +b.episode ||
+        +a.line_number - +b.line_number;
     });
-  
+
     // Sliding window logic
     for (let i = 0; i < data.length; i++) {
       const baseSpeaker = data[i].speaker;
@@ -350,7 +350,7 @@ Promise.all([
       if (topCharacters.includes(baseSpeaker)) {
         for (let j = i + 1; j < windowEnd; j++) {
           const otherSpeaker = data[j].speaker;
-  
+
           // Skip self-pairing and duplicate pairing
           if (baseSpeaker !== otherSpeaker && topCharacters.includes(baseSpeaker) && topCharacters.includes(otherSpeaker)) {
             const pair = [baseSpeaker, otherSpeaker].sort();
@@ -360,7 +360,7 @@ Promise.all([
         }
       }
     }
-  
+
     // Format nodes and links
     const allCharacters = new Set();
     const links = Array.from(cooccurrence.entries()).map(([pair, value]) => {
@@ -369,39 +369,41 @@ Promise.all([
       allCharacters.add(target);
       return { source, target, value };
     });
-  
+
     const nodes = Array.from(allCharacters).map(id => ({ id }));
-  
+
     return { nodes, links };
   }
 
-  const colorMap = { 'MORDECAI' : '#11a1f0',
-                      'RIGBY' : '#75501f', 
-                      'MUSCLE MAN' : '#0bf193', 
-                      'BENSON' : '#a9063e', 
-                      'POPS' : '#ff4cae', 
-                      'SKIPS' : '#f49c11', 
-                      'HI-FIVE GHOST' : 'purple', 
-                      'EILEEN' : '#b48d6c', 
-                      'MARGARET' : 'red', 
-                      'CJ' : 'yellow' }
+  const colorMap = {
+    'MORDECAI': '#11a1f0',
+    'RIGBY': '#75501f',
+    'MUSCLE MAN': '#0bf193',
+    'BENSON': '#a9063e',
+    'POPS': '#ff4cae',
+    'SKIPS': '#f49c11',
+    'HI-FIVE GHOST': 'purple',
+    'EILEEN': '#b48d6c',
+    'MARGARET': 'red',
+    'CJ': 'yellow'
+  }
 
   function drawArcDiagram({ nodes, links }, container = '#arc-diagram') {
     const width = 1000;
     const height = 600;
     const bottom = height - 100;
     const radius = 5;
-  
+
     d3.select(container).selectAll('*').remove();
     const svg = d3.select(container).append('svg')
       .attr('width', width)
       .attr('height', height);
-  
+
     const nodeOrder = nodes.map(d => d.id).sort();
     const x = d3.scalePoint()
       .domain(nodeOrder)
       .range([50, width - 50]);
-  
+
     // Draw arcs and keep reference
     const arcGroup = svg.append('g');
     const arcPaths = arcGroup
@@ -419,7 +421,7 @@ Promise.all([
       });
 
     let activeCharacter = null;
-  
+
     // Draw nodes
     svg.append('g')
       .selectAll('circle')
@@ -443,7 +445,7 @@ Promise.all([
       .on('mouseout', () => tooltip.style('opacity', 0))
       .on('click', (event, d) => {
         const selectedId = d.id;
-      
+
         if (activeCharacter === selectedId) {
           // Deselect if the same node is clicked again
           activeCharacter = null;
@@ -453,7 +455,7 @@ Promise.all([
         } else {
           activeCharacter = selectedId;
           const selectedColor = colorMap[selectedId];
-      
+
           arcPaths
             .attr('stroke', link =>
               link.source === selectedId || link.target === selectedId
@@ -467,9 +469,9 @@ Promise.all([
             );
         }
       });
-      
-      
-  
+
+
+
     // Add labels
     svg.append('g')
       .selectAll('text')
@@ -481,9 +483,9 @@ Promise.all([
       .attr('font-size', '10px')
       .text(d => d.id);
   }
-  
-  
-  
+
+
+
 
 
   // Add event listeners for the new controls
@@ -729,477 +731,479 @@ Promise.all([
     });
   }
 
-    // ——— Level 4: Phrase search ———
-    d3.select('#search-button').on('click', updateSearch);
+  // ——— Level 4: Phrase search ———
+  d3.select('#search-button').on('click', updateSearch);
 
-    function updateSearch() {
-        const raw = d3.select('#search-input').property('value').trim().toLowerCase();
-        if (!raw) return;
+  function updateSearch() {
+    const raw = d3.select('#search-input').property('value').trim().toLowerCase();
+    if (!raw) return;
 
-        // 1) Find all transcript rows containing the phrase
-        const hits = transcriptData
-        .map(d => ({
-            season: +d.season,
-            episode: +d.episode,
-            speaker: d.speaker,
-            text: d.text.toLowerCase(),
-        }))
-        .filter(d => d.text.includes(raw));
+    // 1) Find all transcript rows containing the phrase
+    const hits = transcriptData
+      .map(d => ({
+        season: +d.season,
+        episode: +d.episode,
+        speaker: d.speaker,
+        text: d.text.toLowerCase(),
+      }))
+      .filter(d => d.text.includes(raw));
 
-        if (hits.length === 0) {
-        d3.select('#search-chart').html(`<p>No occurrences of “${raw}” found.</p>`);
-        d3.select('#search-speakers').html('');
-        return;
-        }
-
-        // 2) Count occurrences per episode
-        const freqByEp = Array.from(
-        d3.rollups(
-            hits,
-            v => v.length,
-            d => `${d.season}-${d.episode}`
-        ),
-        ([se, count]) => {
-            const [s,e] = se.split('-').map(Number);
-            return { season: s, episode: e, count };
-        }
-        ).sort((a,b) => a.season - b.season || a.episode - b.episode);
-
-        // 3) Draw a line chart of count vs. episode
-        drawSearchTrend(freqByEp, raw);
-
-        // 4) Count which speakers say it most
-        const speakerCounts = Array.from(
-        d3.rollups(
-            hits,
-            v => v.length,
-            d => d.speaker
-        ),
-        ([speaker, count]) => ({ speaker, count })
-        ).sort((a,b) => b.count - a.count).slice(0,10);
-
-        drawSearchSpeakers(speakerCounts, raw);
+    if (hits.length === 0) {
+      d3.select('#search-chart').html(`<p>No occurrences of “${raw}” found.</p>`);
+      d3.select('#search-speakers').html('');
+      return;
     }
 
-    function drawSearchTrend(data, phrase) {
-        const container = d3.select('#search-chart').html('');
-        container.append('h2')
-          .text(`“${phrase}” occurrences per episode`);
-      
-        const w = 700, h = 300, m = { top:40, right:20, bottom:80, left:60 };
-        const svg = container.append('svg')
-          .attr('width', w).attr('height', h);
-      
-        // Build a unique key per episode
-        const keys = data.map(d => `${d.season}-${d.episode}`);
-      
-        // 1) use a point scale so episodes are evenly spaced
-        const x = d3.scalePoint()
-          .domain(keys)
-          .range([m.left, w - m.right])
-          .padding(0.5);
-      
-        const y = d3.scaleLinear()
-          .domain([0, d3.max(data, d => d.count)]).nice()
-          .range([h - m.bottom, m.top]);
-      
-        const line = d3.line()
-          .x(d => x(`${d.season}-${d.episode}`))
-          .y(d => y(d.count));
-      
-        // Draw line
-        svg.append('path')
-          .datum(data)
-          .attr('fill','none')
-          .attr('stroke','steelblue')
-          .attr('stroke-width',2)
-          .attr('d', line);
-      
-        // Draw circles + tooltip
-        svg.selectAll('circle')
-          .data(data)
-          .join('circle')
-            .attr('cx', d => x(`${d.season}-${d.episode}`))
-            .attr('cy', d => y(d.count))
-            .attr('r', 4)
-            .attr('fill','steelblue')
-            .on('mouseover', (ev,d) => {
-              tooltip
-                .html(`S${d.season} E${d.episode}<br>${d.count} hits`)
-                .style('opacity',1);
-            })
-            .on('mousemove', ev => {
-              tooltip
-                .style('left', (ev.pageX + 10) + 'px')
-                .style('top',  (ev.pageY + 10) + 'px');
-            })
-            .on('mouseout', () => tooltip.style('opacity',0));
-      
-        // X axis: show every Nth tick to avoid overlap
-        const tickEvery = Math.ceil(keys.length / 10);
-        const ticks = keys.filter((_,i) => i % tickEvery === 0);
-      
-        svg.append('g')
-          .attr('transform', `translate(0,${h - m.bottom})`)
-          .call(d3.axisBottom(x)
-            .tickValues(ticks)
-            .tickFormat(k => {
-              const [s,e] = k.split('-');
-              return `S${s}E${e}`;
-            })
-          )
-          .selectAll('text')
-            .attr('transform','rotate(-45)')
-            .attr('text-anchor','end');
-      
-        // X label
-        svg.append('text')
-          .attr('class','axis-label')
-          .attr('x', m.left + (w - m.left - m.right)/2)
-          .attr('y', h - 10)
-          .attr('text-anchor','middle')
-          .text('Episode');
-      
-        // Y axis
-        svg.append('g')
-          .attr('transform', `translate(${m.left},0)`)
-          .call(d3.axisLeft(y))
-          .append('text')
-            .attr('class','axis-label')
-            .attr('transform','rotate(-90)')
-            .attr('x', -(m.top + (h - m.top - m.bottom)/2))
-            .attr('y', -45)
-            .attr('text-anchor','middle')
-            .text('Count');
-    }
+    // 2) Count occurrences per episode
+    const freqByEp = Array.from(
+      d3.rollups(
+        hits,
+        v => v.length,
+        d => `${d.season}-${d.episode}`
+      ),
+      ([se, count]) => {
+        const [s, e] = se.split('-').map(Number);
+        return { season: s, episode: e, count };
+      }
+    ).sort((a, b) => a.season - b.season || a.episode - b.episode);
 
-    function drawSearchSpeakers(data, phrase) {
-        const container = d3.select('#search-speakers').html('');
-        container.append('h2')
-          .text(`Who says “${phrase}” most often?`);
-      
-        const w = 700, h = 350, m = { top:40, right:20, bottom:50, left:140 };
-        const svg = container.append('svg')
-          .attr('width', w).attr('height', h);
-      
-        const x = d3.scaleLinear()
-          .domain([0, d3.max(data, d => d.count)]).nice()
-          .range([m.left, w - m.right]);
-      
-        const y = d3.scaleBand()
-          .domain(data.map(d => d.speaker))
-          .range([m.top, h - m.bottom])
-          .padding(0.1);
-      
-        // DRAW BARS with tooltip
-        svg.append('g')
-          .selectAll('rect')
-          .data(data)
-          .join('rect')
-            .attr('class','bar')
-            .attr('x', x(0))
-            .attr('y', d => y(d.speaker))
-            .attr('width', d => x(d.count) - x(0))
-            .attr('height', y.bandwidth())
-            .style('cursor','default')
-            .on('mouseover', (ev,d) => {
-              tooltip
-                .html(`<strong>${d.speaker}</strong><br>${d.count} times`)
-                .style('opacity',1);
-            })
-            .on('mousemove', ev => {
-              tooltip
-                .style('left', (ev.pageX + 10) + 'px')
-                .style('top',  (ev.pageY + 10) + 'px');
-            })
-            .on('mouseout', () => tooltip.style('opacity',0));
-      
-        // X axis
-        svg.append('g')
-          .attr('transform',`translate(0,${h-m.bottom})`)
-          .call(d3.axisBottom(x).ticks(5));
-        svg.append('text')
-          .attr('class','axis-label')
-          .attr('x', m.left + (w-m.left-m.right)/2)
-          .attr('y', h-m.bottom+35)
-          .attr('text-anchor','middle')
-          .text('Count');
-      
-        // Y axis
-        svg.append('g')
-          .attr('transform',`translate(${m.left},0)`)
-          .call(d3.axisLeft(y));
-    }
+    // 3) Draw a line chart of count vs. episode
+    drawSearchTrend(freqByEp, raw);
 
-    // 4) Load & draw the network
-    d3.json('../data/cooccurrence.json').then(graph => {
-        const width   = 700,
-              height  = 500,
-              MIN_LINK = 10;               // only show edges ≥ 20 scenes
-        // 1) filter links & nodes
-        const links = graph.links.filter(l => l.value >= MIN_LINK);
-        const nodeIds = new Set();
-        links.forEach(l => {
-          nodeIds.add(l.source);
-          nodeIds.add(l.target);
-        });
-        const nodes = graph.nodes.filter(n => nodeIds.has(n.id));
-      
-        // 2) SVG + zoom container
-        const svg   = d3.select('#cooccurrence-chart')
-                        .append('svg')
-                          .attr('width', width)
-                          .attr('height', height);
-        const mainG = svg.append('g');
-        svg.call(d3.zoom()
-            .extent([[0,0],[width,height]])
-            .scaleExtent([0.5,5])
-            .on('zoom', e => mainG.attr('transform', e.transform))
+    // 4) Count which speakers say it most
+    const speakerCounts = Array.from(
+      d3.rollups(
+        hits,
+        v => v.length,
+        d => d.speaker
+      ),
+      ([speaker, count]) => ({ speaker, count })
+    ).sort((a, b) => b.count - a.count).slice(0, 10);
+
+    drawSearchSpeakers(speakerCounts, raw);
+  }
+
+  function drawSearchTrend(data, phrase) {
+    const container = d3.select('#search-chart').html('');
+    container.append('h2')
+      .text(`“${phrase}” occurrences per episode`);
+
+    const w = 700, h = 300, m = { top: 40, right: 20, bottom: 80, left: 60 };
+    const svg = container.append('svg')
+      .attr('width', w).attr('height', h);
+
+    // Build a unique key per episode
+    const keys = data.map(d => `${d.season}-${d.episode}`);
+
+    // 1) use a point scale so episodes are evenly spaced
+    const x = d3.scalePoint()
+      .domain(keys)
+      .range([m.left, w - m.right])
+      .padding(0.5);
+
+    const y = d3.scaleLinear()
+      .domain([0, d3.max(data, d => d.count)]).nice()
+      .range([h - m.bottom, m.top]);
+
+    const line = d3.line()
+      .x(d => x(`${d.season}-${d.episode}`))
+      .y(d => y(d.count));
+
+    // Draw line
+    svg.append('path')
+      .datum(data)
+      .attr('fill', 'none')
+      .attr('stroke', 'steelblue')
+      .attr('stroke-width', 2)
+      .attr('d', line);
+
+    // Draw circles + tooltip
+    svg.selectAll('circle')
+      .data(data)
+      .join('circle')
+      .attr('cx', d => x(`${d.season}-${d.episode}`))
+      .attr('cy', d => y(d.count))
+      .attr('r', 4)
+      .attr('fill', 'steelblue')
+      .on('mouseover', (ev, d) => {
+        tooltip
+          .html(`S${d.season} E${d.episode}<br>${d.count} hits`)
+          .style('opacity', 1);
+      })
+      .on('mousemove', ev => {
+        tooltip
+          .style('left', (ev.pageX + 10) + 'px')
+          .style('top', (ev.pageY + 10) + 'px');
+      })
+      .on('mouseout', () => tooltip.style('opacity', 0));
+
+    // X axis: show every Nth tick to avoid overlap
+    const tickEvery = Math.ceil(keys.length / 10);
+    const ticks = keys.filter((_, i) => i % tickEvery === 0);
+
+    svg.append('g')
+      .attr('transform', `translate(0,${h - m.bottom})`)
+      .call(d3.axisBottom(x)
+        .tickValues(ticks)
+        .tickFormat(k => {
+          const [s, e] = k.split('-');
+          return `S${s}E${e}`;
+        })
+      )
+      .selectAll('text')
+      .attr('transform', 'rotate(-45)')
+      .attr('text-anchor', 'end');
+
+    // X label
+    svg.append('text')
+      .attr('class', 'axis-label')
+      .attr('x', m.left + (w - m.left - m.right) / 2)
+      .attr('y', h - 10)
+      .attr('text-anchor', 'middle')
+      .text('Episode');
+
+    // Y axis
+    svg.append('g')
+      .attr('transform', `translate(${m.left},0)`)
+      .call(d3.axisLeft(y))
+      .append('text')
+      .attr('class', 'axis-label')
+      .attr('transform', 'rotate(-90)')
+      .attr('x', -(m.top + (h - m.top - m.bottom) / 2))
+      .attr('y', -45)
+      .attr('text-anchor', 'middle')
+      .text('Count');
+  }
+
+  function drawSearchSpeakers(data, phrase) {
+    const container = d3.select('#search-speakers').html('');
+    container.append('h2')
+      .text(`Who says “${phrase}” most often?`);
+
+    const w = 700, h = 350, m = { top: 40, right: 20, bottom: 50, left: 140 };
+    const svg = container.append('svg')
+      .attr('width', w).attr('height', h);
+
+    const x = d3.scaleLinear()
+      .domain([0, d3.max(data, d => d.count)]).nice()
+      .range([m.left, w - m.right]);
+
+    const y = d3.scaleBand()
+      .domain(data.map(d => d.speaker))
+      .range([m.top, h - m.bottom])
+      .padding(0.1);
+
+    // DRAW BARS with tooltip
+    svg.append('g')
+      .selectAll('rect')
+      .data(data)
+      .join('rect')
+      .attr('class', 'bar')
+      .attr('x', x(0))
+      .attr('y', d => y(d.speaker))
+      .attr('width', d => x(d.count) - x(0))
+      .attr('height', y.bandwidth())
+      .style('cursor', 'default')
+      .on('mouseover', (ev, d) => {
+        tooltip
+          .html(`<strong>${d.speaker}</strong><br>${d.count} times`)
+          .style('opacity', 1);
+      })
+      .on('mousemove', ev => {
+        tooltip
+          .style('left', (ev.pageX + 10) + 'px')
+          .style('top', (ev.pageY + 10) + 'px');
+      })
+      .on('mouseout', () => tooltip.style('opacity', 0));
+
+    // X axis
+    svg.append('g')
+      .attr('transform', `translate(0,${h - m.bottom})`)
+      .call(d3.axisBottom(x).ticks(5));
+    svg.append('text')
+      .attr('class', 'axis-label')
+      .attr('x', m.left + (w - m.left - m.right) / 2)
+      .attr('y', h - m.bottom + 35)
+      .attr('text-anchor', 'middle')
+      .text('Count');
+
+    // Y axis
+    svg.append('g')
+      .attr('transform', `translate(${m.left},0)`)
+      .call(d3.axisLeft(y));
+  }
+
+  // 4) Load & draw the network
+  d3.json('../data/cooccurrence.json').then(graph => {
+    const width = 700,
+      height = 500,
+      MIN_LINK = 10;               // only show edges ≥ 20 scenes
+    // 1) filter links & nodes
+    const links = graph.links.filter(l => l.value >= MIN_LINK);
+    const nodeIds = new Set();
+    links.forEach(l => {
+      nodeIds.add(l.source);
+      nodeIds.add(l.target);
+    });
+    const nodes = graph.nodes.filter(n => nodeIds.has(n.id));
+
+    // 2) SVG + zoom container
+    const svg = d3.select('#cooccurrence-chart')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height);
+    const mainG = svg.append('g');
+    svg.call(d3.zoom()
+      .extent([[0, 0], [width, height]])
+      .scaleExtent([0.5, 5])
+      .on('zoom', e => mainG.attr('transform', e.transform))
+    );
+
+    // 3) simulation with collide
+    const sim = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id(d => d.id).distance(100).strength(0.2))
+      .force('charge', d3.forceManyBody().strength(-200))
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .force('collide', d3.forceCollide(12));
+
+    // 4) draw links
+    const link = mainG.append('g')
+      .attr('stroke', '#999')
+      .selectAll('line')
+      .data(links)
+      .join('line')
+      .attr('stroke-width', d => Math.sqrt(d.value));
+
+    // 5) draw nodes
+    const node = mainG.append('g')
+      .selectAll('circle')
+      .data(nodes)
+      .join('circle')
+      .attr('r', 6)
+      .attr('fill', 'steelblue')
+      .style('cursor', 'pointer')
+      .call(d3.drag()
+        .on('start', dragstarted)
+        .on('drag', dragged)
+        .on('end', dragended)
+      );
+
+    // 6) click to toggle highlight / deselect
+    let selected = null;
+    node.on('click', (ev, d) => {
+      if (selected === d.id) {
+        // deselect
+        node.attr('opacity', 1);
+        node.attr('fill', 'steelblue');
+        link.attr('opacity', 1);
+        selected = null;
+      } else {
+        selected = d.id;
+        // find its neighbors
+        const nbrs = new Set(
+          links
+            .filter(l => l.source.id === d.id || l.target.id === d.id)
+            .flatMap(l => [l.source.id, l.target.id])
         );
-      
-        // 3) simulation with collide
-        const sim = d3.forceSimulation(nodes)
-            .force('link',   d3.forceLink(links).id(d=>d.id).distance(100).strength(0.2))
-            .force('charge', d3.forceManyBody().strength(-200))
-            .force('center', d3.forceCenter(width/2, height/2))
-            .force('collide', d3.forceCollide(12));
-      
-        // 4) draw links
-        const link = mainG.append('g')
-            .attr('stroke','#999')
-            .selectAll('line')
-            .data(links)
-            .join('line')
-              .attr('stroke-width', d=>Math.sqrt(d.value));
-      
-        // 5) draw nodes
-        const node = mainG.append('g')
-            .selectAll('circle')
-            .data(nodes)
-            .join('circle')
-              .attr('r', 6)
-              .attr('fill','steelblue')
-              .style('cursor','pointer')
-              .call(d3.drag()
-                .on('start', dragstarted)
-                .on('drag', dragged)
-                .on('end', dragended)
-              );
-      
-        // 6) click to toggle highlight / deselect
-        let selected = null;
-        node.on('click', (ev, d) => {
-          if (selected === d.id) {
-            // deselect
-            node.attr('opacity', 1);
-            node.attr('fill', 'steelblue');
-            link.attr('opacity', 1);
-            selected = null;
-          } else {
-            selected = d.id;
-            // find its neighbors
-            const nbrs = new Set(
-              links
-                .filter(l => l.source.id === d.id || l.target.id === d.id)
-                .flatMap(l => [l.source.id, l.target.id])
-            );
-            node.attr('fill', n => {
-              if (n.id === d.id) return 'orange';
-              return nbrs.has(n.id) ? 'lightgreen' : '#999';
-            });
-            node.attr('opacity', n => nbrs.has(n.id) || n.id === d.id ? 1 : 0.1);
-            link.attr('opacity', l =>
-              l.source.id === d.id || l.target.id === d.id ? 1 : 0.1
-            );
-          }
+        node.attr('fill', n => {
+          if (n.id === d.id) return 'orange';
+          return nbrs.has(n.id) ? 'lightgreen' : '#999';
         });
-      
-        // 7) tooltips
-        node
-          .on('mouseover', (ev, d) => tooltip.html(`<strong>${d.id}</strong>`).style('opacity',1))
-          .on('mousemove', (ev)  => tooltip.style('left', (ev.pageX+10)+'px').style('top', (ev.pageY+10)+'px'))
-          .on('mouseout', ()     => tooltip.style('opacity',0));
-      
-        // 8) optional labels
-        const label = mainG.append('g')
-            .selectAll('text')
-            .data(nodes)
-            .join('text')
-              .attr('dx', 8)
-              .attr('dy', 4)
-              .text(d=>d.id)
-              .style('pointer-events','none')
-              .style('font-size','10px');
-      
-        // 9) on tick
-        sim.on('tick', () => {
-          link
-            .attr('x1', d=>d.source.x)
-            .attr('y1', d=>d.source.y)
-            .attr('x2', d=>d.target.x)
-            .attr('y2', d=>d.target.y);
-          node
-            .attr('cx', d=>d.x)
-            .attr('cy', d=>d.y);
-          label
-            .attr('x', d=>d.x)
-            .attr('y', d=>d.y);
-        });
-      
-        // drag helpers
-        function dragstarted(event, d) {
-          if (!event.active) sim.alphaTarget(0.3).restart();
-          d.fx = d.x; d.fy = d.y;
-        }
-        function dragged(event, d) {
-          d.fx = event.x; d.fy = event.y;
-        }
-        function dragended(event, d) {
-          if (!event.active) sim.alphaTarget(0);
-          d.fx = null; d.fy = null;
-        }
-      });
+        node.attr('opacity', n => nbrs.has(n.id) || n.id === d.id ? 1 : 0.1);
+        link.attr('opacity', l =>
+          l.source.id === d.id || l.target.id === d.id ? 1 : 0.1
+        );
+      }
+    });
 
-// ─── Level 4: “Who speaks when” single-episode timeline ───
-d3.json('../data/timing.json').then(timingData => {
+    // 7) tooltips
+    node
+      .on('mouseover', (ev, d) => tooltip.html(`<strong>${d.id}</strong>`).style('opacity', 1))
+      .on('mousemove', (ev) => tooltip.style('left', (ev.pageX + 10) + 'px').style('top', (ev.pageY + 10) + 'px'))
+      .on('mouseout', () => tooltip.style('opacity', 0));
+
+    // 8) optional labels
+    const label = mainG.append('g')
+      .selectAll('text')
+      .data(nodes)
+      .join('text')
+      .attr('dx', 8)
+      .attr('dy', 4)
+      .text(d => d.id)
+      .style('pointer-events', 'none')
+      .style('font-size', '10px');
+
+    // 9) on tick
+    sim.on('tick', () => {
+      link
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+      node
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y);
+      label
+        .attr('x', d => d.x)
+        .attr('y', d => d.y);
+    });
+
+    // drag helpers
+    function dragstarted(event, d) {
+      if (!event.active) sim.alphaTarget(0.3).restart();
+      d.fx = d.x; d.fy = d.y;
+    }
+    function dragged(event, d) {
+      d.fx = event.x; d.fy = event.y;
+    }
+    function dragended(event, d) {
+      if (!event.active) sim.alphaTarget(0);
+      d.fx = null; d.fy = null;
+    }
+  });
+
+  // ─── Level 4: “Who speaks when” single-episode timeline ───
+  d3.json('../data/timing.json').then(timingData => {
     // selectors
-    const sel1     = d3.select('#when-char1');
-    const sel2     = d3.select('#when-char2');
+    const sel1 = d3.select('#when-char1');
+    const sel2 = d3.select('#when-char2');
     const epSelect = d3.select('#when-episode');
-  
+
     // populate chars
     const chars = allData.map(d => d.character);
     [sel1, sel2].forEach(sel => {
       sel.selectAll('option')
         .data([''].concat(chars))
         .join('option')
-          .attr('value', d => d)
-          .text(d => d || '-- none --');
+        .attr('value', d => d)
+        .text(d => d || '-- none --');
     });
-  
+
     // populate eps
     const eps = Array.from(new Set(
-        timingData.map(d => `${d.season}-${d.episode}`)
-      ))
-      .sort((a,b) => {
-        const [s1,e1]=a.split('-').map(Number),
-              [s2,e2]=b.split('-').map(Number);
-        return s1!==s2? s1-s2 : e1-e2;
+      timingData.map(d => `${d.season}-${d.episode}`)
+    ))
+      .sort((a, b) => {
+        const [s1, e1] = a.split('-').map(Number),
+          [s2, e2] = b.split('-').map(Number);
+        return s1 !== s2 ? s1 - s2 : e1 - e2;
       });
     epSelect.selectAll('option.ep')
       .data(eps)
       .join('option')
-        .attr('class','ep')
-        .attr('value', d => d)
-        .text(d => {
-          const [s,e] = d.split('-');
-          return `Season ${s} Episode ${e}`;
-        });
-  
+      .attr('class', 'ep')
+      .attr('value', d => d)
+      .text(d => {
+        const [s, e] = d.split('-');
+        return `Season ${s} Episode ${e}`;
+      });
+
     // bind all three
     [sel1, sel2, epSelect].forEach(sel => sel.on('change', drawWhen));
-  
+
     function drawWhen() {
-      const c1    = sel1.property('value'),
-            c2    = sel2.property('value'),
-            epVal = epSelect.property('value'),
-            container = d3.select('#when-chart');
-  
+      const c1 = sel1.property('value'),
+        c2 = sel2.property('value'),
+        epVal = epSelect.property('value'),
+        container = d3.select('#when-chart');
+
       // clear old
       container.selectAll('svg').remove();
       container.selectAll('.msg').remove();
-  
+
       // need at least one char + an episode
       if (!epVal || (!c1 && !c2)) {
         container.append('p')
-          .attr('class','msg')
+          .attr('class', 'msg')
           .text('Select two characters and an episode.');
         return;
       }
-  
+
       // parse S & E
       const [seasonNum, episodeNum] = epVal.split('-').map(Number);
-  
+
       // find their records
       const recsRaw = [
-        { character: c1, rec: timingData.find(d =>
-            d.character===c1 && d.season===seasonNum && d.episode===episodeNum
+        {
+          character: c1, rec: timingData.find(d =>
+            d.character === c1 && d.season === seasonNum && d.episode === episodeNum
           )
         },
-        { character: c2, rec: timingData.find(d =>
-            d.character===c2 && d.season===seasonNum && d.episode===episodeNum
+        {
+          character: c2, rec: timingData.find(d =>
+            d.character === c2 && d.season === seasonNum && d.episode === episodeNum
           )
         }
       ];
-  
+
       // separate out those that have data
       const recs = recsRaw.filter(d => d.rec).map(d => d.rec);
       const missing = recsRaw.filter(d => !d.rec).map(d => d.character);
-  
+
       // if none have data
       if (recs.length === 0) {
         container.append('p')
-          .attr('class','msg')
+          .attr('class', 'msg')
           .text(`Neither ${c1} nor ${c2} speaks in Season ${seasonNum}, Episode ${episodeNum}.`);
         return;
       }
-  
+
       // if one is missing, show notice
       if (missing.length) {
         container.append('p')
-          .attr('class','msg')
+          .attr('class', 'msg')
           .text(`${missing.join(' and ')} has no lines in S${seasonNum}E${episodeNum}.`);
       }
-  
+
       // build chart for recs.length (1 or 2)
       const chosen = recs.map(r => r.character);
-      const w = 700, h = 300, m = { top:40, right:20, bottom:40, left:100 };
+      const w = 700, h = 300, m = { top: 40, right: 20, bottom: 40, left: 100 };
       const svg = container.append('svg')
         .attr('width', w)
         .attr('height', h);
-  
-      const x = d3.scaleLinear().domain([0,1]).range([m.left, w-m.right]);
+
+      const x = d3.scaleLinear().domain([0, 1]).range([m.left, w - m.right]);
       const y = d3.scalePoint()
         .domain(chosen)
-        .range([m.top, h-m.bottom])
+        .range([m.top, h - m.bottom])
         .padding(0.5);
-  
+
       const color = d3.scaleOrdinal()
         .domain(chosen)
-        .range(['steelblue','orange']);
-  
+        .range(['steelblue', 'orange']);
+
       const jitter = 10;
-  
+
       recs.forEach(rec => {
         svg.append('g')
           .selectAll('circle')
           .data(rec.positions)
           .join('circle')
-            .attr('cx', p => x(p))
-            .attr('cy', () => y(rec.character) + (Math.random()-0.5)*jitter)
-            .attr('r', 3)
-            .attr('fill', color(rec.character))
-            .attr('opacity', 0.7)
-          .on('mouseover', (ev,p) => {
+          .attr('cx', p => x(p))
+          .attr('cy', () => y(rec.character) + (Math.random() - 0.5) * jitter)
+          .attr('r', 3)
+          .attr('fill', color(rec.character))
+          .attr('opacity', 0.7)
+          .on('mouseover', (ev, p) => {
             tooltip
               .html(
                 `<strong>${rec.character}</strong><br>` +
                 `S${rec.season}E${rec.episode}<br>` +
-                `${Math.round(p*100)}% into episode`
+                `${Math.round(p * 100)}% into episode`
               )
-              .style('opacity',1);
+              .style('opacity', 1);
           })
           .on('mousemove', ev => {
             tooltip
-              .style('left', (ev.pageX+8)+'px')
-              .style('top',  (ev.pageY+8)+'px');
+              .style('left', (ev.pageX + 8) + 'px')
+              .style('top', (ev.pageY + 8) + 'px');
           })
-          .on('mouseout', () => tooltip.style('opacity',0));
+          .on('mouseout', () => tooltip.style('opacity', 0));
       });
-  
+
       // axes
       svg.append('g')
-        .attr('transform', `translate(0,${h-m.bottom})`)
+        .attr('transform', `translate(0,${h - m.bottom})`)
         .call(d3.axisBottom(x).tickFormat(d3.format('.0%')));
 
       // X axis label
@@ -1209,17 +1213,18 @@ d3.json('../data/timing.json').then(timingData => {
         .attr('y', h - m.bottom + 30)
         .attr('text-anchor', 'middle')
         .text('Position in Episode (% of dialogue)');
-  
+
       svg.append('g')
         .attr('transform', `translate(${m.left},0)`)
         .call(d3.axisLeft(y));
     }
-  });  
+  });
 
   // initial draw & bind dropdown now that functions exist
   updateCharts();
   seasonSelect.on('change', () => {
     updateCharts();
+    updateWordCloud();
     if (currentCharacter) showDetail(currentCharacter);
   });
 });

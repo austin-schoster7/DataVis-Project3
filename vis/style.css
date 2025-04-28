@@ -130,6 +130,10 @@ svg circle {
 
 #word-cloud {
     margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    vertical-align: center;
     text-align: center;
 }
 
@@ -226,6 +230,7 @@ svg circle {
 .control-group {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     background: white;
     padding: 10px 15px;
@@ -301,7 +306,7 @@ svg circle {
 #cooccurrence-chart svg {
     max-height: none !important;
     height: 400px !important;
-    width: 100% !important;
+    width: 800px !important;
 }
 
 #arc-diagram svg {

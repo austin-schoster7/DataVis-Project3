@@ -67,28 +67,7 @@
       </select>
     </div>
 
-    <div class="control-group">
-      <label for="character">Character:</label>
-      <select id="character">
-        <option value="">-- Select Character --</option>
-        <option value="Mordecai">Mordecai</option>
-        <option value="Rigby">Rigby</option>
-        <option value="Muscle Man">Muscle Man</option>
-        <option value="Benson">Benson</option>
-        <option value="Pops">Pops</option>
-        <option value="Skips">Skips</option>
-        <option value="Hi-Five Ghost">Hi-Five Ghost</option>
-        <option value="Eileen">Eileen</option>
-        <option value="Margaret">Margaret</option>
-        <option value="CJ">CJ</option>
-        <option value="Thomas">Thomas</option>
-        <option value="Mr. Maellard">Mr. Maellard</option>
-        <option value="Starla">Starla</option>
-        <option value="Gary">Gary</option>
-        <option value="Guardians of Eternal Youth">Guardians</option>
-        <option value="Death">Death</option>
-      </select>
-    </div>
+
 
 
   </div>
@@ -106,13 +85,39 @@
 
       <div id="detail-view" class="chart">
         <h2>Character Episode Details</h2>
+        <p id="detail-placeholder">Click on any bar in the graphs above to view detailed episode information.</p>
       </div>
     </div>
 
     <!-- Right Column -->
     <div class="panel">
+
+
+
       <div id="word-cloud" class="chart">
         <h2 id="word-frequency-header">Character Word Frequency</h2>
+        <div class="control-group">
+          <label for="character">Character:</label>
+          <select id="character">
+            <option value="">-- Select Character --</option>
+            <option value="Mordecai">Mordecai</option>
+            <option value="Rigby">Rigby</option>
+            <option value="Muscle Man">Muscle Man</option>
+            <option value="Benson">Benson</option>
+            <option value="Pops">Pops</option>
+            <option value="Skips">Skips</option>
+            <option value="Hi-Five Ghost">Hi-Five Ghost</option>
+            <option value="Eileen">Eileen</option>
+            <option value="Margaret">Margaret</option>
+            <option value="CJ">CJ</option>
+            <option value="Thomas">Thomas</option>
+            <option value="Mr. Maellard">Mr. Maellard</option>
+            <option value="Starla">Starla</option>
+            <option value="Gary">Gary</option>
+            <option value="Guardians of Eternal Youth">Guardians</option>
+            <option value="Death">Death</option>
+          </select>
+        </div>
         <div id="cloud-container"></div>
       </div>
 
@@ -170,7 +175,6 @@
     const seasonDropdown = document.getElementById('season');
     const characterDropdown = document.getElementById('character');
     const header = document.getElementById('word-frequency-header');
-    const loadingOverlay = document.getElementById('loading-overlay');
 
     function updateHeader() {
       const selectedCharacter = characterDropdown.value;
@@ -178,31 +182,26 @@
       let headerText = 'Character Word Frequency';
 
       if (selectedCharacter) {
-        headerText = `${selectedCharacter}'s Most Used Words`;
+        headerText = `${selectedCharacter}'s Most Used Words `;
         if (selectedSeason !== 'all') {
           headerText += ` (Season ${selectedSeason})`;
+        }
+        else {
+          headerText += ' (All Seasons)';
         }
       }
 
       header.textContent = headerText;
     }
 
-    function showLoadingOverlay() {
-      loadingOverlay.style.display = 'flex';
-    }
-
-    function hideLoadingOverlay() {
-      loadingOverlay.style.display = 'none';
-    }
+    updateHeader(); // Initial header update
 
     seasonDropdown.addEventListener('change', () => {
-      showLoadingOverlay();
       updateHeader();
       setTimeout(hideLoadingOverlay, 1000);
     });
 
     characterDropdown.addEventListener('change', () => {
-      showLoadingOverlay();
       updateHeader();
       setTimeout(hideLoadingOverlay, 1000);
     });

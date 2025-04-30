@@ -196,11 +196,21 @@ Promise.all([
         .attr('text-anchor', 'middle')
         .attr('transform', d => `translate(${[d.x, d.y]})rotate(${d.rotate})`)
         .text(d => d.text)
-        // Add these event handlers for tooltips
+        // Modified tooltip handlers
         .on('mouseover', function (event, d) {
-          // Show tooltip
+          // Determine the display text based on count
+          let countText;
+          if (d.size >= 100) {
+            countText = '100+ times';
+          } else if (d.size <= 10) {
+            countText = 'less than 10 times';
+          } else {
+            countText = `${d.size} times`;
+          }
+
+          // Show tooltip with modified text
           tooltip
-            .html(`<strong>${d.text}</strong><br>Appears ${d.size} times`)
+            .html(`<strong>${d.text}</strong><br>Appears ${countText}`)
             .style('opacity', 1);
         })
         .on('mousemove', function (event) {
